@@ -266,6 +266,11 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  people:
+    output: true
+
 # Defaults
 defaults:
   # _posts
@@ -279,3 +284,9 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _people
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: person
