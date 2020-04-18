@@ -1,5 +1,4 @@
 ---
-layout      : person
 name        : "Petru-Daniel Tudosiu"
 avatar      : "/assets/images/people/no-profile-picture.jpg"
 position    : "PhD Student"

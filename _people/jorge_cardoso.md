@@ -1,5 +1,4 @@
 ---
-layout      : person
 name        : "Jorge Cardoso"
 avatar      : "/assets/images/people/no-profile-picture.jpg"
 position    : "Academic"
