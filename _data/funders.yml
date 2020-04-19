@@ -6,7 +6,7 @@
   header:
     teaser    : "/assets/images/funders/wellcome.png"
 
-- name        : "Lorem"
+- name        : "lorem"
   url         : "https://www.nasa.gov/"
   avatar      : "/assets/images/funders/wellcome.png"
   header:
