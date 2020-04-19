@@ -270,6 +270,8 @@ compress_html:
 collections:
   people:
     output: true
+  publications:
+    output: true
 
 # Defaults
 defaults:
@@ -290,3 +292,11 @@ defaults:
       type: people
     values:
       layout: person
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
+      author_profile: false
+      related: false

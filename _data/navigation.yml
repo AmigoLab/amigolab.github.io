@@ -6,6 +6,8 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
+  - title: "Publications"
+    url: /publications/
   - title: "People"
     url: /people/
   - title: "Funders"
