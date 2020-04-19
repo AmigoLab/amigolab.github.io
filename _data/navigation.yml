@@ -8,5 +8,7 @@ main:
   #   url: /year-archive/
   - title: "People"
     url: /people/
+  - title: "Funders"
+    url: /funders/
   # - title: "Sitemap"
   #   url: /sitemap/
