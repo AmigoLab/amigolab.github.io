@@ -12,5 +12,7 @@ main:
     url: /people/
   - title: "Funders"
     url: /funders/
+    url: /education/
+  - title: "Education"
   # - title: "Sitemap"
   #   url: /sitemap/
