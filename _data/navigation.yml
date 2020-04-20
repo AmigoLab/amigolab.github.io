@@ -8,3 +8,6 @@ main:
     url: /funders/
   - title: "Education"
     url: /education/
+
+  - title: "Softwares"
+    url: /softwares/

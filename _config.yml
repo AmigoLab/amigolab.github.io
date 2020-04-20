@@ -265,6 +265,10 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  softwares:
+    output: true
 
 # Collections
 collections:
@@ -299,4 +303,22 @@ defaults:
     values:
       layout: publication
       author_profile: false
+      related: false
+
+  # _softwares
+  - scope:
+      path: ""
+      type: softwares
+    values:
+      layout: software
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
       related: false
