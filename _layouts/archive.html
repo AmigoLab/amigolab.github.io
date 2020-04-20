@@ -1,13 +1,17 @@
 ---
 layout: default
 ---
-
+{% comment %} <!--If the page has a color or image (overlay_image/image) as header include the page_hero.html --> {% endcomment %}
+{% comment %} <!--else if the page has a video (video.id/video.provider) include page_hero_video.html --> {% endcomment %}
+{% comment %} <!--The two html files can be found in _include folder of the repo --> {% endcomment %}
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}
 {% endif %}
 
+{% comment %} <!-- If the page is not root and we have enabled breadcrumbs and we do not have (unless) paginator  --> {% endcomment %}
+{% comment %} <!-- include breadcrumbs.html which can be found in _include folder of the repo --> {% endcomment %}
 {% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
@@ -15,12 +19,15 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
+  {% comment %} <!--Include the sidebar via sidebar.html --> {% endcomment %}
   {% include sidebar.html %}
 
   <div class="archive">
+    {% comment %} <!-- If we do not have an overlay color or or overlay image add the title of the page --> {% endcomment %}
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
+    {% comment %} <!-- Add the cotent of the page --> {% endcomment %}
     {{ content }}
   </div>
 </div>

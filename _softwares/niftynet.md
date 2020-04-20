@@ -3,7 +3,7 @@ layout: software
 id: nfitynet
 title: NiftyNet
 author: AMIGO
-permalink: /sofwares/niftynet/
+permalink: /softwares/niftynet/
 status: "Unmaintained"
 url: ""
 link: "https://niftynet.io/"

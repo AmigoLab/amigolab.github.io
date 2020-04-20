@@ -3,7 +3,7 @@ layout: software
 id: monai
 title: MONAI
 author: AMIGO
-permalink: /sofwares/monai/
+permalink: /softwares/monai/
 status: "In Development"
 url: ""
 link: "https://github.com/Project-MONAI/MONAI"

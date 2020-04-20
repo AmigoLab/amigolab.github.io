@@ -3,7 +3,7 @@ layout: software
 id: vtrails
 title: VTrails
 author: AMIGO
-permalink: /sofwares/vtrails/
+permalink: /softwares/vtrails/
 status: "Maintained"
 url: ""
 link: "https://vtrails.github.io/VTrailsToolkit/"
