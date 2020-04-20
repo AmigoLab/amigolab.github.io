@@ -1,0 +1,44 @@
+{% comment %} <!--Fetching the logo from the software's header otherwise use the website logo --> {% endcomment %}
+{% if software.header.logo %}
+  {% capture logo %}{{ software.header.logo }}{% endcapture %}
+{% else %}
+  {% assign logo = site.logo %}
+{% endif %}
+
+
+<!-- Defining the grid_item-software division -->
+<div class="grid__item-software">
+  <!-- Defining the archive_item article and its potential properties by referencing the CreativeWork schema-->
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <!-- If it is included as a grid element and it has a teaser as defined in the liquid initialization section -->
+    {% if include.type == "grid" and logo %}
+      <!-- Defining the archive_item-logo division -->
+      <div class="archive__item-logo">
+        <!-- Defining the hyperlink of the logo as the url stored in relative_url/software or with a relationship (rel) defined as "permalink"-->
+        <a href="{{ software.url | relative_url }}" rel="permalink">
+         <!-- Inserting the image found at src and with the alternate text defined in alt--> 
+         <!-- The src is either teaser if it includes "://" otherwise it is relative_url/teaser-->
+        <img src=
+          {% if logo contains "://" %}
+            "{{ logo }}"
+          {% else %}
+            "{{ logo | relative_url }}"
+          {% endif %}
+          alt="">
+        </a>
+      </div>
+    {% endif %}
+    <!-- Defining the archive_item-title headline with itemprop "headline" which matches the overall scheme from CreativeWork-->
+    <h2 class="archive__item-title" itemprop="headline">
+      <!-- The title is linked to the interal page (relative_url/software.url) of the software while the chain will link to the -->
+      <!-- external webpage of the software which can be either a GitHub, ReadTheDocs or official webpage -->
+      <a href="{{ software.url | relative_url }}" rel="permalink">{{ software.title }}</a>
+      <a href="{{ software.link }}"><i class="fas fa-link" aria-hidden="true" title="externallink"></i><span class="sr-only">External Link</span></a>
+    </h2>
+    <!-- If the post has an excerpt attribute we are creating the class "archive_item-excerpt" which is a paragraph containg -->
+    <!-- the frist 160 characters stripped of HTML and transformed in markdown. -->
+    {% if software.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ software.excerpt | markdownify | strip_html | truncate: 160 }}</p>
+    {% endif %}
+  </article>
+</div>
