@@ -1,0 +1,13 @@
+# Funders
+
+- name        : "Wellcome Trust"
+  avatar      : "/assets/images/funders/wellcome.png"
+  url         : "https://wellcome.ac.uk/"
+  header:
+    teaser    : "/assets/images/funders/wellcome.png"
+
+- name        : "lorem"
+  url         : "https://www.nasa.gov/"
+  avatar      : "/assets/images/funders/wellcome.png"
+  header:
+    teaser    : "/assets/images/people/no-profile-picture.jpg"

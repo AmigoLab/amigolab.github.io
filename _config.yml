@@ -266,6 +266,13 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  people:
+    output: true
+  publications:
+    output: true
+
 # Defaults
 defaults:
   # _posts
@@ -279,3 +286,17 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _people
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: person
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
+      author_profile: false
+      related: false
