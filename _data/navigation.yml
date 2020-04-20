@@ -4,10 +4,9 @@ main:
     url: /people/
   - title: "Publications"
     url: /publications/
+  - title: "Softwares"
+    url: /softwares/
   - title: "Funders"
     url: /funders/
   - title: "Education"
     url: /education/
-
-  - title: "Softwares"
-    url: /softwares/

@@ -267,15 +267,13 @@ compress_html:
 
 # Collections
 collections:
-  softwares:
-    output: true
-
-# Collections
-collections:
   people:
     output: true
   publications:
     output: true
+  softwares:
+    output: true
+
 
 # Defaults
 defaults:
@@ -304,7 +302,6 @@ defaults:
       layout: publication
       author_profile: false
       related: false
-
   # _softwares
   - scope:
       path: ""
