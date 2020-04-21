@@ -273,6 +273,8 @@ collections:
     output: true
   softwares:
     output: true
+  projects:
+    output: true
 
 
 # Defaults
@@ -308,6 +310,12 @@ defaults:
       type: softwares
     values:
       layout: software
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
   # _pages
   - scope:
       path: ""

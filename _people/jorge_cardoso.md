@@ -6,6 +6,10 @@ funding:
   - "Wellcome Trust"
   - "ipsim"
   - "lorem"
+projects:
+  - "COVID19"
+  - "Generative Modelling"
+  - "Meaning of Life"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt placerat vehicula. Vivamus consequat elit ut bibendum consectetur. Suspendisse sed ultrices est. Curabitur vitae turpis ut erat auctor dictum ut vitae risus. Cras tincidunt lorem sit amet eleifend maximus. Aliquam erat volutpat. Aliquam at volutpat lorem. Etiam vestibulum, orci non bibendum rhoncus, libero neque laoreet mauris, id congue diam tortor a eros.

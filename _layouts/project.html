@@ -1,7 +1,7 @@
 ---
 layout: default
+classes: wide
 ---
-{% comment %}<!-- Layout based on single.html -->{% endcomment %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
@@ -9,29 +9,37 @@ layout: default
   {% include page__hero_video.html %}
 {% endif %}
 
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  {% comment %}<!-- TODO: Fix Schema -->{% endcomment %}
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
-    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.name %}<h1 id="page-name" class="page__name" itemprop="headline">{{ page.name | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.read_time %}
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %}
         </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
         {% if page.toc %}
-          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+          <aside class="sidebar__right">
             <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
-              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
+              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
+              {% include toc.html sanitize=true html=content h_min=2 h_max=3 class="toc__menu" %}
             </nav>
           </aside>
         {% endif %}
@@ -39,20 +47,19 @@ layout: default
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
-      {% comment %}<!-- Include project information -->{% endcomment %}
       <section>
-        <h2>Projects</h2>
-        {% assign authored = site.projects | where:"tilte", page.projects %}
-        {% for project in authored %}
-          <a href="{{ project.url | relative_url }}" rel="permalink"> {{ project.title }}</a>
+        <h2>Publications</h2>
+        {% assign authored = site.publications | where:"project", page.project | sort: "date" | reverse %}
+        {% for paper in authored limit:2 %}
+          <a href="{{ paper.url | relative_url }}" rel="permalink"> {{ paper.title }}</a>
           <br>
         {% endfor %}
       </section>
 
-
       {% if page.funding %}
         <section>
           <h2>Funding</h2>
+
           {% for item in page.funding %}
             {% comment %}<!-- Search for funder in _data/funders -->{% endcomment %}
             {% assign not_found = true %}
@@ -68,7 +75,7 @@ layout: default
                 <br>
               {% endif %}
             {% endfor %}
-
+            
             {% comment %}<!-- In case funder is not in _data/funders -->{% endcomment %}
             {% if not_found %}
               <h3>{{ item }}</h3>
@@ -78,16 +85,6 @@ layout: default
 
         </section>
       {% endif %}
-
-      {% comment %}<!-- Include 2 latest publications -->{% endcomment %}
-      <section>
-        <h2>Publications</h2>
-        {% assign authored = site.publications | where:"authors", page.name | sort: "date" | reverse %}
-        {% for paper in authored limit:2 %}
-          <a href="{{ paper.url | relative_url }}" rel="permalink"> {{ paper.title }}</a>
-          <br>
-        {% endfor %}
-      </section>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
