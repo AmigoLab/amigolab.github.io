@@ -39,11 +39,20 @@ layout: default
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
+      {% comment %}<!-- Include project information -->{% endcomment %}
+      <section>
+        <h2>Projects</h2>
+        {% assign authored = site.projects | where:"tilte", page.projects %}
+        {% for project in authored %}
+          <a href="{{ project.url | relative_url }}" rel="permalink"> {{ project.title }}</a>
+          <br>
+        {% endfor %}
+      </section>
+
 
       {% if page.funding %}
         <section>
           <h2>Funding</h2>
-
           {% for item in page.funding %}
             {% comment %}<!-- Search for funder in _data/funders -->{% endcomment %}
             {% assign not_found = true %}
@@ -59,7 +68,7 @@ layout: default
                 <br>
               {% endif %}
             {% endfor %}
-            
+
             {% comment %}<!-- In case funder is not in _data/funders -->{% endcomment %}
             {% if not_found %}
               <h3>{{ item }}</h3>
@@ -70,7 +79,6 @@ layout: default
         </section>
       {% endif %}
 
-      {% comment %}<!-- TODO: Include project information -->{% endcomment %}
       {% comment %}<!-- Include 2 latest publications -->{% endcomment %}
       <section>
         <h2>Publications</h2>

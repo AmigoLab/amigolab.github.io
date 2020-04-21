@@ -2,7 +2,8 @@
 name        : "Walter Hugo Lopez Pinaya"
 avatar      : "/assets/images/people/no-profile-picture.jpg"
 position    : "PosDoc"
-
+projects:
+  - "Generative Modelling"
 ---
 
 Phasellus rhoncus consectetur ante, vitae dapibus metus pretium vitae. Quisque congue arcu vitae mauris pretium, ut scelerisque augue interdum. Pellentesque nec sodales purus. Donec convallis nisi quis tellus porttitor cursus. Praesent dignissim ultrices ligula, vitae venenatis odio elementum vitae. Sed aliquet ut erat nec ultricies. Ut in iaculis elit. Nunc dictum luctus placerat. Sed nunc nisi, tincidunt quis egestas cursus, elementum ut purus. Mauris cursus vel massa eu commodo. Morbi viverra nibh vitae mauris rutrum iaculis. Donec orci dolor, aliquet non rhoncus ut, gravida eu lorem.
