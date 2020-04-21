@@ -7,6 +7,7 @@ authors:
   - "Petru-Daniel Tudosiu"
   - "Walter Hugo Lopez Pinaya"
   - "Jorge Cardoso"
+project: covid19
 ---
 
 Science

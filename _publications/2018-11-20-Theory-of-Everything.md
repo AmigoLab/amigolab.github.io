@@ -7,6 +7,7 @@ authors:
   - "Walter Hugo Lopez Pinaya"
   - "Petru-Daniel Tudosiu"
   - "Jorge Cardoso"
+project: meaning_of_life
 ---
 
 Nature

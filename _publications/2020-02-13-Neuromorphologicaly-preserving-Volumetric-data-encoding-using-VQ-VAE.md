@@ -6,6 +6,7 @@ external_link: https://arxiv.org/abs/2002.05692
 authors:
   - Petru-Daniel Tudosiu
   - Jorge Cardoso
+project: generative_modelling
 ---
 
 Arxiv
