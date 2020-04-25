@@ -1,7 +1,7 @@
 ---
 title: "Cure for COVID-19"
 date: "2018-01-01"
-excerpt: ""
+excerpt: "Tudosiu, P.D., Pinaya, W.H.L., and Cardoso, M.J., 2018. arXiv preprint arXiv:2002.05692."
 external_link: https://images.app.goo.gl/9K7V7jSGcq3A8MMs6
 authors:
   - "Petru-Daniel Tudosiu"
