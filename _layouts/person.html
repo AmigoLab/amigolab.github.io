@@ -54,9 +54,8 @@ layout: default
       <section>
         <h2>Publications</h2>
         {% assign authored = site.publications | where:"authors", page.name | sort: "date" | reverse %}
-        {% for paper in authored limit:2 %}
-          <a href="{{ paper.url | relative_url }}" rel="permalink"> {{ paper.title }}</a>
-          <br>
+        {% for post in authored limit:5 %}
+          {% include archive-publication.html type=page.entries_layout %}
         {% endfor %}
       </section>
 
