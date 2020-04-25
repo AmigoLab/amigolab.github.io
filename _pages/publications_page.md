@@ -5,6 +5,19 @@ permalink: /publications/
 
 ---
 
+
+<ul class="taxonomy__index">
+  {% assign publicationsInYear = site.publications | group_by_exp: 'publication', 'publication.date | date: "%Y"' %}
+  {% for year in publicationsInYear %}
+    <li>
+      <a href="#{{ year.name }}">
+        <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+
 {% assign publicationsByYear = site.publications | group_by_exp: 'publication', 'publication.date | date: "%Y"' %}
 {% for year in publicationsByYear reversed %}
   <section id="{{ year.name }}" class="taxonomy__section">
