@@ -1,9 +1,17 @@
 # main links
 main:
+  - title: "Home"
+    url: /index.html
   - title: "People"
     url: /people/
+  - title: "Projects"
+    url: /projects/
   - title: "Publications"
     url: /publications/
+  - title: "Softwares"
+    url: /softwares/
+  - title: "Public engagement"
+    url: /public_engagement/
   - title: "Funders"
     url: /funders/
   - title: "Education"

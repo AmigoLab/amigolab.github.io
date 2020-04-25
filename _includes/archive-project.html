@@ -1,0 +1,31 @@
+{% if project.header.logo %}
+  {% capture logo %}{{ project.header.logo }}{% endcapture %}
+{% else %}
+  {% assign logo = site.logo %}
+{% endif %}
+
+
+<div class="grid__item-project">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and logo %}
+      <div class="archive__item-logo">
+        <a href="{{ project.url | relative_url }}" rel="permalink">
+        <img src=
+          {% if logo contains "://" %}
+            "{{ logo }}"
+          {% else %}
+            "{{ logo | relative_url }}"
+          {% endif %}
+          alt="">
+        </a>
+      </div>
+    {% endif %}
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ project.url | relative_url }}" rel="permalink">{{ project.title }}</a>
+      <a href="{{ project.link }}"><i class="fas fa-link" aria-hidden="true" title="externallink"></i><span class="sr-only">External Link</span></a>
+    </h2>
+    {% if project.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ project.excerpt | markdownify | strip_html | truncate: 160 }}</p>
+    {% endif %}
+  </article>
+</div>
