@@ -296,6 +296,7 @@ defaults:
       type: people
     values:
       layout: person
+      author_profile: true
   # _publications
   - scope:
       path: ""
