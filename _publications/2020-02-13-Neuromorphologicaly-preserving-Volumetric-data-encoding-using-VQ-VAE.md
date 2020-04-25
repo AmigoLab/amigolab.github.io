@@ -1,7 +1,7 @@
 ---
 title: "Neuromorphologicaly-preserving Volumetric data encoding using VQ-VAE"
 date: "2020-02-13"
-excerpt: ""
+excerpt: "Tudosiu, P.D., Varsavsky, T., Shaw, R., Graham, M., Nachev, P., Ourselin, S., Sudre, C.H. and Cardoso, M.J., 2020. arXiv preprint arXiv:2002.05692."
 external_link: https://arxiv.org/abs/2002.05692
 authors:
   - Petru-Daniel Tudosiu
