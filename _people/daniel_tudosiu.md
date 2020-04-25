@@ -2,9 +2,6 @@
 name        : "Petru-Daniel Tudosiu"
 avatar      : "/assets/images/people/no-profile-picture.jpg"
 position    : "PhD Student"
-funding:
-  - "lorem"
-  - "ipsim"
 projects:
   - "Generative Modelling"
   - "Meaning of Life"

@@ -50,35 +50,6 @@ layout: default
       </section>
 
 
-      {% if page.funding %}
-        <section>
-          <h2>Funding</h2>
-          {% for item in page.funding %}
-            {% comment %}<!-- Search for funder in _data/funders -->{% endcomment %}
-            {% assign not_found = true %}
-
-            {% for item_data in site.data.funders %}
-              {% if item_data.name == item %}
-                {% assign not_found = false %}
-                <div>
-                  <a href= {{ item_data.url }} target="_blank">
-                  <img src="{{ item_data.header.teaser | relative_url }}" alt="" width="120">
-                  </a>
-                </div>
-                <br>
-              {% endif %}
-            {% endfor %}
-
-            {% comment %}<!-- In case funder is not in _data/funders -->{% endcomment %}
-            {% if not_found %}
-              <h3>{{ item }}</h3>
-            {% endif %}
-
-          {% endfor %}
-
-        </section>
-      {% endif %}
-
       {% comment %}<!-- Include 2 latest publications -->{% endcomment %}
       <section>
         <h2>Publications</h2>

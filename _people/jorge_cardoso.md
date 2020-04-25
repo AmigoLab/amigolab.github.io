@@ -2,10 +2,6 @@
 name        : "Jorge Cardoso"
 avatar      : "/assets/images/people/no-profile-picture.jpg"
 position    : "Academic"
-funding:
-  - "Wellcome Trust"
-  - "ipsim"
-  - "lorem"
 projects:
   - "COVID19"
   - "Generative Modelling"
