@@ -67,7 +67,8 @@
 
   .site-nav {
     margin-left: 0;
-
+    float: right;
+    
     @include breakpoint($small) {
       float: right;
     }
