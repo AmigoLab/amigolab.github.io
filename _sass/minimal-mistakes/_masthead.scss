@@ -66,10 +66,10 @@
   clear: both;
 
   .site-nav {
-    margin-left: 0;
+    margin-left: 20em;
     float: right;
     
-    @include breakpoint($small) {
+    @include breakpoint($large) {
       float: right;
     }
   }
@@ -86,6 +86,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  width: 100%;
 
   &--lg {
     padding-right: 2em;
