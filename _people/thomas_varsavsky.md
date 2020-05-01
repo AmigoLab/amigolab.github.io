@@ -1,20 +1,23 @@
 ---
 name        : "Thomas Varsavsky"
-avatar      : "/assets/images/people/no-profile-picture.jpg"
+avatar      : "/assets/images/people/Thomas.png"
 position    : "PhD Student"
-bio         : ""
+bio         : "Domain Adaptation, Visual-Language models, NLP in medical imaging, Multi-modal MRI"
+email       : "thomas.varsavsky@kcl.ac.uk"
+twitter     :
+uri         :
+linkedin    :
+github      : "tomvars"
+
 projects:
   - "Generative Modelling"
 links:
-  - label: "Email"
-    icon: "fas fa-fw fa-envelope-square"
-    url: "mailto:_@kcl.ac.uk"
+  - label: "Scholar"
+    icon: "fas fa-fw fa-link"
+    url: "https://scholar.google.com/citations?user=QjPI9YcAAAAJ&hl=en"
+  - label: "ORCID"
+    icon: "fas fa-fw fa-link"
+    url: " https://orcid.org/0000-0002-8624-8116"    
 ---
 
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacus ante, facilisis quis mauris eget, fringilla hendrerit nibh. Suspendisse viverra, diam sit amet porta dapibus, nunc nulla faucibus purus, nec fringilla sapien tellus in justo. Integer blandit lectus nibh, finibus fringilla sem lacinia pellentesque. Integer bibendum viverra hendrerit. Vivamus ex dui, fermentum at felis vitae, elementum consequat ante. Donec facilisis ante tortor, a pulvinar eros aliquet in. Curabitur gravida sagittis erat ut pulvinar. Etiam non nulla bibendum, consequat ex sit amet, rhoncus odio. Sed mattis augue ac odio viverra, id eleifend elit eleifend. Quisque sollicitudin faucibus ligula sit amet pharetra. Vestibulum malesuada venenatis elit et imperdiet. Pellentesque non condimentum sapien, ut blandit sem.
-
-Aenean eu enim in quam rhoncus bibendum. Donec consectetur sed dui in interdum. In pharetra odio nec risus fermentum, non rutrum augue sagittis. Cras blandit blandit gravida. Cras posuere leo et sem convallis vehicula. Aenean sed enim interdum, sollicitudin leo a, gravida felis. Integer blandit leo ac lectus tempor bibendum. Ut interdum eros nisl, non viverra ante congue tempor. Ut ullamcorper urna et mi interdum, vitae semper sem varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse eu ex lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor sapien erat, sed vehicula purus vestibulum vitae. Phasellus sit amet ex vitae sapien bibendum ultricies. Nulla pharetra lorem nec libero venenatis tempor. Cras eu purus semper, faucibus ante at, egestas mi.
-
-Aliquam erat volutpat. Nulla gravida felis et lacus efficitur, nec eleifend odio feugiat. Fusce pulvinar leo sed mauris cursus congue. Integer molestie ligula eu hendrerit placerat. Etiam id ultrices nulla, et mollis eros. Fusce eget laoreet nunc. Fusce sed lectus aliquet, egestas leo nec, posuere nunc. Ut ipsum sem, pellentesque ac urna eget, porttitor accumsan nisl. Etiam sit amet massa eget leo sodales gravida eget ac erat. Sed semper ac felis ut condimentum. Suspendisse potenti.
+I'm a PhD student supervised by Prof. Parashkev Nachev at University College London and M. Jorge Cardoso at King's College London. After finishing my BSc in Physics at Imperial College London I decided to do the Machine Learning MSc at UCL. I worked at Tractable, a computer vision company in London for 18 months before starting this PhD program in Jan 2018. I'm interested in automating various aspects of neuroradiology, with a focus on large messy clinical datasets and natural language processing of radiological report text.

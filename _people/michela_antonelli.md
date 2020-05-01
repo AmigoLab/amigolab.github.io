@@ -3,12 +3,14 @@ name        : "Michela Antonelli"
 avatar      : "/assets/images/people/no-profile-picture.jpg"
 position    : "PosDoc"
 bio         : ""
+email       : "michela.antonelli@kcl.ac.uk"
+twitter     :
+uri         :
+linkedin    :
+github      :
+
 projects:
   - "Generative Modelling"
-links:
-  - label: "Email"
-    icon: "fas fa-fw fa-envelope-square"
-    url: "mailto:_@kcl.ac.uk"
 ---
 
 

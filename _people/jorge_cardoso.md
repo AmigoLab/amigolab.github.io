@@ -3,17 +3,16 @@ name        : "Jorge Cardoso"
 avatar      : "/assets/images/people/no-profile-picture.jpg"
 position    : "Academic"
 bio         : "Senior Lecturer @ KCL"
+email       : "m.jorge.cardoso@kcl.ac.uk"
+twitter     : "mjorgecardoso"
+uri         :
+linkedin    :
+github      :
+
 projects:
   - "COVID19"
   - "Generative Modelling"
   - "Meaning of Life"
-links:
-  - label: "Email"
-    icon: "fas fa-fw fa-envelope-square"
-    url: "mailto:m.jorge.cardoso@kcl.ac.uk"
-  - label: "Twitter"
-    icon: "fab fa-fw fa-twitter-square"
-    url: "https://twitter.com/mjorgecardoso"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt placerat vehicula. Vivamus consequat elit ut bibendum consectetur. Suspendisse sed ultrices est. Curabitur vitae turpis ut erat auctor dictum ut vitae risus. Cras tincidunt lorem sit amet eleifend maximus. Aliquam erat volutpat. Aliquam at volutpat lorem. Etiam vestibulum, orci non bibendum rhoncus, libero neque laoreet mauris, id congue diam tortor a eros.
