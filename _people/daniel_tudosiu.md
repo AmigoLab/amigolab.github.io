@@ -2,9 +2,13 @@
 name        : "Petru-Daniel Tudosiu"
 avatar      : "/assets/images/people/no-profile-picture.jpg"
 position    : "PhD Student"
-funding:
-  - "lorem"
-  - "ipsim"
+bio         : "PhD student @ KCL"
+email       : "petru.tudosiu@kcl.ac.uk"
+twitter     :
+uri         :
+linkedin    :
+github      :
+
 projects:
   - "Generative Modelling"
   - "Meaning of Life"

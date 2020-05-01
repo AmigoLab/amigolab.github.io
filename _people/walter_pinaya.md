@@ -2,6 +2,13 @@
 name        : "Walter Hugo Lopez Pinaya"
 avatar      : "/assets/images/people/no-profile-picture.jpg"
 position    : "PosDoc"
+bio         : "Researcher @ KCL"
+email       : "walter.diaz_sanz@kcl.ac.uk"
+twitter     : "warvito"
+uri         : "https://warvito.github.io/"
+linkedin    : "walter-lopez-pinaya"
+github      : "Warvito"
+
 projects:
   - "Generative Modelling"
 ---

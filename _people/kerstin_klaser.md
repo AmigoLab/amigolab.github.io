@@ -1,9 +1,14 @@
 ---
-name        : "Petru-Daniel Tudosiu"
+name        : "Kerstin Klaser"
 avatar      : "/assets/images/people/no-profile-picture.jpg"
 position    : "PhD Student"
-funding:
-  - "lorem"
+bio         : "PhD student @ KCL"
+email       : "kerstin.klaser@kcl.ac.uk"
+twitter     :
+uri         :
+linkedin    :
+github      :
+
 projects:
   - "Generative Modelling"
   - "Meaning of Life"

@@ -1,9 +1,14 @@
 ---
-name        : "Petru-Daniel Tudosiu"
+name        : "Pedro Borges"
 avatar      : "/assets/images/people/no-profile-picture.jpg"
 position    : "PhD Student"
-funding:
-  - "lorem"
+bio         : "PhD student @ KCL"
+email       : "pedro.borges@kcl.ac.uk"
+twitter     :
+uri         :
+linkedin    :
+github      :
+
 projects:
   - "Generative Modelling"
   - "Meaning of Life"

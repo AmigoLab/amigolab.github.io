@@ -1,10 +1,14 @@
 ---
-name        : "Petru-Daniel Tudosiu"
+name        : "Stefano Moriconi"
 avatar      : "/assets/images/people/no-profile-picture.jpg"
 position    : "PhD Student"
-funding:
-  - "lorem"
-  - "ipsim"
+bio         : "PhD student @ KCL"
+email       : "stefano.moriconi@kcl.ac.uk"
+twitter     :
+uri         :
+linkedin    :
+github      :
+
 projects:
   - "Generative Modelling"
   - "Meaning of Life"
