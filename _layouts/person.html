@@ -30,7 +30,7 @@ layout: default
       {% comment %}<!-- Include project information -->{% endcomment %}
       <section>
         <h2>Projects</h2>
-        {% assign authored = site.projects | where:"tilte", page.projects %}
+        {% assign authored = site.projects | where:"title", page.projects %}
         {% for project in authored %}
           <a href="{{ project.url | relative_url }}" rel="permalink"> {{ project.title }}</a>
           <br>
