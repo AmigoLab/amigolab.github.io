@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Home"
-    url: /index.html
   - title: "People"
     url: /people/
   - title: "Projects"
