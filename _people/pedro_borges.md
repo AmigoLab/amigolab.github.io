@@ -1,9 +1,9 @@
 ---
-name        : "Petru-Daniel Tudosiu"
+name        : "Pedro Borges"
 avatar      : "/assets/images/people/no-profile-picture.png"
 position    : "PhD Student"
 bio         : "PhD student @ KCL"
-email       : "petru.tudosiu@kcl.ac.uk"
+email       : "pedro.borges@kcl.ac.uk"
 twitter     :
 uri         :
 linkedin    :

@@ -1,9 +1,9 @@
 ---
-name        : "Petru-Daniel Tudosiu"
+name        : "Stefano Moriconi"
 avatar      : "/assets/images/people/no-profile-picture.png"
 position    : "PhD Student"
 bio         : "PhD student @ KCL"
-email       : "petru.tudosiu@kcl.ac.uk"
+email       : "stefano.moriconi@kcl.ac.uk"
 twitter     :
 uri         :
 linkedin    :

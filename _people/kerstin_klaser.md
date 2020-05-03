@@ -1,9 +1,9 @@
 ---
-name        : "Petru-Daniel Tudosiu"
+name        : "Kerstin Klaser"
 avatar      : "/assets/images/people/no-profile-picture.png"
 position    : "PhD Student"
 bio         : "PhD student @ KCL"
-email       : "petru.tudosiu@kcl.ac.uk"
+email       : "kerstin.klaser@kcl.ac.uk"
 twitter     :
 uri         :
 linkedin    :
