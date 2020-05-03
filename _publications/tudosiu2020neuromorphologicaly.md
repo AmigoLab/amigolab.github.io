@@ -9,9 +9,9 @@ authors:
 project: generative_modelling
 ---
 
-Arxiv
+[Petru-Daniel Tudosiu](/people/daniel_tudosiu), Thomas Varsavsky, Richard Shaw, Mark Graham, Parashkev Nachev, Sébastien Ourselin, Carole H. Sudre, [M. Jorge Cardoso](/people/jorge_cardoso)
 
-[Petru-Daniel Tudosiu](/people/daniel_tudosiu), Thomas Varsavsky, Richard Shaw, Mark Graham, Parashkev Nachev, Sebastien Ourselin, Carole H. Sudre, [M. Jorge Cardoso](/people/jorge_cardoso)
+In Arxiv
 
 <a href="{{page.external_link}}" target="_blank"> Download </a>
 
