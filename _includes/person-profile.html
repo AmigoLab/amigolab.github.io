@@ -1,30 +1,29 @@
-{% assign author = page %}
-
+{% comment %} Variable "person" defined in _layouts/person.html or _layouts/publication.html {% endcomment %}
 <div itemscope itemtype="https://schema.org/Person">
 
-  {% if author.avatar %}
+  {% if person.avatar %}
     <div class="author__avatar">
-      {% if author.home %}
-        <a href="{{ author.home | relative_url }}">
-          <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image">
+      {% if person.home %}
+        <a href="{{ person.home | relative_url }}">
+          <img src="{{ person.avatar | relative_url }}" alt="{{ person.name }}" itemprop="image">
         </a>
       {% else %}
-        <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image">
+        <img src="{{ person.avatar | relative_url }}" alt="{{ person.name }}" itemprop="image">
       {% endif %}
     </div>
   {% endif %}
   <meta itemprop="affiliation" content="King's College London">
-  <meta itemprop="jobTitle" content="{{ author.position }}">
+  <meta itemprop="jobTitle" content="{{ person.position }}">
 
   <div class="author__content">
-    {% if author.home %}
-      <a href="{{ author_link }}"><h3 class="author__name" itemprop="name">{{ author.name }}</h3></a>
+    {% if person.home %}
+      <a href="{{ author_link }}"><h3 class="author__name" itemprop="name">{{ person.name }}</h3></a>
     {% else %}
-      <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+      <h3 class="person__name" itemprop="name">{{ person.name }}</h3>
     {% endif %}
-    {% if author.bio %}
+    {% if person.bio %}
       <div class="author__bio" itemprop="description">
-        {{ author.bio | markdownify }}
+        {{ person.bio | markdownify }}
       </div>
     {% endif %}
   </div>
@@ -32,62 +31,61 @@
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
-      {% if author.location %}
+      {% if person.location %}
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">{{ person.location }}</span>
         </li>
       {% endif %}
 
-      {% if author.email %}
+      {% if person.email %}
         <li>
-          <a href="mailto:{{ author.email }}">
-            <meta itemprop="email" content="{{ author.email }}" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ author.email }}</span>
+          <a href="mailto:{{ person.email }}">
+            <meta itemprop="email" content="{{ person.email }}" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ person.email }}</span>
           </a>
         </li>
       {% endif %}
 
-      {% if author.uri %}
+      {% if person.uri %}
         <li>
-          <a href="{{ author.uri }}" itemprop="url">
+          <a href="{{ person.uri }}" itemprop="url">
             <i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</span>
           </a>
         </li>
       {% endif %}
 
-      {% if author.twitter %}
+      {% if person.twitter %}
         <li>
-          <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <a href="https://twitter.com/{{ person.twitter }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
           </a>
         </li>
       {% endif %}
 
-      {% if author.linkedin %}
+      {% if person.linkedin %}
         <li>
-          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <a href="https://www.linkedin.com/in/{{ person.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
           </a>
         </li>
       {% endif %}
 
-      {% if author.github %}
+      {% if person.github %}
         <li>
-          <a href="https://github.com/{{ author.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <a href="https://github.com/{{ person.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
           </a>
         </li>
       {% endif %}
 
-      {% if author.links %}
-        {% for link in author.links %}
+      {% if person.links %}
+        {% for link in person.links %}
           {% if link.label and link.url %}
             <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
           {% endif %}
         {% endfor %}
       {% endif %}
 
-      {% include author-profile-custom-links.html %}
     </ul>
   </div>
 </div>
