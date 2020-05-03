@@ -1,5 +1,5 @@
 ---
-name        : "Kerstin Klaser"
+name        : "Kerstin Kläser"
 avatar      : "/assets/images/people/no-profile-picture.png"
 position    : "PhD Student"
 bio         : "PhD student @ KCL"
