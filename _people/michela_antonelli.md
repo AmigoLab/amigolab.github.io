@@ -1,6 +1,6 @@
 ---
 name        : "Michela Antonelli"
-avatar      : "/assets/images/people/no-profile-picture.jpg"
+avatar      : "/assets/images/people/no-profile-picture.png"
 position    : "PosDoc"
 bio         : ""
 email       : "michela.antonelli@kcl.ac.uk"

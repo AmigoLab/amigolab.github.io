@@ -1,6 +1,6 @@
 ---
 name        : "Mark Graham"
-avatar      : "/assets/images/people/no-profile-picture.jpg"
+avatar      : "/assets/images/people/no-profile-picture.png"
 position    : "PosDoc"
 bio         : ""
 email       : "mark.graham@kcl.ac.uk"

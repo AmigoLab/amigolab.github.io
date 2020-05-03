@@ -1,6 +1,6 @@
 ---
 name        : "Stefano Moriconi"
-avatar      : "/assets/images/people/no-profile-picture.jpg"
+avatar      : "/assets/images/people/no-profile-picture.png"
 position    : "PhD Student"
 bio         : "PhD student @ KCL"
 email       : "stefano.moriconi@kcl.ac.uk"

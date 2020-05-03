@@ -1,6 +1,6 @@
 ---
 name        : "Petru-Daniel Tudosiu"
-avatar      : "/assets/images/people/no-profile-picture.jpg"
+avatar      : "/assets/images/people/no-profile-picture.png"
 position    : "PhD Student"
 bio         : "PhD student @ KCL"
 email       : "petru.tudosiu@kcl.ac.uk"
