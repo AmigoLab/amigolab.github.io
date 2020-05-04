@@ -4,28 +4,25 @@
   {% assign logo = site.logo %}
 {% endif %}
 
+{% if project.id %}
+  {% assign title = project.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = project.title %}
+{% endif %}
 
-<div class="grid__item-project">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+<div class="{{ include.type | default: "list" }}__item"  style="height:300px;width:300px;>
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and logo %}
       <div class="archive__item-logo">
-        <a href="{{ project.url | relative_url }}" rel="permalink">
-        <img src=
-          {% if logo contains "://" %}
-            "{{ logo }}"
-          {% else %}
-            "{{ logo | relative_url }}"
-          {% endif %}
-          alt="">
-        </a>
+        <img src="{{ logo | relative_url }}" alt="">
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
-      <a href="{{ project.url | relative_url }}" rel="permalink">{{ project.title }}</a>
-      <a href="{{ project.link }}"><i class="fas fa-link" aria-hidden="true" title="externallink"></i><span class="sr-only">External Link</span></a>
+      {% if project.link %}
+        <a href="{{ project.link }}"  style="margin:1px auto; text-align:center; display:block; width:300;">{{ title }}</a> <a href="{{ project.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ project.url | relative_url }}" rel="permalink"  style="margin:1px auto; text-align:center; display:block; width:300;">{{ title }}</a>
+      {% endif %}
     </h2>
-    {% if project.excerpt %}
-      <p class="archive__item-excerpt" itemprop="description">{{ project.excerpt | markdownify | strip_html | truncate: 160 }}</p>
-    {% endif %}
   </article>
 </div>
