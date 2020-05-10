@@ -1,13 +1,15 @@
 ---
-name        : "Virginia Fernandez"
-avatar      : "/assets/images/people/Virginia.png"
-position    : "PhD Student"
-bio         : Deep-learning enabled image synthesis to produce an atlas of the diseased Human Brain
-email       : "virginia.fernandez@kcl.ac.uk"
-twitter     :
-uri         :
-linkedin    :
-github      : "virginiafdez"
+name            : "Virginia Fernandez"
+avatar          : "/assets/images/people/Virginia.png"
+position        : "PhD Student"
+bio             : Deep-learning enabled image synthesis to produce an atlas of the diseased Human Brain
+email           : "virginia.fernandez@kcl.ac.uk"
+twitter         :
+uri             :
+linkedin        :
+github          : "virginiafdez"
+google_scholar  :
+orcid           :
 
 projects:
   - "Generative Modelling"

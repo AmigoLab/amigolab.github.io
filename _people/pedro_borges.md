@@ -1,17 +1,19 @@
 ---
-name        : "Pedro Borges"
-avatar      : "/assets/images/people/no-profile-picture.png"
-position    : "PhD Student"
-bio         : "PhD student @ KCL"
-email       : "pedro.borges@kcl.ac.uk"
-twitter     :
-uri         :
-linkedin    :
-github      :
+name            : "Pedro Borges"
+avatar          : "/assets/images/people/no-profile-picture.png"
+position        : "PhD Student"
+bio             : "Employing Deep Learning in conjunction with physics-based imaging models to address harmonisation issues"
+email           : "pedro.borges@kcl.ac.uk"
+twitter         :
+uri             :
+linkedin        :
+github          : "pedrob37"
+google_scholar  :
+orcid           :
 
 projects:
   - "Generative Modelling"
   - "Meaning of Life"
 ---
 
-Mauris bibendum dui ut nibh tempor tincidunt. Fusce faucibus velit vitae blandit ultrices. Nullam nec enim nulla. Duis vel sapien rutrum, porttitor magna sit amet, commodo metus. Nullam posuere eros ac eros volutpat faucibus. Aliquam leo nisi, ullamcorper sed est eu, auctor pellentesque turpis. Suspendisse mattis lacus non mi dictum feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu porttitor urna.
+I joined the UCL CDT in intelligent integrated imaging in healthcare after graduating from Imperial College London with a MSci in Physics. I was first attracted to the Medical Imaging field when working on my Master’s project on Optical Projection Tomography, a type of optical tomographic imaging technique not dissimilar to X-ray CT. I wanted to employ what I had learned in Physics in a more pragmatic manner, and this CDT presented the perfect opportunity to do so. The project I have chosen to work on for the duration of the CDT is titled “Physics-based image synthesis for MRI sequence standardisation”. Its main aims are twofold, to attempt to standardise acquisitions from different MRI scanners, and to shift clinical MRI sequences from qualitative to quantitative so that they can be used to benefit day-to-day patient care.
