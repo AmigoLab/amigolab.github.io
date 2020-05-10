@@ -3,7 +3,6 @@ layout: project
 id: meaning_of_life
 title: "Meaning of Life"
 author: AMIGO
-permalink: /projects/meaning_of_life/
 header:
   logo: "assets/images/projects/meaning_of_life.jpg"
 excerpt: "What we do when our heads are not stuck in bytes"
