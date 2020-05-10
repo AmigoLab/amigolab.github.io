@@ -1,13 +1,15 @@
 ---
-name        : "Paul Wright"
-avatar      : "/assets/images/people/Paul.png"
-position    : "PosDoc"
-bio         : "Brain imaging, cognition and stroke; delivering AI as a clinician-usable tool"
-email       : "p.wright@kcl.ac.uk"
-twitter     :
-uri         :
-linkedin    :
-github      :
+name            : "Paul Wright"
+avatar          : "/assets/images/people/Paul.png"
+position        : "PosDoc"
+bio             : "Brain imaging, cognition and stroke; delivering AI as a clinician-usable tool"
+email           : "p.wright@kcl.ac.uk"
+twitter         :
+uri             :
+linkedin        :
+github          :
+google_scholar  :
+orcid           :
 
 projects:
   - "Generative Modelling"

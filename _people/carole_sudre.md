@@ -1,22 +1,22 @@
 ---
-name        : "Carole Sudre"
-avatar      : "/assets/images/people/no-profile-picture.png"
-position    : "PosDoc"
-bio         : ""
-email       : "carole.sudre@kcl.ac.uk"
-twitter     :
-uri         :
-linkedin    :
-github      :
+name            : "Carole Sudre"
+avatar          : "/assets/images/people/no-profile-picture.png"
+position        : "PosDoc"
+bio             : "Age-related brain lesions - Brain-heart axis"
+email           : "carole.sudre@kcl.ac.uk"
+twitter         :
+uri             :
+linkedin        :
+github          : "csudre"
+google_scholar  :
+orcid           : "0000-0001-5753-428X"
 
 projects:
   - "Generative Modelling"
+links:
+  - label: "KCL Pure"
+    icon: "fas fa-fw fa-link"
+    url: "https://kclpure.kcl.ac.uk/portal/carole.sudre.html"
 ---
 
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacus ante, facilisis quis mauris eget, fringilla hendrerit nibh. Suspendisse viverra, diam sit amet porta dapibus, nunc nulla faucibus purus, nec fringilla sapien tellus in justo. Integer blandit lectus nibh, finibus fringilla sem lacinia pellentesque. Integer bibendum viverra hendrerit. Vivamus ex dui, fermentum at felis vitae, elementum consequat ante. Donec facilisis ante tortor, a pulvinar eros aliquet in. Curabitur gravida sagittis erat ut pulvinar. Etiam non nulla bibendum, consequat ex sit amet, rhoncus odio. Sed mattis augue ac odio viverra, id eleifend elit eleifend. Quisque sollicitudin faucibus ligula sit amet pharetra. Vestibulum malesuada venenatis elit et imperdiet. Pellentesque non condimentum sapien, ut blandit sem.
-
-Aenean eu enim in quam rhoncus bibendum. Donec consectetur sed dui in interdum. In pharetra odio nec risus fermentum, non rutrum augue sagittis. Cras blandit blandit gravida. Cras posuere leo et sem convallis vehicula. Aenean sed enim interdum, sollicitudin leo a, gravida felis. Integer blandit leo ac lectus tempor bibendum. Ut interdum eros nisl, non viverra ante congue tempor. Ut ullamcorper urna et mi interdum, vitae semper sem varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse eu ex lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor sapien erat, sed vehicula purus vestibulum vitae. Phasellus sit amet ex vitae sapien bibendum ultricies. Nulla pharetra lorem nec libero venenatis tempor. Cras eu purus semper, faucibus ante at, egestas mi.
-
-Aliquam erat volutpat. Nulla gravida felis et lacus efficitur, nec eleifend odio feugiat. Fusce pulvinar leo sed mauris cursus congue. Integer molestie ligula eu hendrerit placerat. Etiam id ultrices nulla, et mollis eros. Fusce eget laoreet nunc. Fusce sed lectus aliquet, egestas leo nec, posuere nunc. Ut ipsum sem, pellentesque ac urna eget, porttitor accumsan nisl. Etiam sit amet massa eget leo sodales gravida eget ac erat. Sed semper ac felis ut condimentum. Suspendisse potenti.
+Medical imaging has driven the path of my studies in applied mathematics (Ecole Polytechnique) and biomedical engineering (ETH Zurich). After my PhD at UCL focusing on white matter hyperintensities segmentation and characterisation, I have decided to extend my research focusing on age-related vascular lesions and to look at relationships with risk factors and cognitive associations which is the current focus of my Alzheimer's Society Fellowship. I am particularly interested in the causality link between vascular damage and brain functioning linked through brain imaging and the location and characterisation of such lesions.

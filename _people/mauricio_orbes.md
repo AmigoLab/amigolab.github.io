@@ -1,13 +1,15 @@
 ---
-name        : "Mauricio Orbes"
-avatar      : "/assets/images/people/Henry.png"
-position    : "PhD Student"
-bio         : "My research focuses on increasing tthe robustness of deep learning models to variations in Data distributions, promoting in this way their clinical applicability"
-email       : "henry.m.orbes_arteaga@kcl.ac.uk"
-twitter     :
-uri         :
-linkedin    :
-github      :
+name            : "Mauricio Orbes"
+avatar          : "/assets/images/people/Henry.png"
+position        : "PhD Student"
+bio             : "My research focuses on increasing tthe robustness of deep learning models to variations in Data distributions, promoting in this way their clinical applicability"
+email           : "henry.m.orbes_arteaga@kcl.ac.uk"
+twitter         :
+uri             :
+linkedin        :
+github          :
+google_scholar  :
+orcid           :
 
 projects:
   - "Generative Modelling"

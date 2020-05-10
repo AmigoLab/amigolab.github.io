@@ -5,11 +5,14 @@ excerpt: "Tudosiu, P.D., Varsavsky, T., Shaw, R., Graham, M., Nachev, P., Oursel
 external_link: https://arxiv.org/abs/2002.05692
 authors:
   - Petru-Daniel Tudosiu
-  - Jorge Cardoso
+  - Thomas Varsavsky
+  - Richard Shaw
+  - Carole Sudre
+  - M. Jorge Cardoso
 project: generative_modelling
 ---
 
-[Petru-Daniel Tudosiu](/people/daniel_tudosiu), Thomas Varsavsky, Richard Shaw, Mark Graham, Parashkev Nachev, Sébastien Ourselin, Carole H. Sudre, [M. Jorge Cardoso](/people/jorge_cardoso)
+[Petru-Daniel Tudosiu](/people/daniel_tudosiu), [Thomas Varsavsky](/people/thomas_varsavsky), [Richard Shaw](/people/richard_shaw), [Mark Graham](/people/mark_graham), Parashkev Nachev, Sébastien Ourselin, [Carole H. Sudre](/people/carole_sudre), [M. Jorge Cardoso](/people/jorge_cardoso)
 
 In Arxiv
 

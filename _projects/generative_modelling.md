@@ -3,7 +3,6 @@ layout: project
 id: generative_modelling
 title: "Generative Modelling"
 author: AMIGO
-permalink: /projects/generative_modelling/
 header:
   logo: "assets/images/projects/generative_modelling.jpg"
 excerpt: "How to learn without supervision"

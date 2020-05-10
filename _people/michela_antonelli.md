@@ -1,13 +1,15 @@
 ---
-name        : "Michela Antonelli"
-avatar      : "/assets/images/people/no-profile-picture.png"
-position    : "PosDoc"
-bio         : ""
-email       : "michela.antonelli@kcl.ac.uk"
-twitter     :
-uri         :
-linkedin    :
-github      :
+name            : "Michela Antonelli"
+avatar          : "/assets/images/people/no-profile-picture.png"
+position        : "PosDoc"
+bio             : ""
+email           : "michela.antonelli@kcl.ac.uk"
+twitter         :
+uri             :
+linkedin        :
+github          :
+google_scholar  :
+orcid           :
 
 projects:
   - "Generative Modelling"

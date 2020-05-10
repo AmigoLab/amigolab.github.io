@@ -1,24 +1,23 @@
 ---
-name        : "Jorge Cardoso"
-avatar      : "/assets/images/people/no-profile-picture.png"
-position    : "Academic"
-bio         : "Senior Lecturer @ KCL"
-email       : "m.jorge.cardoso@kcl.ac.uk"
-twitter     : "mjorgecardoso"
-uri         :
-linkedin    :
-github      :
+name            : "M. Jorge Cardoso"
+avatar          : "/assets/images/people/no-profile-picture.png"
+position        : "Academic"
+bio             : "Senior Lecturer @ KCL"
+email           : "m.jorge.cardoso@kcl.ac.uk"
+twitter         : "mjorgecardoso"
+uri             :
+linkedin        :
+github          : "mjorgecardoso"
+google_scholar  : "BuJuSqkAAAAJ"
+orcid           : "0000-0003-1284-2558"
 
 projects:
   - "COVID19"
   - "Generative Modelling"
   - "Meaning of Life"
+links:
+  - label: "KCL Pure"
+    icon: "fas fa-fw fa-link"
+    url: "https://kclpure.kcl.ac.uk/portal/m.jorge.cardoso.html"
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt placerat vehicula. Vivamus consequat elit ut bibendum consectetur. Suspendisse sed ultrices est. Curabitur vitae turpis ut erat auctor dictum ut vitae risus. Cras tincidunt lorem sit amet eleifend maximus. Aliquam erat volutpat. Aliquam at volutpat lorem. Etiam vestibulum, orci non bibendum rhoncus, libero neque laoreet mauris, id congue diam tortor a eros.
-
-Vestibulum bibendum finibus erat sed tristique. Maecenas commodo at lectus a lobortis. Integer eu odio ac magna imperdiet posuere id eget lacus. Cras rutrum auctor sem, et commodo lacus semper quis. Proin sodales efficitur suscipit. Nullam nec felis arcu. Donec mi urna, sagittis hendrerit mattis nec, tincidunt consequat eros. Donec id molestie dolor. Vestibulum placerat tincidunt facilisis. Vestibulum commodo mattis leo, et aliquam purus accumsan vel. Cras ornare quam ac erat consectetur suscipit.
-
-Phasellus efficitur ante ut nulla consectetur euismod. Curabitur efficitur erat id commodo tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse vulputate eros vel neque imperdiet, nec faucibus erat dignissim. Integer molestie sed lectus vel pellentesque. Curabitur porta sapien quis nisi posuere mollis. In hac habitasse platea dictumst. Mauris aliquet tristique ipsum, id sagittis nibh lacinia ac. Morbi non nulla a ante porttitor sollicitudin aliquet nec eros.
-
-Nam dapibus commodo ipsum in congue. Sed nibh neque, sagittis quis molestie a, feugiat quis ante. Morbi commodo consectetur suscipit. Quisque fermentum porttitor tincidunt. Sed imperdiet lorem ullamcorper, rutrum ligula sit amet, laoreet velit. In cursus accumsan gravida. Curabitur sapien tellus, ullamcorper varius elit cursus, eleifend volutpat libero. Donec imperdiet sapien nec sapien sagittis, ut aliquet enim consectetur. Sed ante elit, fringilla sed tellus luctus, commodo porttitor magna. In non arcu nec arcu tempus lacinia non eu magna. Morbi eget pharetra massa, quis commodo ex. Etiam interdum dapibus sagittis. Morbi non augue a magna pulvinar interdum vitae vitae nibh. Aliquam viverra suscipit nulla, vitae scelerisque ante lacinia vel. Cras eget egestas leo. Suspendisse tincidunt nisl ut ligula convallis suscipit vel at nisi.
+M Jorge Cardoso is Senior Lecturer in Artificial Medical Intelligence at King’s College London, where he leads a research portfolio on big data analytics, quantitative radiology and value based healthcare. Jorge is also the CTO of the new London Medical Imaging and AI Centre for Value-based Healthcare. Prior to King’s, Dr Cardoso was a Lecturer at UCL, Technical Lead of the Quantitative Radiology Initiative at the National Hospital for Neurology and Neurosurgery (NHNN), and Engineering Lead of the Neuro-oncology Flagship Programme at UCL, Institute of Healthcare Engineering. He has more than 12 years expertise in advanced image analysis, big data, and artificial intelligence, and co-leads the development of NiftyNet, a deep-learning platform for artificial intelligence in medical imaging. He is also a founder of BrainMiner, a medtech startup aiming to bring quantitative biomarkers and predictive models to neurological care.

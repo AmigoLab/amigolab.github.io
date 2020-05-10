@@ -6,7 +6,7 @@ external_link: https://doi.org/10.1007/978-3-030-32778-1_2
 authors:
   - Kerstin Kläser
   - Thomas Varsavsky
-  - Jorge Cardoso
+  - M. Jorge Cardoso
 ---
 [Kerstin Kläser](/people/kerstin_klaser), [Thomas Varsavsky](/people/thomas_varsavsky), Pawel Markiewicz, Tom Vercauteren, David Atkinson, Kris Thielemans, Brian Hutton, [M. Jorge Cardoso](/people/jorge_cardoso), Sébastien Ourselin
 

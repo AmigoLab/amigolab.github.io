@@ -1,20 +1,20 @@
 ---
-name        : "Chayanin Tangwiriyasakul"
-avatar      : "/assets/images/people/Chin.png"
-position    : "PosDoc"
-bio         : "I am interested in developing/applying machine learning algorithms to solve medical related problems, especially in large scale brain network and the brain vascular structure in patients with stroke and epilepsy."
-email       : "chayanin.tangwiriyasakul@kcl.ac.uk"
-twitter     :
-uri         :
-linkedin    :
-github      : "mycode-CT"
+name            : "Chayanin Tangwiriyasakul"
+avatar          : "/assets/images/people/Chin.png"
+position        : "PosDoc"
+bio             : "I am interested in developing/applying machine learning algorithms to solve medical related problems, especially in large scale brain network and the brain vascular structure in patients with stroke and epilepsy."
+email           : "chayanin.tangwiriyasakul@kcl.ac.uk"
+twitter         :
+uri             :
+linkedin        :
+github          : "mycode-CT"
+google_scholar  : "15l1HIgAAAAJ"
+orcid           : "0000-0001-5134-0767"
+
 
 projects:
   - "Generative Modelling"
 links:
-  - label: "Scholar"
-    icon: "fas fa-fw fa-link"
-    url: "https://scholar.google.co.uk/citations?user=15l1HIgAAAAJ&hl=en"
   - label: "ORCID"
     icon: "fas fa-fw fa-link"
     url: "https://orcid.org/0000-0001-5134-0767"    

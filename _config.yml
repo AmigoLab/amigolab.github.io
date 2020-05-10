@@ -274,7 +274,7 @@ defaults:
       type: publications
     values:
       layout: publication
-      author_profile: true
+      author_profile: false
       related: false
   # _softwares
   - scope:

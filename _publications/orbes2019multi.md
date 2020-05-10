@@ -6,7 +6,7 @@ external_link: https://doi.org/10.1007/978-3-030-33391-1_7
 authors:
   - Mauricio Orbes
   - Thomas Varsavsky
-  - Jorge Cardoso
+  - M. Jorge Cardoso
 author_profile: false
 ---
 [Mauricio Orbes-Arteaga](/people/mauricio_orbes), [Thomas Varsavsky](/people/thomas_varsavsky), [Carole H Sudre](/people/carole_sudre), Zach Eaton-Rosen, Lewis J. Haddow, Lauge Sørensen, Mads Nielsen, Akshay Pai, Sébastien Ourselin, Marc Modat, Parashkev Nachev, [M. Jorge Cardoso](/people/jorge_cardoso)

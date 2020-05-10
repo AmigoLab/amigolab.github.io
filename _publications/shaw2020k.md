@@ -4,12 +4,13 @@ date: "2020-01-01"
 excerpt: "Shaw, R., Sudre, C.H., Varsavsky, T., Ourselin, S. and Cardoso, M.J., 2020. IEEE Transactions on Medical Imaging."
 external_link: https://doi.org/10.1109/TMI.2020.2972547
 authors:
+  - Richard Shaw
   - Thomas Varsavsky
   - Carole Sudre
-  - Jorge Cardoso
+  - M. Jorge Cardoso
 author_profile: false
 ---
-Richard Shaw, [Carole H Sudre](/people/carole_sudre), [Thomas Varsavsky](/people/thomas_varsavsky), Sébastien Ourselin, [M. Jorge Cardoso](/people/jorge_cardoso)
+[Richard Shaw](/people/richard_shaw), [Carole H Sudre](/people/carole_sudre), [Thomas Varsavsky](/people/thomas_varsavsky), Sébastien Ourselin, [M. Jorge Cardoso](/people/jorge_cardoso)
 
 In IEEE Transactions on Medical Imaging
 

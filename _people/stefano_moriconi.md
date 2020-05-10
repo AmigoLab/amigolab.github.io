@@ -1,17 +1,19 @@
 ---
-name        : "Stefano Moriconi"
-avatar      : "/assets/images/people/no-profile-picture.png"
-position    : "PhD Student"
-bio         : "PhD student @ KCL"
-email       : "stefano.moriconi@kcl.ac.uk"
-twitter     :
-uri         :
-linkedin    :
-github      :
+name            : "Stefano Moriconi"
+avatar          : "/assets/images/people/no-profile-picture.png"
+position        : "PosDoc"
+bio             : "AI Enabled Neurology - Stroke - Vascular Image Analysis"
+email           : "stefano.moriconi@kcl.ac.uk"
+twitter         :
+uri             :
+linkedin        :
+github          : "stefanomoriconi"
+google_scholar  :
+orcid           :
 
 projects:
   - "Generative Modelling"
   - "Meaning of Life"
 ---
 
-Mauris bibendum dui ut nibh tempor tincidunt. Fusce faucibus velit vitae blandit ultrices. Nullam nec enim nulla. Duis vel sapien rutrum, porttitor magna sit amet, commodo metus. Nullam posuere eros ac eros volutpat faucibus. Aliquam leo nisi, ullamcorper sed est eu, auctor pellentesque turpis. Suspendisse mattis lacus non mi dictum feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu porttitor urna.
+Biomedical Engineer at Politecnico di Milano, jr. Research Fellow at the Italian National Research Council, PhD in Medical Physics and Biomedical Engineering at University College London, now Research Associate at King’s College London - School of Biomedical Engineering & Imaging Sciences.
