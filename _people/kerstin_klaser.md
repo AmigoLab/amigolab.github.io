@@ -1,6 +1,6 @@
 ---
-name        : "Kerstin Klaser"
-avatar      : "/assets/images/people/no-profile-picture.jpg"
+name        : "Kerstin Kläser"
+avatar      : "/assets/images/people/no-profile-picture.png"
 position    : "PhD Student"
 bio         : "PhD student @ KCL"
 email       : "kerstin.klaser@kcl.ac.uk"

@@ -1,6 +1,6 @@
 ---
 name        : "Pedro Borges"
-avatar      : "/assets/images/people/no-profile-picture.jpg"
+avatar      : "/assets/images/people/no-profile-picture.png"
 position    : "PhD Student"
 bio         : "PhD student @ KCL"
 email       : "pedro.borges@kcl.ac.uk"

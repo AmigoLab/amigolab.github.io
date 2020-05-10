@@ -1,13 +1,22 @@
 # Funders
 
 - name        : "Wellcome Trust"
+  title       : "Wellcome Trust"
   avatar      : "/assets/images/funders/wellcome.png"
   url         : "https://wellcome.ac.uk/"
   header:
     teaser    : "/assets/images/funders/wellcome.png"
 
-- name        : "lorem"
-  url         : "https://www.nasa.gov/"
-  avatar      : "/assets/images/funders/wellcome.png"
+- name        : "UK Research and Innovation"
+  title       : "UK Research and Innovation"
+  url         : "https://www.ukri.org/"
+  avatar      : "/assets/images/funders/ukri.png"
   header:
-    teaser    : "/assets/images/people/no-profile-picture.jpg"
+    teaser    : "/assets/images/funders/ukri.png"
+
+- name        : "EPSRC"
+  title       : "EPSRC"
+  url         : "https://epsrc.ukri.org/"
+  avatar      : "/assets/images/funders/epsrc.png"
+  header:
+    teaser    : "/assets/images/funders/epsrc.png"

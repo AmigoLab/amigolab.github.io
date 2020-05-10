@@ -4,6 +4,7 @@ layout: default
 {% comment %}<!-- Layout based on single.html -->{% endcomment %}
 
 <div id="main" role="main">
+  {% assign person = page %}
   {% include sidebar-person.html %}
 
   <article class="page">
@@ -30,7 +31,7 @@ layout: default
       {% comment %}<!-- Include project information -->{% endcomment %}
       <section>
         <h2>Projects</h2>
-        {% assign authored = site.projects | where:"tilte", page.projects %}
+        {% assign authored = site.projects | where:"title", page.projects %}
         {% for project in authored %}
           <a href="{{ project.url | relative_url }}" rel="permalink"> {{ project.title }}</a>
           <br>

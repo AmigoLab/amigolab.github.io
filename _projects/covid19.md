@@ -3,7 +3,6 @@ layout: project
 id: covid19
 title: COVID19
 author: AMIGO
-permalink: /projects/covid19/
 header:
   logo: "assets/images/projects/covid19.jpg"
 excerpt: "How we found the cure to COVID19 before it was mainstream"

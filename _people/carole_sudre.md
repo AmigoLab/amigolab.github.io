@@ -1,6 +1,6 @@
 ---
 name        : "Carole Sudre"
-avatar      : "/assets/images/people/no-profile-picture.jpg"
+avatar      : "/assets/images/people/no-profile-picture.png"
 position    : "PosDoc"
 bio         : ""
 email       : "carole.sudre@kcl.ac.uk"

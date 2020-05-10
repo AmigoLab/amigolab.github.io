@@ -1,6 +1,6 @@
 ---
 name        : "Jorge Cardoso"
-avatar      : "/assets/images/people/no-profile-picture.jpg"
+avatar      : "/assets/images/people/no-profile-picture.png"
 position    : "Academic"
 bio         : "Senior Lecturer @ KCL"
 email       : "m.jorge.cardoso@kcl.ac.uk"
