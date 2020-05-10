@@ -2,12 +2,11 @@
 layout: project
 id: covid19
 title: COVID19
+project: covid19
 author: AMIGO
-header:
-  logo: "assets/images/projects/covid19.jpg"
+logo: "assets/images/projects/covid19.jpg"
 excerpt: "How we found the cure to COVID19 before it was mainstream"
 domain: "Medical"
-project: covid19
 funding:
   - "lorem"
   - "ipsim"

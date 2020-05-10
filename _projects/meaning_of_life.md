@@ -2,12 +2,11 @@
 layout: project
 id: meaning_of_life
 title: "Meaning of Life"
+project: meaning_of_life
 author: AMIGO
-header:
-  logo: "assets/images/projects/meaning_of_life.jpg"
+logo: "assets/images/projects/meaning_of_life.jpg"
 excerpt: "What we do when our heads are not stuck in bytes"
 domain: "Philosophical"
-project: meaning_of_life
 funding:
   - "lorem"
   - "ipsim"

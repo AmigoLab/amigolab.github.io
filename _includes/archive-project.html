@@ -1,7 +1,6 @@
-{% if project.header.logo %}
-  {% capture logo %}{{ project.header.logo }}{% endcapture %}
-{% else %}
-  {% assign logo = site.logo %}
+{% comment %}<!-- Based on archive-single.html -->{% endcomment %}
+{% if project.logo %}
+  {% capture teaser %}{{ project.logo}}{% endcapture %}
 {% endif %}
 
 {% if project.id %}
@@ -10,18 +9,18 @@
   {% assign title = project.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item"  style="height:300px;width:300px;>
+<div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if include.type == "grid" and logo %}
-      <div class="archive__item-logo">
-        <img src="{{ logo | relative_url }}" alt="">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if project.link %}
-        <a href="{{ project.link }}"  style="margin:1px auto; text-align:center; display:block; width:300;">{{ title }}</a> <a href="{{ project.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ project.link }}">{{ title }}</a> <a href="{{ project.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ project.url | relative_url }}" rel="permalink"  style="margin:1px auto; text-align:center; display:block; width:300;">{{ title }}</a>
+        <a href="{{ project.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
   </article>

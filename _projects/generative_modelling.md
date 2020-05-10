@@ -2,12 +2,11 @@
 layout: project
 id: generative_modelling
 title: "Generative Modelling"
+project: generative_modelling
 author: AMIGO
-header:
-  logo: "assets/images/projects/generative_modelling.jpg"
+logo: "assets/images/projects/generative_modelling.jpg"
 excerpt: "How to learn without supervision"
 domain: "Theoretical"
-project: generative_modelling
 funding:
   - "Wellcome Trust"
   - "ipsim"
