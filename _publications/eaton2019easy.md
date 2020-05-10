@@ -5,7 +5,7 @@ excerpt: "Eaton-Rosen, Z., Varsavsky, T., Ourselin, S. and Cardoso, M.J., 2019, 
 external_link: https://doi.org/10.1007/978-3-030-32251-9_39
 authors:
   - Thomas Varsavsky
-  - Jorge Cardoso
+  - M. Jorge Cardoso
 author_profile: false
 ---
 Zach Eaton-Rosen, [Thomas Varsavsky](/people/thomas_varsavsky), Sebastien Ourselin, [M. Jorge Cardoso](/people/jorge_cardoso)

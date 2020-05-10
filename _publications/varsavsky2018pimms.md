@@ -6,7 +6,7 @@ external_link: https://doi.org/10.1007/978-3-030-00889-5_23
 authors:
   - Thomas Varsavsky
   - Carole Sudre
-  - Jorge Cardoso
+  - M. Jorge Cardoso
 ---
 [Thomas Varsavsky](/people/thomas_varsavsky), Zach Eaton-Rosen, [Carole H Sudre](/people/carole_sudre), Parashkev Nachev, [M. Jorge Cardoso](/people/jorge_cardoso)
 

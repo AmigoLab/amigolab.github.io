@@ -6,7 +6,7 @@ external_link: https://doi.org/10.1109/TMI.2020.2972547
 authors:
   - Thomas Varsavsky
   - Carole Sudre
-  - Jorge Cardoso
+  - M. Jorge Cardoso
 author_profile: false
 ---
 Richard Shaw, [Carole H Sudre](/people/carole_sudre), [Thomas Varsavsky](/people/thomas_varsavsky), Sébastien Ourselin, [M. Jorge Cardoso](/people/jorge_cardoso)

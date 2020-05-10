@@ -5,7 +5,7 @@ excerpt: "Tudosiu, P.D., Varsavsky, T., Shaw, R., Graham, M., Nachev, P., Oursel
 external_link: https://arxiv.org/abs/2002.05692
 authors:
   - Petru-Daniel Tudosiu
-  - Jorge Cardoso
+  - M. Jorge Cardoso
 project: generative_modelling
 ---
 

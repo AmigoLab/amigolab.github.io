@@ -6,7 +6,7 @@ external_link: https://doi.org/10.1007/978-3-030-32251-9_73
 authors:
   - Carole Sudre
   - Thomas Varsavsky
-  - Jorge Cardoso
+  - M. Jorge Cardoso
 author_profile: false
 ---
 [Carole H Sudre](/people/carole_sudre), Beatriz Gomez Anson, Silvia Ingala, Chris D. Lane, Daniel Jimenez, Lukas Haider, [Thomas Varsavsky](/people/thomas_varsavsky), Ryutaro Tanno, Lorna Smith, Sébastien Ourselin, Rolf H. Jäger, [M. Jorge Cardoso](/people/jorge_cardoso)
