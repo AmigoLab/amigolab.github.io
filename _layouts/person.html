@@ -31,10 +31,13 @@ layout: default
       {% comment %}<!-- Include project information -->{% endcomment %}
       <section>
         <h2>Projects</h2>
-        {% assign authored = site.projects | where:"title", page.projects %}
-        {% for project in site.projects %}
-          <a href="{{ project.url | relative_url }}" rel="permalink"> {{ project.title }}</a>
-          <br>
+        {% for project in page.projects %}
+          {% for site_project in site.projects %}
+            {% if project == site_project.title %}
+            <a href="{{ site_project.url | relative_url }}" rel="permalink"> {{ site_project.title }}</a>
+            <br>
+            {% endif %}
+          {% endfor %}
         {% endfor %}
       </section>
 
