@@ -217,11 +217,11 @@
 
   .archive__item-teaser {
     @include breakpoint($small) {
-      // max-height: 200px;
+      max-height: 300px;
     }
 
     @include breakpoint($medium) {
-      // max-height: 120px;
+      max-height: 300px;
     }
   }
 }
@@ -302,13 +302,11 @@
 
   .archive__item-teaser {
     @include breakpoint($small) {
-      height: 300px;
-      width: 300px;
+      max-height: 300px;
     }
 
     @include breakpoint($medium) {
-      height: 300px;
-      width: 300px;
+      max-height: 300px;
     }
   }
 }
