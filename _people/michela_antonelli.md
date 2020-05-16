@@ -1,24 +1,18 @@
 ---
 name            : "Michela Antonelli"
-avatar          : "/assets/images/people/no-profile-picture.png"
+avatar          : "/assets/images/people/Michela.png"
 position        : "PosDoc"
-bio             : ""
+bio             : "Machine learning in the prostate cancer diagnostic pathway ; Machine learning-based assessment of longitudinal changes on mp-MRI images of the prostate in patients on active surveillance."
 email           : "michela.antonelli@kcl.ac.uk"
 twitter         :
 uri             :
 linkedin        :
 github          :
-google_scholar  :
+google_scholar  : "uNq098wAAAAJ"
 orcid           :
 
 projects:
   - "Generative Modelling"
 ---
 
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacus ante, facilisis quis mauris eget, fringilla hendrerit nibh. Suspendisse viverra, diam sit amet porta dapibus, nunc nulla faucibus purus, nec fringilla sapien tellus in justo. Integer blandit lectus nibh, finibus fringilla sem lacinia pellentesque. Integer bibendum viverra hendrerit. Vivamus ex dui, fermentum at felis vitae, elementum consequat ante. Donec facilisis ante tortor, a pulvinar eros aliquet in. Curabitur gravida sagittis erat ut pulvinar. Etiam non nulla bibendum, consequat ex sit amet, rhoncus odio. Sed mattis augue ac odio viverra, id eleifend elit eleifend. Quisque sollicitudin faucibus ligula sit amet pharetra. Vestibulum malesuada venenatis elit et imperdiet. Pellentesque non condimentum sapien, ut blandit sem.
-
-Aenean eu enim in quam rhoncus bibendum. Donec consectetur sed dui in interdum. In pharetra odio nec risus fermentum, non rutrum augue sagittis. Cras blandit blandit gravida. Cras posuere leo et sem convallis vehicula. Aenean sed enim interdum, sollicitudin leo a, gravida felis. Integer blandit leo ac lectus tempor bibendum. Ut interdum eros nisl, non viverra ante congue tempor. Ut ullamcorper urna et mi interdum, vitae semper sem varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse eu ex lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor sapien erat, sed vehicula purus vestibulum vitae. Phasellus sit amet ex vitae sapien bibendum ultricies. Nulla pharetra lorem nec libero venenatis tempor. Cras eu purus semper, faucibus ante at, egestas mi.
-
-Aliquam erat volutpat. Nulla gravida felis et lacus efficitur, nec eleifend odio feugiat. Fusce pulvinar leo sed mauris cursus congue. Integer molestie ligula eu hendrerit placerat. Etiam id ultrices nulla, et mollis eros. Fusce eget laoreet nunc. Fusce sed lectus aliquet, egestas leo nec, posuere nunc. Ut ipsum sem, pellentesque ac urna eget, porttitor accumsan nisl. Etiam sit amet massa eget leo sodales gravida eget ac erat. Sed semper ac felis ut condimentum. Suspendisse potenti.
+Michela Antonelli started her research career as a member of the Computational Intelligence Group at the Department of Information Engineering (University of Pisa). During her PhD studies, she was involved in the development of a Computer-Aided Diagnosis (CAD) system able to automatically detect and diagnose lung nodules in CT scans. After the PhD, her research interests moved to the field of Multi-Objective Evolutionary Fuzzy Systems (MOEFSs). MOEFSs deal with the hybridization of Fuzzy Rule-based Systems (FRBSs) and Multi-Objective Evolutionary Algorithms (MOEAs), to design FRBSs which are both accurate and interpretable. In this field, she has produced a considerable number of publications in peer-reviewed journals of high impact factor and selective international conferences. From January 2015 her focus returned to medical imaging and she joined the Translational Imaging Group at University College London working on the development of a Computer Aided Detection system for prostate cancer detection and diagnosis in mp-MRI. In May 2019 she joined the School of Biomedical Engineering & Imaging Sciences, at King’s College London, working on new machine learning based medical image analysis methods for the active surveillance (AS) of patients with prostate cancer. The management of early prostate cancer is challenging due to the difficult task of distinguishing patients with clinically relevant cancers from those whose “disease” is destined merely to be an incidental histological event. This project aims to investigate changes in the appearance of lesions in multiparametric Magnetic Resonance Imaging data for patients undergoing AS to predict prostate cancer behaviour and to avoid unnecessary radical treatments.

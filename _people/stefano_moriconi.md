@@ -1,6 +1,6 @@
 ---
 name            : "Stefano Moriconi"
-avatar          : "/assets/images/people/no-profile-picture.png"
+avatar          : "/assets/images/people/Stefano.png"
 position        : "PosDoc"
 bio             : "AI Enabled Neurology - Stroke - Vascular Image Analysis"
 email           : "stefano.moriconi@kcl.ac.uk"

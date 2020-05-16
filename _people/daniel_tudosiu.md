@@ -1,6 +1,6 @@
 ---
 name            : "Petru-Daniel Tudosiu"
-avatar          : "/assets/images/people/no-profile-picture.png"
+avatar          : "/assets/images/people/Daniel.png"
 position        : "PhD Student"
 bio             : "My research focuses on reproducible Generative Modelling and Disentanglement of Neurological Pathologies, with a particular focus on Stroke and Multimodal data."
 email           : "petru.tudosiu@kcl.ac.uk"

@@ -1,6 +1,6 @@
 ---
 name            : "Mark Graham"
-avatar          : "/assets/images/people/no-profile-picture.png"
+avatar          : "/assets/images/people/Mark.png"
 position        : "PosDoc"
 bio             : "Deep learning in healthcare"
 email           : "mark.graham@kcl.ac.uk"

@@ -1,6 +1,6 @@
 ---
 name            : "Carole Sudre"
-avatar          : "/assets/images/people/no-profile-picture.png"
+avatar          : "/assets/images/people/Carole.png"
 position        : "PosDoc"
 bio             : "Age-related brain lesions - Brain-heart axis"
 email           : "carole.sudre@kcl.ac.uk"
