@@ -1,63 +1,188 @@
 ---
-layout: splash
-classes: wide
-feature_row:
-  - image_path: assets/images/home/pattern_blue_people_x2.png
-    alt: "People"
-    url: "/people"
-  - image_path: /assets/images/home/pattern_red_projects_x2.png
-    alt: "Projects"
-    url: "/projects"
-  - image_path: assets/images/home/pattern_blue_publications_x2.png
-    alt: "Publications"
-    url: "/publications"
-  - image_path: assets/images/home/pattern_red_software_x2.png
-    alt: "Softwares"
-    url: "softwares"
-  - image_path: /assets/images/home/pattern_blue_public_engagement_x2.png
-    alt: "Public Engagement"
-    url: "public_engagement"
-  - image_path: assets/images/home/pattern_red_education_x2.png
-    alt: "Education"
-    url: "education"
+layout: default
 ---
+<div style = "width:70%; margin:0 auto; display: block;">
+    <div class = 'grid_container'>
+    <div class = 'grid'>
+            <a href="people"><div class = 'darkred'><p> PEOPLE </p></div> </a>
+            <div class = 'darkblue'><p> PROJECTS </p></div>
+            <div class = 'darkred'><p> PUBLICATIONS </p></div>
+            <div class = 'darkblue'><p> SOFTWARE </p></div>
+            <div class = 'darkred'><p> PUBLIC ENGAGEMENT </p></div>
+            <div class = 'darkblue'><p> EDUCATION </p></div>
+    </div>
+    </div>
+</div>
 
-{% include feature_row_home id="intro" type="center" %}
-{% include feature_row_home %}
-
-
-
-
-<!-- header: -->
-    <!-- image: "/assets/images/intro_banner.jpeg" -->
-
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id arcu tempor nunc pulvinar ultricies volutpat sit amet lectus. Morbi facilisis urna diam. Curabitur facilisis tellus justo, vel sodales urna efficitur tempor. Praesent accumsan risus in venenatis luctus. Fusce ultricies arcu non odio finibus dignissim. Donec velit felis, lobortis ac iaculis accumsan, auctor sed lorem. Sed et tortor mauris. Nam et porttitor mauris. Suspendisse quis nisi enim. Ut efficitur ornare ligula nec tempor. Nullam nisl velit, vehicula eget sem quis, tincidunt vestibulum eros. Curabitur accumsan non lorem vitae finibus. Nulla nec vulputate tellus. Proin a ante leo. Nulla nec tortor ut nisl dictum semper.
-
-Phasellus eget nisi et tellus vehicula egestas. Aliquam quis aliquam est. Fusce vel auctor erat, ac accumsan justo. Duis consectetur aliquet posuere. Pellentesque a fermentum odio. Curabitur rutrum dolor vehicula justo accumsan facilisis. Praesent sem mauris, elementum vitae sagittis sed, fermentum vel odio. Suspendisse nec lorem posuere, faucibus nisi eget, pretium lacus. Nunc dictum finibus nisi, nec vestibulum nisl interdum in. Nam commodo imperdiet ipsum nec malesuada.
-
-Nullam purus arcu, faucibus id facilisis sed, maximus et orci. Sed vel neque tempor, aliquet augue id, dapibus odio. Cras ullamcorper massa ut velit laoreet maximus. Praesent felis est, posuere et feugiat eget, suscipit non tortor. Integer vel mi et velit tincidunt vehicula. Duis interdum eu nulla et pulvinar. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec elementum, sem at vestibulum pulvinar, odio odio accumsan ante, eget pellentesque urna nibh eget magna. Quisque dolor erat, feugiat ullamcorper urna volutpat, sollicitudin ultricies nunc. Aenean mollis consectetur ipsum id tincidunt. Vivamus elementum orci ac diam vestibulum fermentum. Sed elementum mi eget lacus fringilla, sit amet commodo nunc sagittis.
-
-Etiam vel luctus eros, in semper risus. Curabitur viverra dui non est scelerisque, luctus suscipit odio ullamcorper. Quisque posuere sit amet lorem ut rhoncus. Aenean eget interdum dolor, non mattis urna. Vestibulum placerat tristique suscipit. Proin euismod placerat varius. Praesent ac sapien interdum, interdum erat a, rutrum sem. Praesent semper, ipsum ac ultricies luctus, lacus ante finibus erat, et interdum justo tellus dapibus enim. Pellentesque faucibus tristique ligula, quis pellentesque odio varius at. Cras porttitor facilisis massa, laoreet gravida ligula placerat sed. Nam sollicitudin mauris a cursus vestibulum. Pellentesque quis augue vel neque mattis faucibus. Fusce quis vulputate lectus. Nulla facilisi.
-
-Suspendisse condimentum, purus sit amet eleifend lobortis, erat justo vehicula eros, ut vestibulum felis lorem a metus. Cras interdum vehicula faucibus. Proin et porta nisi, eget dapibus ligula. Aenean tempor quis orci id accumsan. Nullam egestas velit et orci interdum sollicitudin. Aliquam luctus, erat quis semper dictum, sapien nibh varius mi, at auctor erat purus sit amet lacus. Pellentesque pulvinar sed lectus scelerisque pulvinar. Fusce vitae dictum lorem. Integer nec tellus arcu. -->
-
-
-<style type="text/css">
-.left_col {
-    float:left;
-    width:50%;
+<style>
+  #logo #logo_img {
+    width: 70%;
+    display:block;
+    margin:auto;
+    padding-bottom: 10pt;
 }
-.right_col {
-    float:right;
-    width:50%;
+
+
+
+body {
+    background-color: #d6dce5;
+}
+
+
+
+.grid_container{
+  display: flex;
+  justify-content: center;
+}
+.grid {
+    flex: 0.8;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    align-self: center;
+
+
+
+      grid-gap: 1%;
+      grid-column-gap: 1%;
+      width: 80%;
+
+
+
+}
+
+
+
+.darkred {
+
+
+
+    display : flex;
+      align-items : center;
+      justify-content: center;
+      text-align: center;
+
+
+
+    background-color: #da7b93;
+    border-color: #2e151b;
+    border-style:solid;
+    border-radius: 3px;
+    border-width: 5px;
+
+
+
+    width: 100%;
+    padding: 6%;
+    overflow: auto;
+    color: #ffffff;
+    font-size: 20pt;
+    font-family: 'Helvetica Neue';
+}
+
+
+
+.darkblue {
+    display : flex;
+      align-items : center;
+      justify-content: center;
+    text-align: center;
+
+    background-color: #67d5d8;
+    border-color: #1c3334;
+    border-style:solid;
+    border-radius: 3px;
+    border-width: 5px;
+    text-align: center;
+    width: 100%;
+    padding: 6%;
+    overflow: auto;
+    color: #ffffff;
+    font-size: 20pt;
+    font-family: 'Helvetica Neue';
+}
+
+
+
+
+.darkred:hover {
+    background-color: #b33253;
+    color: #ffffff;
+    overflow:auto;
+    width: 100%;
+
+
+
+}
+
+
+
+.darkblue:hover {
+    background-color: #2fb2b6;
+    color: #ffffff;
+    overflow:auto;
+    width: 100%;
+
+
+
+}
+
+
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    .darkblue, .darkred {
+        font-size: 14pt;
+    }
+    .grid {
+        flex: 1.0;
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 1fr;
+        align-self: center;
+          grid-gap: 1%;
+          grid-column-gap: 1%;
+          width: 80%;
+
+
+
+    }
+    #logo #logo_img {
+        width: 90%;
+        display:block;
+        margin:auto;
+        padding-bottom: 10pt;
+    }
+}
+
+
+
+
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .darkblue, .darkred {
+        font-size: 16pt;
+    }
+    .grid {
+        flex: 0.9;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 1fr;
+        align-self: center;
+          grid-gap: 1%;
+          grid-column-gap: 1%;
+          width: 80%;
+
+
+
+    }
+    #logo #logo_img {
+        width: 80%;
+        display:block;
+        margin:auto;
+        padding-bottom: 10pt;
+    }
 }
 </style>
-
-<!-- div class="row">
-    <div class="column">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d310.46710931594765!2d-0.1163741!3d51.4996959!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b8b733dc15%3A0xb2aa1bd78511fb68!2sBecket%20House%2C%201%20Lambeth%20Palace%20Rd%2C%20South%20Bank%2C%20London%20SE1%207EU!5e0!3m2!1sen!2suk!4v1587393457392!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
-    <div class="column">
-        <a class="twitter-timeline" data-width="500" data-height="1000" data-dnt="true" data-theme="light" href="https://twitter.com/mjorgecardoso?ref_src=twsrc%5Etfw">Tweets by mjorgecardoso</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-</div -->
