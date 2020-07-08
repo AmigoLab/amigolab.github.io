@@ -52,8 +52,8 @@ function init() {
 
 // Container
 var container = document.getElementById('my-canvas-holder');
-var width = container.clientWidth; //400;
-var height = container.clientHeight; //300;
+var width = 600;
+var height = 450;
 
 // Camera
 camera = new THREE.PerspectiveCamera( 60, width/height, 0.01, 1e10 );
