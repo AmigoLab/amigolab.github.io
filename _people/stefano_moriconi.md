@@ -72,7 +72,7 @@ camera.add( dirLight.target );
 var material = new THREE.MeshLambertMaterial( { color: 0xffffff, side: THREE.DoubleSide } );
 
 var loader = new VTKLoader();
-loader.load( "models/VTrails_LogoSurf.vtk", function ( geometry ) {
+loader.load( "/assets/models/VTrails_LogoSurf.vtk", function ( geometry ) {
 	geometry.center();
 	geometry.computeVertexNormals();
 	var mesh = new THREE.Mesh( geometry, material );
