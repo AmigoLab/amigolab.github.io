@@ -26,7 +26,7 @@ Biomedical Engineer at Politecnico di Milano, jr. Research Fellow at the Italian
 </script>
 
 ## Three example 1
-from [https://stefanomoriconi.github.io/testThreeJs/](https://stefanomoriconi.github.io/testThreeJs/) . Check here below.
+from [https://stefanomoriconi.github.io/testThreeJs/](https://stefanomoriconi.github.io/testThreeJs/) . Here below.
 
 <style>
 .highlight-left {margin-left: 0}
@@ -52,8 +52,8 @@ function init() {
 
 // Container
 var container = document.getElementById('my-canvas-holder');
-var width = 400;
-var height = 300;
+var width = container.clientWidth; //400;
+var height = container.clientHeight; //300;
 
 // Camera
 camera = new THREE.PerspectiveCamera( 60, width/height, 0.01, 1e10 );
