@@ -3,12 +3,12 @@ layout: software
 id: monai
 title: MONAI
 author: AMIGO
-permalink: /softwares/monai/
-status: "In Development"
+permalink: /software/monai/
+status: "Current"
 url: ""
 link: "https://github.com/Project-MONAI/MONAI"
 header:
-  logo: "assets/images/softwares/monai.png"
+  logo: "assets/images/software/monai.png"
 excerpt: "PyTorch-based, open-source framework for deep learning in healthcare imaging"
 ---
 

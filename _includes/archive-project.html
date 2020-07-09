@@ -16,12 +16,12 @@
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
+    <h4 class="archive__item-title" itemprop="headline">
       {% if project.link %}
         <a href="{{ project.link }}">{{ title }}</a> <a href="{{ project.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ project.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-    </h2>
+    </h4>
   </article>
 </div>

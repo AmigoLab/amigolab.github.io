@@ -3,12 +3,12 @@ layout: software
 id: vtrails
 title: VTrails
 author: AMIGO
-permalink: /softwares/vtrails/
-status: "Maintained"
+permalink: /software/vtrails/
+status: "Current"
 url: ""
 link: "https://vtrails.github.io/VTrailsToolkit/"
 header:
-  logo: "assets/images/softwares/vtrails.png"
+  logo: "assets/images/software/vtrails.png"
 excerpt: "A vectorial representation of the vascular network, which embodies quantitative features such as location, direction, scale, and bifurcations, has many potential cardio- and neuro-vascular applications,"
 ---
 A vectorial representation of the vascular network, which embodies quantitative features such as location, direction, scale, and bifurcations, has many potential cardio- and neuro-vascular applications.

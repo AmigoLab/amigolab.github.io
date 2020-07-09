@@ -3,7 +3,10 @@ layout: archive-without-title
 title: "People"
 permalink: /people/
 ---
-<h1>Academic</h1>
+
+<br>
+
+<h1>Academics</h1>
 <div class="grid__wrapper">
 {% for person in site.people %}
   {% if person.position == "Academic" %}
@@ -13,10 +16,11 @@ permalink: /people/
 </div>
 
 <!-- Do not remove -->
+
 <div style="clear:both;"></div>
 <!-- Do not remove -->
 
-<h1>PosDoc</h1>
+<h1>Researchers</h1>
 <div class="grid__wrapper">
 {% for person in site.people %}
   {% if person.position == "PosDoc" %}
@@ -25,11 +29,12 @@ permalink: /people/
 {% endfor %}
 </div>
 
+
 <!-- Do not remove -->
 <div style="clear:both;"></div>
 <!-- Do not remove -->
 
-<h1>PhD Student</h1>
+<h1>Students</h1>
 <div class="grid__wrapper">
 {% for person in site.people %}
   {% if person.position == "PhD Student" %}
@@ -37,3 +42,4 @@ permalink: /people/
   {% endif %}
 {% endfor %}
 </div>
+

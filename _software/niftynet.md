@@ -3,12 +3,12 @@ layout: software
 id: nfitynet
 title: NiftyNet
 author: AMIGO
-permalink: /softwares/niftynet/
+permalink: /software/niftynet/
 status: "Unmaintained"
 url: ""
 link: "https://niftynet.io/"
 header:
-  logo: "assets/images/softwares/niftynet.png"
+  logo: "assets/images/software/niftynet.png"
 excerpt: "NiftyNet is a TensorFlow-based open-source convolutional neural networks (CNN) platform for research in medical image analysis and image-guided therapy"
 ---
 

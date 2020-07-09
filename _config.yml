@@ -253,7 +253,7 @@ collections:
     output: true
   publications:
     output: true
-  softwares:
+  software:
     output: true
   projects:
     output: true
@@ -276,10 +276,10 @@ defaults:
       layout: publication
       author_profile: false
       related: false
-  # _softwares
+  # _software
   - scope:
       path: ""
-      type: softwares
+      type: software
     values:
       layout: software
   # _projects

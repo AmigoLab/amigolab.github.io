@@ -2,7 +2,7 @@
 name            : "M. Jorge Cardoso"
 avatar          : "/assets/images/people/Jorge.png"
 position        : "Academic"
-bio             : "Senior Lecturer @ KCL"
+display_pos     : "Group Lead & Senior Lecturer"
 email           : "m.jorge.cardoso@kcl.ac.uk"
 twitter         : "mjorgecardoso"
 uri             :
