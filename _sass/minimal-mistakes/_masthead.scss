@@ -3,7 +3,11 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: $masthead-height;
+  background-color: $background-color;
   /*border-bottom: 1px solid $border-color;*/
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -40,7 +44,7 @@
 }
 
 .site-logo img {
-  max-height: 4rem;
+  max-height: $masthead-height;
 }
 
 .site-title {
