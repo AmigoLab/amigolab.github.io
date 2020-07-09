@@ -2166,9 +2166,8 @@ input, select, textarea {
 
 	.image2 {
 			padding: 50px;
-			padding-top: 50px;
-			padding-bottom: 80px;
-			border: 50px; 
+			padding-bottom: 40px;
+			border: 30px; 
 			position: relative;
 			text-align: center;
 			vertical-align: middle;
