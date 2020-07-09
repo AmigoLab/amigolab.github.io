@@ -38,7 +38,7 @@ canvas { position: relative; top: 0;}
 <script src="./three/three.js"></script>
 
 <script type="module">
-  
+
 import * as THREE from '/assets/js/three/build/three.module.js';
 import { TrackballControls } from '/assets/js/three/jsm/controls/TrackballControls.js';
 import { VTKLoader } from '/assets/js/three/jsm/loaders/VTKLoader.js';
@@ -85,7 +85,7 @@ loader.load( "/assets/models/VTrails_LogoSurf.vtk", function ( geometry ) {
 renderer = new THREE.WebGLRenderer();
 renderer.setPixelRatio( window.devicePixelRatio );
 renderer.setSize(width, height);
-renderer.setClearColor(0x00ff00, 1);
+renderer.setClearColor(0x2f3e4c, 1);
 container.appendChild( renderer.domElement );
 
 // Controls
