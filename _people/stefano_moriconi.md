@@ -26,84 +26,84 @@ Biomedical Engineer at Politecnico di Milano, jr. Research Fellow at the Italian
 </script>
 
 ## Three example 1
-from [https://stefanomoriconi.github.io/testThreeJs/](https://stefanomoriconi.github.io/testThreeJs/) . Check the end of this page.
+from [https://stefanomoriconi.github.io/testThreeJs/](https://stefanomoriconi.github.io/testThreeJs/) . Here below.
 
-<script src="/assets/js/three/three.js"></script>
+<style>
+.highlight-left {margin-left: 0}
+canvas { position: relative; top: 0;}
+</style>
+
+<div id='my-canvas-holder' style="position:relative; width: 100%;"></div>
+
+<script src="./three/three.js"></script>
+
 <script type="module">
-  import * as THREE from '/assets/js/three/build/three.module.js';
-  import Stats from '/assets/js/three/jsm/libs/stats.module.js';
-	import { TrackballControls } from '/assets/js/three/jsm/controls/TrackballControls.js';
-  import { VTKLoader } from '/assets/js/three/jsm/loaders/VTKLoader.js';
+  
+import * as THREE from '/assets/js/three/build/three.module.js';
+import { TrackballControls } from '/assets/js/three/jsm/controls/TrackballControls.js';
+import { VTKLoader } from '/assets/js/three/jsm/loaders/VTKLoader.js';
 
-	var container, stats;
-	var camera, controls, scene, renderer;
+var camera, controls, scene, renderer;
 
-	init();
-	animate();
+init();
+animate();
 
-	function init() {
-		var width = 800, height = 600;
-		camera = new THREE.PerspectiveCamera( 60, width/height, 0.01, 1e10 );
-		camera.position.z = 0.2;
-		scene = new THREE.Scene();
-		scene.add( camera );
+function init() {
 
-		// light
-		var dirLight = new THREE.DirectionalLight( 0xffffff );
-		dirLight.position.set( 200, 200, 1000 ).normalize();
+// Container
+var container = document.getElementById('my-canvas-holder');
+var width = 600;
+var height = 450;
 
-		camera.add( dirLight );
-		camera.add( dirLight.target );
+// Camera
+camera = new THREE.PerspectiveCamera( 60, width/height, 0.01, 1e10 );
+camera.position.z = 0.2;
 
-		var material = new THREE.MeshLambertMaterial( { color: 0xffffff, side: THREE.DoubleSide } );
+scene = new THREE.Scene();
 
-		var loader = new VTKLoader();
-		loader.load( "/assets/models/VTrails_LogoSurf.vtk", function ( geometry ) {
-			geometry.center();
-			geometry.computeVertexNormals();
-			var mesh = new THREE.Mesh( geometry, material );
-			mesh.position.set( 0, 0, 0 );
-			mesh.scale.multiplyScalar( 0.02 );
-			scene.add( mesh );
-		} );
+scene.add( camera );
 
-		// renderer
-		renderer = new THREE.WebGLRenderer();
-		renderer.setPixelRatio( window.devicePixelRatio );
-		renderer.setSize(width, height);
+// light
+var dirLight = new THREE.DirectionalLight( 0xffffff );
+dirLight.position.set( 200, 200, 1000 ).normalize();
+camera.add( dirLight );
+camera.add( dirLight.target );
 
-		//renderer.setSize(window.innerWidth, window.innerHeight);
-		renderer.setClearColor(0x00ff00, 1);
+var material = new THREE.MeshLambertMaterial( { color: 0xffffff, side: THREE.DoubleSide } );
 
-		container = document.createElement( 'div' );
-		document.body.appendChild( container );
-		container.appendChild( renderer.domElement );
+var loader = new VTKLoader();
+loader.load( "/assets/models/VTrails_LogoSurf.vtk", function ( geometry ) {
+	geometry.center();
+	geometry.computeVertexNormals();
+	var mesh = new THREE.Mesh( geometry, material );
+	mesh.position.set( 0, 0, 0 );
+	mesh.scale.multiplyScalar( 0.02 );
+	scene.add( mesh );
+	} );
 
-		// controls
-		controls = new TrackballControls( camera, renderer.domElement );
-		controls.rotateSpeed = 5.0;
-		controls.zoomSpeed = 5;
-		controls.panSpeed = 2;
-		controls.staticMoving = true;
-		stats = new Stats();
-		container.appendChild( stats.dom );
-		//
-		window.addEventListener( 'resize', onWindowResize, false );
-	}
+// Renderer
+renderer = new THREE.WebGLRenderer();
+renderer.setPixelRatio( window.devicePixelRatio );
+renderer.setSize(width, height);
+renderer.setClearColor(0x00ff00, 1);
+container.appendChild( renderer.domElement );
 
-	function onWindowResize() {
-		camera.aspect = window.innerWidth / window.innerHeight;
-		camera.updateProjectionMatrix();
-		renderer.setSize( window.innerWidth, window.innerHeight );
-		controls.handleResize();
-	}
+// Controls
 
-	function animate() {
-		requestAnimationFrame( animate );
-		controls.update();
-		renderer.render( scene, camera );
-		stats.update();
-	}
+controls = new TrackballControls( camera, renderer.domElement );
+controls.rotateSpeed = 5.0;
+controls.zoomSpeed = 5;
+controls.panSpeed = 2;
+controls.staticMoving = true;
+	
+}
+
+function animate() {
+requestAnimationFrame( animate );
+controls.update();
+renderer.render( scene, camera );
+}
+
 </script>
 
 ## Three example 2
