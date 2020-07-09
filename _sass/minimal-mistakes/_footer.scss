@@ -7,9 +7,10 @@
   float: left;
   margin-left: 0;
   margin-right: 0;
+  margin-top: 34px;
+  /*margin-top: 16px;*/
   width: 100%;
   clear: both;
-  margin-top: 3em;
   color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -21,9 +22,10 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
     max-width: 100%;
-    padding: 0 1em 2em;
+    /*padding: 0 1em 1em;*/
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -35,7 +37,7 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      /*text-decoration: underline;*/
     }
   }
 
@@ -49,20 +51,21 @@
 
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: $type-size-7;
+  font-size: $type-size-6;
+  float: right;
 }
 
 .page__footer-follow {
   ul {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     list-style-type: none;
   }
 
   li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    /*padding-top: 5px;*/
+    /*padding-bottom: 5px;*/
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
     text-transform: uppercase;
@@ -75,7 +78,7 @@
 
   a {
     padding-right: 10px;
-    font-weight: bold;
+    /*font-weight: bold;*/
   }
 
   .social-icons {
