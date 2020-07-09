@@ -218,11 +218,13 @@
   }
 
   .archive__item-title {
+    text-decoration: none;
     margin-top: 0.5em;
     font-size: $type-size-6;
   }
 
   .archive__item-excerpt {
+    text-decoration: none;
     display: none;
 
     @include breakpoint($medium) {
@@ -304,11 +306,13 @@
   }
 
   .archive__item-title {
+    text-decoration: none;
     margin-top: 0.5em;
-    font-size: $type-size-5;
+    font-size: $type-size-6;
   }
 
   .archive__item-smaller_title {
+    text-decoration: none;
     margin-top: 0.5em;
     font-size: $type-size-7;
   }
