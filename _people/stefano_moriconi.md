@@ -12,8 +12,8 @@ google_scholar  :
 orcid           :
 
 projects:
-  - "Generative Modelling"
-  - "Meaning of Life"
+  - "Neurology - Stroke"
+  - "Biomechanical Modelling"
 ---
 
 Biomedical Engineer at Politecnico di Milano, jr. Research Fellow at the Italian National Research Council, PhD in Medical Physics and Biomedical Engineering at University College London, now Research Associate at King’s College London - School of Biomedical Engineering & Imaging Sciences.
@@ -95,7 +95,7 @@ controls.rotateSpeed = 5.0;
 controls.zoomSpeed = 5;
 controls.panSpeed = 2;
 controls.staticMoving = true;
-	
+
 }
 
 function animate() {

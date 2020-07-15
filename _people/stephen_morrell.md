@@ -12,5 +12,6 @@ google_scholar  :
 orcid           :
 
 projects:
-  - "Generative Modelling"
+  - "Cancer - Breast"
+  - "Object Detection"
 ---

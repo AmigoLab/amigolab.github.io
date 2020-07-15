@@ -1,7 +1,7 @@
 ---
 layout: project
 id: Technical_Biomechanical_Modelling
-title: Biomechanical Modelling
+title: "Biomechanical Modelling"
 project: Biomechanical Modelling
 author: AMIGO
 logo: "assets/images/projects/placeholder.png"
@@ -12,11 +12,10 @@ funding:
 
 ---
 
-## Intro	
+## Intro
 
 Some text here
 
 ## Our work
 
 Some text here
-

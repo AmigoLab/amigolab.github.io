@@ -13,7 +13,11 @@ google_scholar  :
 orcid           : "0000-0001-5753-428X"
 
 projects:
-  - "Generative Modelling"
+  - "Neurology - Dementia"
+  - "COVID-19"
+  - "Image Segmentation"
+  - "Object Detection"
+  - "Disease Modelling"
 links:
   - label: "KCL Pure"
     icon: "fas fa-fw fa-link"

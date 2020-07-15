@@ -12,7 +12,7 @@ google_scholar  : "BuJuSqkAAAAJ"
 orcid           : "0000-0003-1284-2558"
 
 projects:
-  - "COVID19"
+  - "Neurology - Stroke"
   - "Generative Modelling"
   - "Meaning of Life"
 links:

@@ -1,7 +1,7 @@
 ---
 layout: project
 id: Technical_Uncertainty_Modelling
-title: Uncertainty Modelling
+title: "Uncertainty Modelling"
 project: Uncertainty Modelling
 author: AMIGO
 logo: "assets/images/projects/placeholder.png"
@@ -14,11 +14,10 @@ funding:
 
 ---
 
-## Intro	
+## Intro
 
 Some text here
 
 ## Our work
 
 Some text here
-

@@ -1,7 +1,7 @@
 ---
 layout: project
 id: Technical_Generative_Modelling
-title: Generative Modelling
+title: "Generative Modelling"
 project: Generative Modelling
 author: AMIGO
 logo: "assets/images/projects/placeholder.png"
@@ -13,7 +13,7 @@ funding:
 
 ---
 
-## Intro	
+## Intro
 
 Some text here
 

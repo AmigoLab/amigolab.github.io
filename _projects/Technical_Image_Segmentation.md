@@ -1,7 +1,7 @@
 ---
 layout: project
 id: Technical_Image_Segmentation
-title: Image Segmentation
+title: "Image Segmentation"
 project: Image Segmentation
 author: AMIGO
 logo: "assets/images/projects/placeholder.png"
@@ -14,7 +14,7 @@ funding:
 
 ---
 
-## Intro	
+## Intro
 
 Some text here
 

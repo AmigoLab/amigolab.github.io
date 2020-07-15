@@ -1,7 +1,7 @@
 ---
 layout: project
 id: Clinical_Cancer_Breast
-title: Cancer - Breast
+title: "Cancer - Breast"
 project: Cancer - Breast
 author: AMIGO
 logo: "assets/images/projects/placeholder.png"
@@ -12,7 +12,7 @@ funding:
 
 ---
 
-## Intro 
+## Intro
 
 Breast cancer is the most common type of cancer in the UK. Most women diagnosed with breast cancer are over the age of 50, but younger women can also get breast cancer.
 

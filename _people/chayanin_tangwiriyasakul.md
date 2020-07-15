@@ -11,9 +11,11 @@ github          : "mycode-CT"
 google_scholar  : "15l1HIgAAAAJ"
 orcid           : "0000-0001-5134-0767"
 
-
 projects:
-  - "Generative Modelling"
+  - "Neurology - Stroke"
+  - "Image Segmentation"
+  - "Image Synthesis"
+  - "Biomechanical Modelling"
 links:
   - label: "ORCID"
     icon: "fas fa-fw fa-link"

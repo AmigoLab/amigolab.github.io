@@ -1,7 +1,7 @@
 ---
 layout: project
 id: Clinical_Neurology_Dementia
-title: Neurology - Dementia
+title: "Neurology - Dementia"
 project: Neurology - Dementia
 author: AMIGO
 logo: "assets/images/projects/placeholder.png"
@@ -13,7 +13,7 @@ funding:
 
 ---
 
-## Intro	
+## Intro
 
 It's normal for your memory to be affected by stress, tiredness, certain illnesses and medicines. But if you're becoming increasingly forgetful, particularly if you're over the age of 65, it's a good idea to talk to a GP about the early signs of dementia.
 
@@ -22,4 +22,3 @@ It's normal for your memory to be affected by stress, tiredness, certain illness
 Dementia is a syndrome (a group of related symptoms) associated with an ongoing decline of brain functioning. There are many different causes of dementia, and many different types. People often get confused about the difference between Alzheimer's disease and dementia. [Alzheimer's disease](https://www.nhs.uk/conditions/alzheimers-disease/) is a type of dementia and, together with [vascular dementia](https://www.nhs.uk/conditions/vascular-dementia/), makes up the majority of cases.
 
 ## Our work
-

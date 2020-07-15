@@ -1,7 +1,7 @@
 ---
 layout: project
 id: Technical_Domain_Adaptation
-title: Domain Adaptation
+title: "Domain Adaptation"
 project: Domain Adaptation
 author: AMIGO
 logo: "assets/images/projects/placeholder.png"
@@ -12,7 +12,7 @@ funding:
 
 ---
 
-## Intro	
+## Intro
 
 Some text here
 

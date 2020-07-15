@@ -1,7 +1,7 @@
 ---
 layout: project
 id: Clinical_Cancer_Prostate
-title: Cancer - Prostate
+title: "Cancer - Prostate"
 project: Cancer - Prostate
 author: AMIGO
 logo: "assets/images/projects/placeholder.png"
@@ -13,7 +13,7 @@ funding:
 
 ---
 
-## Intro	
+## Intro
 
 Prostate cancer is the most common cancer in men in the UK. It usually develops slowly, so there may be no signs for many years.
 
@@ -28,4 +28,3 @@ When this happens, you may notice things like:
 These symptoms should not be ignored, but they do not mean you have prostate cancer.
 
 ## Our work
-
