@@ -9,7 +9,9 @@ excerpt: "Doing our best to help with the pandemic"
 domain: "Clinical"
 funding:
   - "Wellcome Trust"
-  - "NIHR GSTT BRC"
+  - "GSTT"
+  - "BRC"
+  - "NIHR"
 
 ---
 

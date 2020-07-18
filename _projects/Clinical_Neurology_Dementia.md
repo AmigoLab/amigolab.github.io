@@ -9,7 +9,7 @@ excerpt: "Every 3 seconds"
 domain: "Clinical"
 funding:
   - "Wellcome Trust"
-  - "Alzheimer's Society"
+  - "Alzheimer Society"
 
 ---
 

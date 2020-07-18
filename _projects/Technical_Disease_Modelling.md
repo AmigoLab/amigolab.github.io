@@ -9,7 +9,7 @@ excerpt: "Modeling Disease Progression."
 domain: "Technical"
 funding:
   - "Wellcome Trust"
-  - "Alzheimer's Society"
+  - "Alzheimer Society"
 
 ---
 

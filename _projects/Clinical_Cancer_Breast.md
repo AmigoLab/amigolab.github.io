@@ -8,7 +8,7 @@ logo: "assets/images/projects/placeholder.png"
 excerpt: "Early Detection Saves Lives"
 domain: "Clinical"
 funding:
-  - "KHP R&D Challenge Fund"
+  - "KHP"
 
 ---
 
