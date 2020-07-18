@@ -64,7 +64,7 @@
     teaser    : "/assets/images/funders/innovate.png"
 
 - name        : "KHP"
-  title       : "King's Helth Partners"
+  title       : "King's Health Partners"
   url         : "https://www.kingshealthpartners.org/"
   avatar      : "/assets/images/funders/khp.png"
   header:
@@ -75,4 +75,4 @@
   url         : "https://www.brc.org.uk/"
   avatar      : "/assets/images/funders/brc.png"
   header:
-    teaser    : "/assets/images/funders/brc.png"    
+    teaser    : "/assets/images/funders/brc.png"
