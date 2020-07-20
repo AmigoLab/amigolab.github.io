@@ -2,6 +2,7 @@
 name            : "Chayanin Tangwiriyasakul"
 avatar          : "/assets/images/people/Chin.png"
 position        : "PosDoc"
+display_pos		  : "Research Fellow"
 bio             : "I am interested in developing/applying machine learning algorithms to solve medical related problems, especially in large scale brain network and the brain vascular structure in patients with stroke and epilepsy."
 email           : "chayanin.tangwiriyasakul@kcl.ac.uk"
 twitter         :

@@ -2,6 +2,7 @@
 name            : "Paul Wright"
 avatar          : "/assets/images/people/Paul.png"
 position        : "PosDoc"
+display_pos		  : "Research Fellow"
 bio             : "Brain imaging, cognition and stroke; delivering AI as a clinician-usable tool"
 email           : "p.wright@kcl.ac.uk"
 twitter         :
