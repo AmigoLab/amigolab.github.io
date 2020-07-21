@@ -10,8 +10,8 @@ main:
     url: /projects/
   - title: "Publications"
     url: /publications/
-  - title: "Softwares"
-    url: /softwares/
+  - title: "Software"
+    url: /software/
   - title: "Public engagement"
     url: /public_engagement/
   - title: "Education"
