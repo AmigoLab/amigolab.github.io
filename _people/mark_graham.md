@@ -2,6 +2,7 @@
 name            : "Mark Graham"
 avatar          : "/assets/images/people/Mark.png"
 position        : "PosDoc"
+display_pos		  : "Research Associate"
 bio             : "Deep learning in healthcare"
 email           : "mark.graham@kcl.ac.uk"
 twitter         :
