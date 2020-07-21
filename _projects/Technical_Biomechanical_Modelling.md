@@ -12,10 +12,6 @@ funding:
 
 ---
 
-## Intro
-
 Some text here
-
-## Our work
 
 Some text here
