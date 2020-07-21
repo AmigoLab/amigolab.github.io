@@ -15,8 +15,64 @@
     teaser    : "/assets/images/funders/ukri.png"
 
 - name        : "EPSRC"
-  title       : "EPSRC"
+  title       : "Engineering and Physical Sciences Research Council"
   url         : "https://epsrc.ukri.org/"
   avatar      : "/assets/images/funders/epsrc.png"
   header:
     teaser    : "/assets/images/funders/epsrc.png"
+
+- name        : "Siemens"
+  title       : "Siemens"
+  url         : "https://new.siemens.com/global/en.html"
+  avatar      : "/assets/images/funders/siemens.png"
+  header:
+    teaser    : "/assets/images/funders/siemens.png"
+
+- name        : "NIHR"
+  title       : "National Institute for Health Research"
+  url         : "https://www.nihr.ac.uk/"
+  avatar      : "/assets/images/funders/nihr.png"
+  header:
+    teaser    : "/assets/images/funders/nihr.png"
+
+- name        : "GSTT"
+  title       : "GSTT"
+  url         : "https://www.guysandstthomas.nhs.uk/Home.aspx"
+  avatar      : "/assets/images/funders/gstt.png"
+  header:
+    teaser    : "/assets/images/funders/gstt.png"
+
+- name        : "Alzheimer Society"
+  title       : "Alzheimer's Society"
+  url         : "https://www.alzheimers.org.uk/"
+  avatar      : "/assets/images/funders/alzheimersociety.png"
+  header:
+    teaser    : "/assets/images/funders/alzheimersociety.png"
+
+- name        : "H2020"
+  title       : "Horizon 2020"
+  url         : "https://ec.europa.eu/programmes/horizon2020/en"
+  avatar      : "/assets/images/funders/h2020.png"
+  header:
+    teaser    : "/assets/images/funders/h2020.png"
+
+- name        : "Innovate UK"
+  title       : "Innovate UK"
+  url         : "https://www.gov.uk/government/organisations/innovate-uk"
+  avatar      : "/assets/images/funders/innovate.png"
+  header:
+    teaser    : "/assets/images/funders/innovate.png"
+
+- name        : "KHP"
+  title       : "King's Health Partners"
+  url         : "https://www.kingshealthpartners.org/"
+  avatar      : "/assets/images/funders/khp.png"
+  header:
+    teaser    : "/assets/images/funders/khp.png"
+
+- name        : "BRC"
+  title       : "British Retail Consortium"
+  url         : "https://www.brc.org.uk/"
+  avatar      : "/assets/images/funders/brc.png"
+  header:
+    teaser    : "/assets/images/funders/brc.png"

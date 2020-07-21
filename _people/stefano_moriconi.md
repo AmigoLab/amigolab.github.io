@@ -2,6 +2,7 @@
 name            : "Stefano Moriconi"
 avatar          : "/assets/images/people/Stefano.png"
 position        : "PosDoc"
+display_pos		  : "Research Associate"
 bio             : "AI Enabled Neurology - Stroke - Vascular Image Analysis"
 email           : "stefano.moriconi@kcl.ac.uk"
 twitter         :

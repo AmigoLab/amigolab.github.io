@@ -2,6 +2,7 @@
 name            : "Mikael Brudfors"
 avatar          : "/assets/images/people/Mikael.png"
 position        : "PosDoc"
+display_pos		  : "Research Associate"
 bio             : "Applying machine learning techniques to analyse and preprocess medical images."
 email           : "mikael.brudfors@kcl.ac.uk"
 twitter         : brudfors
