@@ -14,11 +14,12 @@ funding:
 ---
 
 ## Intro
+Dementia is currently one of the highest burden to the worldwide healthcare systems for people above 65. There are multiple pathologies that can lead to neurodegeneration ultimately resulting in dementia. The heterogeneity of the clinical presentation combined with the diversity of pathological pathways make it very difficult to design appropriate efficient drugs.
 
-It's normal for your memory to be affected by stress, tiredness, certain illnesses and medicines. But if you're becoming increasingly forgetful, particularly if you're over the age of 65, it's a good idea to talk to a GP about the early signs of dementia.
+With years, it has become clear that brain imaging could help provide an insight on the pathology evolution and help investigate and refine the different possible disease pathways.
 
-[Memory loss](https://www.nhs.uk/conditions/memory-loss-amnesia/) can be annoying if it happens occasionally, but if it's affecting your daily life, or it's worrying you, or someone you know, you should get help from a GP. Dementia is not only about memory loss. It can also affect the way you speak, think, feel and behave. It's also important to remember that dementia is not a natural part of ageing.
+Multiple brain imaging acquisition have been shown to be relevant to assess one aspect or the other of brain changes in neurodegenerative diseases. With the rise of the societal burden, the improvement in imaging hardware and the increase in numbers of participants in dedicated studies, it has become essential to quantify and characterise automatically brain atrophy, neurovascular lesions, amyloid deposition...  
 
-Dementia is a syndrome (a group of related symptoms) associated with an ongoing decline of brain functioning. There are many different causes of dementia, and many different types. People often get confused about the difference between Alzheimer's disease and dementia. [Alzheimer's disease](https://www.nhs.uk/conditions/alzheimers-disease/) is a type of dementia and, together with [vascular dementia](https://www.nhs.uk/conditions/vascular-dementia/), makes up the majority of cases.
+To do so, innovative technical solutions are developed in the domain of [segmentation](/projects/Technical_Image_Segmentation) and [object detection](/projects/Technical_Object_Detection) in particular. 
 
 ## Our work
