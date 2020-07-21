@@ -70,9 +70,9 @@
   header:
     teaser    : "/assets/images/funders/khp.png"
 
-- name        : "BRC"
-  title       : "British Retail Consortium"
-  url         : "https://www.brc.org.uk/"
+- name        : "NIHR BRC"
+  title       : "NIHR Biomedical Research Centre"
+  url         : "https://www.guysandstthomasbrc.nihr.ac.uk/"
   avatar      : "/assets/images/funders/brc.png"
   header:
     teaser    : "/assets/images/funders/brc.png"
