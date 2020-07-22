@@ -34,7 +34,7 @@ permalink: /projects/
 <br>
 
 <h1>Funders</h1>
-<div class="grid_wrapper">
+<div class="grid__wrapper">
 {% for post in site.data.funders %}
     {% include archive-founder.html type="grid" %}
 {% endfor %}
