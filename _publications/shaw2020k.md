@@ -8,9 +8,10 @@ authors:
   - Thomas Varsavsky
   - Carole Sudre
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 author_profile: false
 ---
-[Richard Shaw](/people/richard_shaw), [Carole H Sudre](/people/carole_sudre), [Thomas Varsavsky](/people/thomas_varsavsky), Sébastien Ourselin, [M. Jorge Cardoso](/people/jorge_cardoso)
+[Richard Shaw](/people/richard_shaw), [Carole H Sudre](/people/carole_sudre), [Thomas Varsavsky](/people/thomas_varsavsky), [Sebastien Ourselin](/people/seb_ourselin), [M. Jorge Cardoso](/people/jorge_cardoso)
 
 In IEEE Transactions on Medical Imaging
 

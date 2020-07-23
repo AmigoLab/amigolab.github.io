@@ -11,10 +11,9 @@ authors:
   - Sebastien Ourselin
 ---
 
-David A. Drew, Long H. Nguyen, Claire J. Steves, Cristina Menni, Maxim Freydin, Thomas Varsavsky, [Carole Sudre](/people/carole_sudre), [M. Jorge Cardoso](/people/jorge_cardoso), [Sebastien Ourselin](/people/seb ourselin), Jonathan Wolf, Tim D. Spector, Andrew T. Chan
+David A. Drew, Long H. Nguyen, Claire J. Steves, Cristina Menni, Maxim Freydin, Thomas Varsavsky, [Carole Sudre](/people/carole_sudre), [M. Jorge Cardoso](/people/jorge_cardoso), [Sebastien Ourselin](/people/seb_ourselin), Jonathan Wolf, Tim D. Spector, Andrew T. Chan
 
 
-Cristina Menni, Ana M. Valdes, Maxim B. Freidin, , Long H. Nguyen, David A. Drew, Sajaysurya Ganesh, Thomas Varsavsky, [M. Jorge Cardoso](/people/jorge_cardoso), Julia S. El-Sayed Moustafa, Alessia Visconti, Pirro Hysi, Ruth C. E. Bowyer, Massimo Mangino, Mario Falchi, Jonathan Wolf, [Sebastien Ourselin](/people/seb ourselin), Andrew T. Chan, Claire J. Steves & Tim D. Spector
 
 In Nature medicine
 

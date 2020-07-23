@@ -7,8 +7,9 @@ project:
   - "Image Segmentation"
 authors:
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-[M. Jorge Cardoso](/people/jorge_cardoso), Andrew Melbourne,Giles S. Kendall, Marc Modat, Nicola J. Robertson, Neil Marlow, Sebastien Ourselin
+[M. Jorge Cardoso](/people/jorge_cardoso), Andrew Melbourne,Giles S. Kendall, Marc Modat, Nicola J. Robertson, Neil Marlow, [Sebastien Ourselin](/people/seb_ourselin)
 
 In NeuroImage
 

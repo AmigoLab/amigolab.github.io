@@ -8,8 +8,9 @@ project:
 authors:
   - Kerstin Kläser
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-[Kerstin Kläser](/people/kerstin_klaser), Pawel Markiewicz, Marta Ranzini, Wenqi Li, Marc Modat, Brian F. Hutton, David Atkinson, Kris Thielemans, [M. Jorge Cardoso](/people/jorge_cardoso), Sébastien Ourselin
+[Kerstin Kläser](/people/kerstin_klaser), Pawel Markiewicz, Marta Ranzini, Wenqi Li, Marc Modat, Brian F. Hutton, David Atkinson, Kris Thielemans, [M. Jorge Cardoso](/people/jorge_cardoso), [Sebastien Ourselin](/people/seb_ourselin)
 
 In International Workshop on Simulation and Synthesis in Medical Imaging
 

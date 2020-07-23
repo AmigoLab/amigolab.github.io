@@ -7,8 +7,9 @@ authors:
   - Kerstin Kläser
   - Thomas Varsavsky
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-[Kerstin Kläser](/people/kerstin_klaser), [Thomas Varsavsky](/people/thomas_varsavsky), Pawel Markiewicz, Tom Vercauteren, David Atkinson, Kris Thielemans, Brian Hutton, [M. Jorge Cardoso](/people/jorge_cardoso), Sébastien Ourselin
+[Kerstin Kläser](/people/kerstin_klaser), [Thomas Varsavsky](/people/thomas_varsavsky), Pawel Markiewicz, Tom Vercauteren, David Atkinson, Kris Thielemans, Brian Hutton, [M. Jorge Cardoso](/people/jorge_cardoso), [Sebastien Ourselin](/people/seb_ourselin)
 
 In International Workshop on Simulation and Synthesis in Medical Imaging
 

@@ -10,8 +10,9 @@ project:
 authors:
   - Pritesh Mehta
   - Michela Antonelli
+  - Sebastien Ourselin
 ---
-[Pritesh Mehta](/people/pritesh_mehta), [Michela Antonelli](/people/michela_antonelli), Hashim Ahmed, Mark Emberton, Shonit Punwani, Sebastien Ourselin
+[Pritesh Mehta](/people/pritesh_mehta), [Michela Antonelli](/people/michela_antonelli), Hashim Ahmed, Mark Emberton, Shonit Punwani, [Sebastien Ourselin](/people/seb_ourselin)
 
 In Medical Imaging 2020: Computer-Aided Diagnosis
 

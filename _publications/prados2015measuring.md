@@ -5,8 +5,9 @@ excerpt: "Prados, F., Cardoso, M.J., Leung, K.K., Cash, D.M., Modat, M., Fox, N.
 external_link:  https://doi.org/10.1016/j.neurobiolaging.2014.04.035
 authors:
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-Ferran Prados, [M. Jorge Cardoso](/people/jorge_cardoso), Kelvin K. Leung, David M. Cash, Marc Modat, Nick C. Fox, Claudia A. M. Wheeler-Kingshott, Sebastien Ourselin, for theAlzheimer's Disease Neuroimaging Initiative1
+Ferran Prados, [M. Jorge Cardoso](/people/jorge_cardoso), Kelvin K. Leung, David M. Cash, Marc Modat, Nick C. Fox, Claudia A. M. Wheeler-Kingshott, [Sebastien Ourselin](/people/seb_ourselin), for theAlzheimer's Disease Neuroimaging Initiative1
 
 In Neurobiology of aging
 

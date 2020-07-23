@@ -7,9 +7,10 @@ authors:
   - Carole Sudre
   - Thomas Varsavsky
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 author_profile: false
 ---
-[Carole H Sudre](/people/carole_sudre), Beatriz Gomez Anson, Silvia Ingala, Chris D. Lane, Daniel Jimenez, Lukas Haider, [Thomas Varsavsky](/people/thomas_varsavsky), Ryutaro Tanno, Lorna Smith, Sébastien Ourselin, Rolf H. Jäger, [M. Jorge Cardoso](/people/jorge_cardoso)
+[Carole H Sudre](/people/carole_sudre), Beatriz Gomez Anson, Silvia Ingala, Chris D. Lane, Daniel Jimenez, Lukas Haider, [Thomas Varsavsky](/people/thomas_varsavsky), Ryutaro Tanno, Lorna Smith, [Sebastien Ourselin](/people/seb_ourselin), Rolf H. Jäger, [M. Jorge Cardoso](/people/jorge_cardoso)
 
 In International Conference on Medical Image Computing and Computer-Assisted Intervention
 

@@ -7,8 +7,9 @@ project:
   - "Neurology - Dementia"
 authors:
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-Jonathan D Rohrer, Jennifer M Nicholas, David M Cash, Johnvan Swieten, Elise Dopper, Lize Jiskoot, Rickvan Minkelen, Serge A Rombouts, [M. Jorge Cardoso](/people/jorge_cardoso), Shona Clegg,  Miklos Espak, Simon Mead, David L Thomas, Enrico De Vita, Mario Masellis, Sandra E Black, Morris Freedman, Ron Keren, Bradley J MacIntosh, Ekaterina Rogaeva, David Tang-Wai, Maria Carmela Tartaglia, Robert Laforce Jr, Fabrizio Tagliavini, Pietro Tiraboschi, Veronica Redaelli, Sara Prioni, Marina Grisoli, Barbara Borroni, Alessandro Padovani, Daniela Galimberti, Elio Scarpini, Andrea Arighi, Giorgio Fumagalli, James B Rowe, Ian Coyle-Gilchrist, Caroline Graff, Marie Fallström, Vesna Jelic, Anne Kinhult Ståhlbom, Christin Andersson, Håkan Thonberg, Lena Lilius, Giovanni B Frisoni, Giuliano Binettiz Michela Pievani, Martina Bocchetta, Luisa Benussi, Roberta Ghidoni, Elizabeth Finger, Sandro Sorbi, Benedetta Nacmias, Gemma Lombardi, Cristina Polito, Jason D Warren, Sebastien Ourselin, Nick C Fox, Martin N Rossor
+Jonathan D Rohrer, Jennifer M Nicholas, David M Cash, Johnvan Swieten, Elise Dopper, Lize Jiskoot, Rickvan Minkelen, Serge A Rombouts, [M. Jorge Cardoso](/people/jorge_cardoso), Shona Clegg,  Miklos Espak, Simon Mead, David L Thomas, Enrico De Vita, Mario Masellis, Sandra E Black, Morris Freedman, Ron Keren, Bradley J MacIntosh, Ekaterina Rogaeva, David Tang-Wai, Maria Carmela Tartaglia, Robert Laforce Jr, Fabrizio Tagliavini, Pietro Tiraboschi, Veronica Redaelli, Sara Prioni, Marina Grisoli, Barbara Borroni, Alessandro Padovani, Daniela Galimberti, Elio Scarpini, Andrea Arighi, Giorgio Fumagalli, James B Rowe, Ian Coyle-Gilchrist, Caroline Graff, Marie Fallström, Vesna Jelic, Anne Kinhult Ståhlbom, Christin Andersson, Håkan Thonberg, Lena Lilius, Giovanni B Frisoni, Giuliano Binettiz Michela Pievani, Martina Bocchetta, Luisa Benussi, Roberta Ghidoni, Elizabeth Finger, Sandro Sorbi, Benedetta Nacmias, Gemma Lombardi, Cristina Polito, Jason D Warren, [Sebastien Ourselin](/people/seb_ourselin), Nick C Fox, Martin N Rossor
 
 In The Lancet Neurology
 

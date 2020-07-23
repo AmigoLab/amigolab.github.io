@@ -10,8 +10,9 @@ authors:
   - Carole Sudre
   - Thomas Varsavsky
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-[Pedro Borges](/people/pedro_borges), [Carole Sudre](/people/carole_sudre), [Thomas Varsavsky](/people/thomas_varsavsky), David Thomas, Ivana Drobnjak, Sebastien Ourselin, [M. Jorge Cardoso](/people/jorge_cardoso)
+[Pedro Borges](/people/pedro_borges), [Carole Sudre](/people/carole_sudre), [Thomas Varsavsky](/people/thomas_varsavsky), David Thomas, Ivana Drobnjak, [Sebastien Ourselin](/people/seb_ourselin), [M. Jorge Cardoso](/people/jorge_cardoso)
 
 In International Workshop on Simulation and Synthesis in Medical Imaging
 

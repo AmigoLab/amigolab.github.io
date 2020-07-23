@@ -6,9 +6,10 @@ external_link: https://doi.org/10.1109/TMI.2015.2419072
 authors:
   - Carole Sudre
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
 
-[Carole H Sudre](/people/carole_sudre),[M. Jorge Cardoso](/people/jorge_cardoso), Willem H. Bouvy, Geert Jan Biessels, Josephine Barnes, Sebastien Ourselin
+[Carole H Sudre](/people/carole_sudre),[M. Jorge Cardoso](/people/jorge_cardoso), Willem H. Bouvy, Geert Jan Biessels, Josephine Barnes, [Sebastien Ourselin](/people/seb_ourselin)
 
 
 In IEEE transactions on medical imaging

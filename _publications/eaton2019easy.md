@@ -8,9 +8,10 @@ project:
 authors:
   - Thomas Varsavsky
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 author_profile: false
 ---
-Zach Eaton-Rosen, [Thomas Varsavsky](/people/thomas_varsavsky), Sebastien Ourselin, [M. Jorge Cardoso](/people/jorge_cardoso)
+Zach Eaton-Rosen, [Thomas Varsavsky](/people/thomas_varsavsky), [Sebastien Ourselin](/people/seb_ourselin), [M. Jorge Cardoso](/people/jorge_cardoso)
 
 In International Conference on Medical Image Computing and Computer-Assisted Intervention
 

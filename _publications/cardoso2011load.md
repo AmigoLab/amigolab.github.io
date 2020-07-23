@@ -5,8 +5,9 @@ excerpt: "Cardoso, M.J., Clarkson, M.J., Ridgway, G.R., Modat, M., Fox, N.C., Ou
 external_link: https://doi.org/10.1016/j.neuroimage.2011.02.013
 authors:
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-[M. Jorge Cardoso](/people/jorge_cardoso), Matthew J. Clarkson, Gerard R. Ridgway, Marc Modat, Nick C. Fox, Sebastien Ourselin, The Alzheimer's Disease Neuroimaging Initiative1
+[M. Jorge Cardoso](/people/jorge_cardoso), Matthew J. Clarkson, Gerard R. Ridgway, Marc Modat, Nick C. Fox, [Sebastien Ourselin](/people/seb_ourselin), The Alzheimer's Disease Neuroimaging Initiative1
 
 In NeuroImage
 

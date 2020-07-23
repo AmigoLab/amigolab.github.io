@@ -5,8 +5,9 @@ excerpt: "Cardoso, M.J., Leung, K., Modat, M., Keihaninejad, S., Cash, D., Barne
 external_link:  https://doi.org/10.1109/TMI.2015.2418298
 authors:
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-[M. Jorge Cardoso](/people/jorge_cardoso), Kelvin Leung, Marc Modat, Shiva Keihaninejad, David Cash, Josephine Barnes, Nick C. Fox, Sebastien Ourselin,for the Alzheimer’s Disease Neuroimaging Initiative1
+[M. Jorge Cardoso](/people/jorge_cardoso), Kelvin Leung, Marc Modat, Shiva Keihaninejad, David Cash, Josephine Barnes, Nick C. Fox, [Sebastien Ourselin](/people/seb_ourselin), for the Alzheimer’s Disease Neuroimaging Initiative1
 
 In Medical image analysis
 

@@ -5,8 +5,9 @@ excerpt: "Cardoso, M.J., Modat, M., Wolz, R., Melbourne, A., Cash, D., Rueckert,
 external_link:  https://doi.org/10.1109/TMI.2015.2418298
 authors:
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-[M. Jorge Cardoso](/people/jorge_cardoso), Marc Modat, Robin Wolz, Andrew Melbourne, David Cash, Daniel Rueck, Sebastien Ourselin
+[M. Jorge Cardoso](/people/jorge_cardoso), Marc Modat, Robin Wolz, Andrew Melbourne, David Cash, Daniel Rueck, [Sebastien Ourselin](/people/seb_ourselin)
 
 In IEEE transactions on medical imaging
 

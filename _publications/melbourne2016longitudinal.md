@@ -5,8 +5,9 @@ excerpt: "Melbourne, A., Eaton‐Rosen, Z., Orasanu, E., Price, D., Bainbridge, 
 external_link:  https://doi.org/10.1002/hbm.23188
 authors:
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-Andrew Melbourne, Zach Eaton‐Rosen, Eliza Orasanu, David Price, Alan Bainbridge, [M. Jorge Cardoso](/people/jorge_cardoso), Giles S. Kendall, Nicola J. Robertson, Neil Marlow, Sebastien Ourselin
+Andrew Melbourne, Zach Eaton‐Rosen, Eliza Orasanu, David Price, Alan Bainbridge, [M. Jorge Cardoso](/people/jorge_cardoso), Giles S. Kendall, Nicola J. Robertson, Neil Marlow, [Sebastien Ourselin](/people/seb_ourselin)
 
 In Human brain mapping
 

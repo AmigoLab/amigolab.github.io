@@ -8,9 +8,10 @@ project:
   - "Object Detection"
 authors:
   - Stephen Morrel
+  - Sebastien Ourselin
 author_profile: false
 ---
-[Stephen Morrell](/people/stephen_morrel), Zbigniew Wojna, Can Son Khoo, Sebastien Ourselin, Juan Eugenio Iglesias
+[Stephen Morrell](/people/stephen_morrel), Zbigniew Wojna, Can Son Khoo, [Sebastien Ourselin](/people/seb_ourselin), Juan Eugenio Iglesias
 
 In Image Analysis for Moving Organ, Breast, and Thoracic Images
 

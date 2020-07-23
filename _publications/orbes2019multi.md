@@ -9,9 +9,10 @@ authors:
   - Mauricio Orbes
   - Thomas Varsavsky
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 author_profile: false
 ---
-[Mauricio Orbes-Arteaga](/people/mauricio_orbes), [Thomas Varsavsky](/people/thomas_varsavsky), [Carole H Sudre](/people/carole_sudre), Zach Eaton-Rosen, Lewis J. Haddow, Lauge Sørensen, Mads Nielsen, Akshay Pai, Sébastien Ourselin, Marc Modat, Parashkev Nachev, [M. Jorge Cardoso](/people/jorge_cardoso)
+[Mauricio Orbes-Arteaga](/people/mauricio_orbes), [Thomas Varsavsky](/people/thomas_varsavsky), [Carole H Sudre](/people/carole_sudre), Zach Eaton-Rosen, Lewis J. Haddow, Lauge Sørensen, Mads Nielsen, Akshay Pai, [Sebastien Ourselin](/people/seb_ourselin), Marc Modat, Parashkev Nachev, [M. Jorge Cardoso](/people/jorge_cardoso)
 
 In Domain Adaptation and Representation Transfer and Medical Image Learning with Less Labels and Imperfect Data
 

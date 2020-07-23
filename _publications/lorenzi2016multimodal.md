@@ -7,8 +7,9 @@ project:
   - "Neurology - Dementia"
 authors:
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-Marco Lorenzi, Ivor J. Simpson, Alex F. Mendelson, Sjoerd B. Vos, [M. Jorge Cardoso](/people/jorge_cardoso), Marc Modat, Jonathan M. Schott, Sebastien Ourselin
+Marco Lorenzi, Ivor J. Simpson, Alex F. Mendelson, Sjoerd B. Vos, [M. Jorge Cardoso](/people/jorge_cardoso), Marc Modat, Jonathan M. Schott, [Sebastien Ourselin](/people/seb_ourselin)
 
 In Scientific reports
 

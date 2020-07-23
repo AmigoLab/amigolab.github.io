@@ -8,8 +8,9 @@ project:
 authors:
   - Stefano Moriconi
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-[Stefano Moriconi](/people/stefano_moriconi), Maria A. Zuluaga, H. Rolf Jäger, Parashkev Nachev, Sébastien Ourselin, [M. Jorge Cardoso](/people/jorge_cardoso)
+[Stefano Moriconi](/people/stefano_moriconi), Maria A. Zuluaga, H. Rolf Jäger, Parashkev Nachev, [Sebastien Ourselin](/people/seb_ourselin), [M. Jorge Cardoso](/people/jorge_cardoso)
 
 In International Conference on Medical Image Computing and Computer-Assisted Intervention
 

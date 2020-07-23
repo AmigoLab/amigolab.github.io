@@ -11,7 +11,7 @@ authors:
   - M. Jorge Cardoso
   - Sebastien Ourselin
 ---
-Cristina Menni, Ana M. Valdes, Maxim B. Freidin, [Carole Sudre](/people/carole_sudre), Long H. Nguyen, David A. Drew, Sajaysurya Ganesh, [Thomas Varsavsky](/people/thomas_varsavsky), [M. Jorge Cardoso](/people/jorge_cardoso), Julia S. El-Sayed Moustafa, Alessia Visconti, Pirro Hysi, Ruth C. E. Bowyer, Massimo Mangino, Mario Falchi, Jonathan Wolf, [Sebastien Ourselin](/people/seb ourselin), Andrew T. Chan, Claire J. Steves & Tim D. Spector
+Cristina Menni, Ana M. Valdes, Maxim B. Freidin, [Carole Sudre](/people/carole_sudre), Long H. Nguyen, David A. Drew, Sajaysurya Ganesh, [Thomas Varsavsky](/people/thomas_varsavsky), [M. Jorge Cardoso](/people/jorge_cardoso), Julia S. El-Sayed Moustafa, Alessia Visconti, Pirro Hysi, Ruth C. E. Bowyer, Massimo Mangino, Mario Falchi, Jonathan Wolf, [Sebastien Ourselin](/people/seb_ourselin), Andrew T. Chan, Claire J. Steves & Tim D. Spector
 
 In Science
 

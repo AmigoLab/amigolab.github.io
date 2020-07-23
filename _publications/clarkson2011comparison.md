@@ -5,8 +5,9 @@ excerpt: "Clarkson, M.J., Cardoso, M.J., Ridgway, G.R., Modat, M., Leung, K.K., 
 external_link: https://doi.org/10.1016/j.neuroimage.2011.05.053
 authors:
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-Matthew J. Clarkson, [M. Jorge Cardoso](/people/jorge_cardoso), Gerard R. Ridgway, Marc Modat, Kelvin K. Leung, Jonathan D. Rohrer, Nick C. Fox, Sébastien Ourselin
+Matthew J. Clarkson, [M. Jorge Cardoso](/people/jorge_cardoso), Gerard R. Ridgway, Marc Modat, Kelvin K. Leung, Jonathan D. Rohrer, Nick C. Fox, [Sebastien Ourselin](/people/seb_ourselin)
 
 In NeuroImage
 

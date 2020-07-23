@@ -11,9 +11,10 @@ authors:
   - Richard Shaw
   - Carole Sudre
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
 
-[Petru-Daniel Tudosiu](/people/daniel_tudosiu), [Thomas Varsavsky](/people/thomas_varsavsky), [Richard Shaw](/people/richard_shaw), [Mark Graham](/people/mark_graham), Parashkev Nachev, Sébastien Ourselin, [Carole H. Sudre](/people/carole_sudre), [M. Jorge Cardoso](/people/jorge_cardoso)
+[Petru-Daniel Tudosiu](/people/daniel_tudosiu), [Thomas Varsavsky](/people/thomas_varsavsky), [Richard Shaw](/people/richard_shaw), [Mark Graham](/people/mark_graham), Parashkev Nachev, [Sebastien Ourselin](/people/seb_ourselin), [Carole H. Sudre](/people/carole_sudre), [M. Jorge Cardoso](/people/jorge_cardoso)
 
 In Arxiv
 

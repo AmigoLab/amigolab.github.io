@@ -5,8 +5,9 @@ excerpt: "Eshaghi, A., Prados, F., Brownlee, W.J., Altmann, D.R., Tur, C., Cardo
 external_link: https://doi.org/10.1002/ana.25145
 authors:
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-Arman Eshaghi, Ferran Prados, Wallace J. Brownlee, Daniel R. Altmann, Carmen Tur, [M. Jorge Cardoso](/people/jorge_cardoso), Floriana De Angelis, Steven H. van de Pavert, Niamh Cawley, Nicola De Stefano, M. Laura Stromillo, Marco Battaglini, Serena Ruggieri, Claudio Gasperini, Massimo Filippi, Maria A. Rocca, Alex Rovira, Jaume Sastre‐Garriga, Hugo Vrenken, Cyra E. Leurs, Joep Killestein, Lukas Pirpamer, Christian Enzinger, Sebastien Ourselin, Claudia A.M. Gandini Wheeler‐Kingshott, Declan Chard, Alan J. Thompson, Daniel C. Alexander, Frederik Barkhof, Olga Ciccarelli, on behalf of the MAGNIMS study group
+Arman Eshaghi, Ferran Prados, Wallace J. Brownlee, Daniel R. Altmann, Carmen Tur, [M. Jorge Cardoso](/people/jorge_cardoso), Floriana De Angelis, Steven H. van de Pavert, Niamh Cawley, Nicola De Stefano, M. Laura Stromillo, Marco Battaglini, Serena Ruggieri, Claudio Gasperini, Massimo Filippi, Maria A. Rocca, Alex Rovira, Jaume Sastre‐Garriga, Hugo Vrenken, Cyra E. Leurs, Joep Killestein, Lukas Pirpamer, Christian Enzinger, [Sebastien Ourselin](/people/seb_ourselin), Claudia A.M. Gandini Wheeler‐Kingshott, Declan Chard, Alan J. Thompson, Daniel C. Alexander, Frederik Barkhof, Olga Ciccarelli, on behalf of the MAGNIMS study group
 
 In Annals of neurology
 

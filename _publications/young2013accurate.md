@@ -7,8 +7,9 @@ project:
   - "Disease Modelling"
 authors:
   - M. Jorge Cardoso
+  - Sebastien Ourselin
 ---
-Jonathan Young, Marc Modat, [M. Jorge Cardoso](/people/jorge_cardoso), Alex Mendelson, Dave Cash, Sebastien Ourselin, the Alzheimer's Disease Neuroimaging Initiative1
+Jonathan Young, Marc Modat, [M. Jorge Cardoso](/people/jorge_cardoso), Alex Mendelson, Dave Cash, [Sebastien Ourselin](/people/seb_ourselin), the Alzheimer's Disease Neuroimaging Initiative1
 
 In NeuroImage: Clinical
 

@@ -7,9 +7,10 @@ project:
   - "Radiology - Triaging"
 authors:
   - Thomas Varsavsky
+  - Sebastien Ourselin
 author_profile: false
 ---
-David A. Wood, Jeremy Lynch, Sina Kafiabadi, Emily Guilhem, Aisha Al Busaidi, Antanas Montvila, [Thomas Varsavsky](/people/thomas_varsavsky), Juveria Siddiqui, Naveen Gadapa, Matthew Townend, Martin Kiik, Keena Patel, Gareth Barker, Sebastian Ourselin, James H. Cole, Thomas C. Booth
+David A. Wood, Jeremy Lynch, Sina Kafiabadi, Emily Guilhem, Aisha Al Busaidi, Antanas Montvila, [Thomas Varsavsky](/people/thomas_varsavsky), Juveria Siddiqui, Naveen Gadapa, Matthew Townend, Martin Kiik, Keena Patel, Gareth Barker, [Sebastien Ourselin](/people/seb_ourselin), James H. Cole, Thomas C. Booth
 
 In arXiv preprint
 
