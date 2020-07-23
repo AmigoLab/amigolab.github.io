@@ -3,6 +3,8 @@ title: "Multimodal image analysis in Alzheimer’s disease via statistical model
 date: "2016-01-01"
 excerpt: "Lorenzi, M., Simpson, I.J., Mendelson, A.F., Vos, S.B., Cardoso, M.J., Modat, M., Schott, J.M. and Ourselin, S., 2016. Scientific reports, 6(1), pp.1-8."
 external_link: https://doi.org/10.1038/srep22161
+project:
+  - "Neurology - Dementia"
 authors:
   - M. Jorge Cardoso
 ---

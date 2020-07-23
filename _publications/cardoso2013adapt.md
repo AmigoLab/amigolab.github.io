@@ -3,6 +3,8 @@ title: "AdaPT: an adaptive preterm segmentation algorithm for neonatal brain MRI
 date: "2013-01-01"
 excerpt: "Cardoso, M.J., Melbourne, A., Kendall, G.S., Modat, M., Robertson, N.J., Marlow, N. and Ourselin, S., 2013. NeuroImage, 65, pp.97-108."
 external_link:  https://doi.org/10.1016/j.neuroimage.2012.08.009
+project:
+  - "Image Segmentation"
 authors:
   - M. Jorge Cardoso
 ---

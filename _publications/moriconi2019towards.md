@@ -3,6 +3,8 @@ title: "Towards Quantifying Neurovascular Resilience"
 date: "2019-01-01"
 excerpt: "Moriconi, S., Zuluaga, M.A., Jäger, H.R., Nachev, P., Ourselin, S. and Cardoso, M.J., 2018. IEEE transactions on medical imaging, 38(1), pp.225-239."
 external_link: https://doi.org/10.1109/TMI.2018.2860239
+project:
+  - "Biomechanical Modelling"
 authors:
   - Stefano Moriconi
   - M. Jorge Cardoso

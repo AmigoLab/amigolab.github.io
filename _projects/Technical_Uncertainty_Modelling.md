@@ -2,7 +2,7 @@
 layout: project
 id: Technical_Uncertainty_Modelling
 title: "Uncertainty Modelling"
-project: Uncertainty Modelling
+project: "Uncertainty Modelling"
 author: AMIGO
 logo: "assets/images/projects/uncertainty2.png"
 excerpt: "Teaching algorithms to know what they dont know."

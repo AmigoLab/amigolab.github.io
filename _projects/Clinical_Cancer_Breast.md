@@ -2,7 +2,7 @@
 layout: project
 id: Clinical_Cancer_Breast
 title: "Cancer - Breast"
-project: Cancer - Breast
+project: "Cancer - Breast"
 author: AMIGO
 logo: "assets/images/projects/placeholder.png"
 excerpt: "Early Detection Saves Lives"

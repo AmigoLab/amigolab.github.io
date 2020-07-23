@@ -3,6 +3,8 @@ title: "Physics-Informed Brain MRI Segmentation"
 date: "2019-01-01"
 excerpt: "Borges, P., Sudre, C., Varsavsky, T., Thomas, D., Drobnjak, I., Ourselin, S. and Cardoso, M.J., 2019, October. In International Workshop on Simulation and Synthesis in Medical Imaging (pp. 100-109). Springer, Cham."
 external_link: https://doi.org/10.1007/978-3-030-32778-1_11
+project:
+  - "Image Segmentation"
 authors:
   - Pedro Borges
   - Carole Sudre

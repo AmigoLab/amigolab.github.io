@@ -2,7 +2,7 @@
 layout: project
 id: Clinical_Cancer_Prostate
 title: "Cancer - Prostate"
-project: Cancer - Prostate
+project: "Cancer - Prostate"
 author: AMIGO
 logo: "assets/images/projects/prostate_cancer.png"
 excerpt: "Delivering Value to Patients"

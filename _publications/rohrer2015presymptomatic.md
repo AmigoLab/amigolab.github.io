@@ -3,6 +3,8 @@ title: "Presymptomatic cognitive and neuroanatomical changes in genetic frontote
 date: "2015-01-01"
 excerpt: "Rohrer, J.D., Nicholas, J.M., Cash, D.M., van Swieten, J., Dopper, E., Jiskoot, L., van Minkelen, R., Rombouts, S.A., Cardoso, M.J., Clegg, S. and Espak, M., 2015. The Lancet Neurology, 14(3), pp.253-262."
 external_link:  https://doi.org/10.1016/S1474-4422(14)70324-2
+project:
+  - "Neurology - Dementia"
 authors:
   - M. Jorge Cardoso
 ---

@@ -3,6 +3,8 @@ title: "Elastic registration of geodesic vascular graphs"
 date: "2018-01-01"
 excerpt: "Moriconi, S., Zuluaga, M.A., Jäger, H.R., Nachev, P., Ourselin, S. and Cardoso, M.J., 2018, September. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 810-818). Springer, Cham."
 external_link: https://doi.org/10.1007/978-3-030-00928-1_91
+project:
+  - "Biomechanical Modelling"
 authors:
   - Stefano Moriconi
   - M. Jorge Cardoso

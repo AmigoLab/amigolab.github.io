@@ -50,9 +50,8 @@ classes: wide
       <section>
         <h2>Publications</h2>
         {% assign authored = site.publications | where:"project", page.project | sort: "date" | reverse %}
-        {% for paper in authored limit:2 %}
-          <a href="{{ paper.url | relative_url }}" rel="permalink"> {{ paper.title }}</a>
-          <br>
+        {% for post in authored limit:3 %}
+          {% include archive-publication.html type=page.entries_layout %}
         {% endfor %}
       </section>
 
@@ -60,28 +59,33 @@ classes: wide
         <section>
           <h2>Funding</h2>
 
+          <div class="grid__wrapper">
           {% for item in page.funding %}
             {% comment %}<!-- Search for funder in _data/funders -->{% endcomment %}
             {% assign not_found = true %}
 
-            {% for item_data in site.data.funders %}
-              {% if item_data.name == item %}
+            {% for post in site.data.funders %}
+              {% if post.name == item %}
                 {% assign not_found = false %}
-                <div>
-                  <a href= {{ item_data.url }} target="_blank">
-                  <img src="{{ item_data.header.teaser | relative_url }}" alt="" width="120">
-                  </a>
-                </div>
-                <br>
+                {% include archive-founder.html type="grid" %}
               {% endif %}
             {% endfor %}
-            
+
             {% comment %}<!-- In case funder is not in _data/funders -->{% endcomment %}
             {% if not_found %}
-              <h3>{{ item }}</h3>
+            <div class="grid__item" style="height:150px;width:150px;">
+            <article class="archive__item">
+              <div class="archive__item-teaser">
+                <img src="/assets/images/projects/placeholder.png" alt="">
+              </div>
+              <h4 class="archive__item-title" style="margin: 1px auto; text-align: center; display:block;" itemprop="name">
+              {{ item }}
+              </h4>
+            </article>
+            </div>
             {% endif %}
-
           {% endfor %}
+          </div>
 
         </section>
       {% endif %}

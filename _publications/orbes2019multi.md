@@ -3,6 +3,8 @@ title: "Multi-domain adaptation in brain MRI through paired consistency and adve
 date: "2019-01-01"
 excerpt: "Orbes-Arteaga, M., Varsavsky, T., Sudre, C.H., Eaton-Rosen, Z., Haddow, L.J., Sørensen, L., Nielsen, M., Pai, A., Ourselin, S., Modat, M. and Nachev, P., 2019. In Domain Adaptation and Representation Transfer and Medical Image Learning with Less Labels and Imperfect Data (pp. 54-62). Springer, Cham."
 external_link: https://doi.org/10.1007/978-3-030-33391-1_7
+project:
+  - "Domain Adaptation"
 authors:
   - Mauricio Orbes
   - Thomas Varsavsky

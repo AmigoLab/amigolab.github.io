@@ -3,6 +3,8 @@ title: "PIMMS: permutation invariant multi-modal segmentation"
 date: "2018-01-01"
 excerpt: "Varsavsky, T., Eaton-Rosen, Z., Sudre, C.H., Nachev, P. and Cardoso, M.J., 2018. (pp. 201-209). Springer, Cham."
 external_link: https://doi.org/10.1007/978-3-030-00889-5_23
+project:
+  - "Image Segmentation"
 authors:
   - Thomas Varsavsky
   - Carole Sudre

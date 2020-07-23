@@ -3,6 +3,8 @@ title: "MRI super-resolution using multi-channel total variation"
 date: "2018-01-01"
 excerpt: "Brudfors, M., Balbastre, Y., Nachev, P. and Ashburner, J., 2018, July. In Annual Conference on Medical Image Understanding and Analysis (pp. 217-228). Springer, Cham."
 external_link: https://doi.org/10.1007/978-3-319-95921-4_21
+project:
+  - "Image Synthesis"
 authors:
   - Mikael Brudfors
 ---

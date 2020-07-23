@@ -3,6 +3,10 @@ title: "Decision fusion of 3D convolutional neural networks to triage patients w
 date: "2020-01-01"
 excerpt: "Mehta, P., Antonelli, M., Ahmed, H., Emberton, M., Punwani, S. and Ourselin, S., 2020, In Medical Imaging 2020: Computer-Aided Diagnosis (Vol. 11314, p. 1131433). International Society for Optics and Photonics."
 external_link: https://doi.org/10.1117/12.2547682
+project:
+  - "Cancer - Prostate"
+  - "Disease Modelling"
+  - "Radiology - Triaging"
 authors:
   - Pritesh Mehta
   - Michela Antonelli

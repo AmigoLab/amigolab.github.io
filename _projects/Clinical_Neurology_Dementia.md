@@ -2,7 +2,7 @@
 layout: project
 id: Clinical_Neurology_Dementia
 title: "Neurology - Dementia"
-project: Neurology - Dementia
+project: "Neurology - Dementia"
 author: AMIGO
 logo: "assets/images/projects/placeholder.png"
 excerpt: "Every 3 seconds"
@@ -19,4 +19,4 @@ With years, it has become clear that brain imaging could help provide an insight
 
 Multiple brain imaging acquisition have been shown to be relevant to assess one aspect or the other of brain changes in neurodegenerative diseases. With the rise of the societal burden, the improvement in imaging hardware and the increase in numbers of participants in dedicated studies, it has become essential to quantify and characterise automatically brain atrophy, neurovascular lesions, amyloid deposition...  
 
-To do so, innovative technical solutions are developed in the domain of [segmentation](/projects/Technical_Image_Segmentation) and [object detection](/projects/Technical_Object_Detection) in particular. 
+To do so, innovative technical solutions are developed in the domain of [segmentation](/projects/Technical_Image_Segmentation) and [object detection](/projects/Technical_Object_Detection) in particular.

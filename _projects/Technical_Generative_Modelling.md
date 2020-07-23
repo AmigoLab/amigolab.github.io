@@ -2,7 +2,7 @@
 layout: project
 id: Technical_Generative_Modelling
 title: "Generative Modelling"
-project: Generative Modelling
+project: "Generative Modelling"
 author: AMIGO
 logo: "assets/images/projects/generative.png"
 excerpt: "Learning to generate brains will bring us closer to understanding them"

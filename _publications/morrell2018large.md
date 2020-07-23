@@ -3,6 +3,9 @@ title: "Large-scale mammography CAD with deformable conv-nets"
 date: "2018-01-01"
 excerpt: "Morrell, S., Wojna, Z., Khoo, C.S., Ourselin, S. and Iglesias, J.E., 2018. In Image Analysis for Moving Organ, Breast, and Thoracic Images (pp. 64-72). Springer, Cham."
 external_link: https://doi.org/10.1007/978-3-030-00946-5_7
+project:
+  - "Cancer - Breast"
+  - "Object Detection"
 authors:
   - Stephen Morrel
 author_profile: false

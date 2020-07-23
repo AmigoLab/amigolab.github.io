@@ -3,6 +3,8 @@ title: "Evaluation of Combined Artificial Intelligence and Radiologist Assessmen
 date: "2020-01-01"
 excerpt: "Schaffter, T., Buist, D.S., Lee, C.I., Nikulin, Y., Ribli, D., Guan, Y., Lotter, W., Jie, Z., Du, H., Wang, S. and Feng, J., 2020. JAMA network open, 3(3), pp.e200265-e200265."
 external_link: https://doi.org/10.1001/jamanetworkopen.2020.0265
+project:
+  - "Cancer - Breast"
 authors:
   - Stephen Morrel
 ---

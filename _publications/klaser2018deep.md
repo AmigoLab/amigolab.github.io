@@ -3,6 +3,8 @@ title: "Deep boosted regression for MR to CT synthesis"
 date: "2018-01-01"
 excerpt: "Kläser, K., Markiewicz, P., Ranzini, M., Li, W., Modat, M., Hutton, B.F., Atkinson, D., Thielemans, K., Cardoso, M.J. and Ourselin, S., 2018. In International Workshop on Simulation and Synthesis in Medical Imaging (pp. 61-70). Springer, Cham."
 external_link: https://doi.org/10.1007/978-3-030-00536-8_7
+project:
+  - "Image Synthesis"
 authors:
   - Kerstin Kläser
   - M. Jorge Cardoso

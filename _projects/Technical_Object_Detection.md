@@ -2,7 +2,7 @@
 layout: project
 id: Technical_Object_Detection
 title: "Object Detection"
-project: Object Detection
+project: "Object Detection"
 author: AMIGO
 logo: "assets/images/projects/object_detection.png"
 excerpt: "Learning to localise anatomical objects"

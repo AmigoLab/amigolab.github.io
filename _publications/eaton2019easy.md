@@ -3,6 +3,8 @@ title: "As easy as 1, 2... 4? Uncertainty in counting tasks for medical imaging"
 date: "2019-01-01"
 excerpt: "Eaton-Rosen, Z., Varsavsky, T., Ourselin, S. and Cardoso, M.J., 2019, October. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 356-364). Springer, Cham."
 external_link: https://doi.org/10.1007/978-3-030-32251-9_39
+project:
+  - "Uncertainty Modelling"
 authors:
   - Thomas Varsavsky
   - M. Jorge Cardoso

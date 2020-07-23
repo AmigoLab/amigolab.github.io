@@ -2,7 +2,7 @@
 layout: project
 id: Technical_Image_Segmentation
 title: "Image Segmentation"
-project: Image Segmentation
+project: "Image Segmentation"
 author: AMIGO
 logo: "assets/images/projects/segmentation.png"
 excerpt: "Contouring human anatomy and disease"

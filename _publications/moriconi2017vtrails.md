@@ -3,6 +3,8 @@ title: "VTrails: Inferring vessels with geodesic connectivity trees"
 date: "2017-01-01"
 excerpt: "Moriconi, S., Zuluaga, M.A., Jäger, H.R., Nachev, P., Ourselin, S. and Cardoso, M.J., 2017, June. In International Conference on Information Processing in Medical Imaging (pp. 672-684). Springer, Cham."
 external_link: https://doi.org/10.1007/978-3-319-59050-9_53
+project:
+  - "Biomechanical Modelling"
 authors:
   - Stefano Moriconi
   - M. Jorge Cardoso

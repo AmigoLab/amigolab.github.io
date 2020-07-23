@@ -3,6 +3,8 @@ title: "Accurate multimodal probabilistic prediction of conversion to Alzheimer'
 date: "2013-01-01"
 excerpt: "Young, J., Modat, M., Cardoso, M.J., Mendelson, A., Cash, D., Ourselin, S. and Alzheimer's Disease Neuroimaging Initiative, 2013. NeuroImage: Clinical, 2, pp.735-745."
 external_link:  https://doi.org/10.1016/j.nicl.2013.05.004
+project:
+  - "Disease Modelling"
 authors:
   - M. Jorge Cardoso
 ---
