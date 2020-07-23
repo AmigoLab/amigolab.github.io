@@ -4,7 +4,7 @@ id: Clinical_COVID19
 title: "COVID-19"
 project: COVID-19
 author: AMIGO
-logo: "assets/images/projects/placeholder.png"
+logo: "assets/images/projects/covid.png"
 excerpt: "Doing our best to help with the pandemic"
 domain: "Clinical"
 funding:

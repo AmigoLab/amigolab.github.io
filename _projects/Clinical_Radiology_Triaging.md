@@ -4,7 +4,7 @@ id: Clinical_Radiology_Triaging
 title: "Radiology - Triaging"
 project: Radiology - Triaging
 author: AMIGO
-logo: "assets/images/projects/placeholder.png"
+logo: "assets/images/projects/triaging.png"
 excerpt: "Increasing access and accuracy to optimal radiological care."
 domain: "Clinical"
 funding:

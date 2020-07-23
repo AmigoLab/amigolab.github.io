@@ -13,11 +13,4 @@ funding:
   - "Siemens"
 
 ---
-
-## Intro
-
-Some text here
-
-## Our work
-
 Some text here
