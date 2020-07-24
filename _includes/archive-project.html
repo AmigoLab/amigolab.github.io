@@ -9,12 +9,14 @@
   {% assign title = project.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item" > <!-- grid-project__item -->
-  <article class="archive__item-smaller" itemscope itemtype="https://schema.org/CreativeWork">
+<div class="grid-project__item" > <!-- grid-project__item -->
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
+      <article class="archive__item-teaser_colour">
+      <a href="{{ project.url | relative_url }}" rel="permalink">
         <img src="{{ teaser | relative_url }}" alt="">
-      </div>
+      </a>
+      </article>
     {% endif %}
     <h4 class="archive__item-title" style="margin: 1px auto; text-align: center; display:block;" itemprop="name">
       {% if project.link %}

@@ -3,11 +3,13 @@ layout: archive-without-title
 title: "Projects"
 permalink: /projects/
 ---
-<br>
 
+<br>
 <h1>Clinical</h1>
 <div class="grid__wrapper">
-  {% for project in site.projects %}
+  {% assign n = site.projects | size %}
+  {% assign shuffled_array = site.projects | sample: n %}
+  {% for project in shuffled_array %}
       {% if project.domain == "Clinical" %}
         {% include archive-project.html type="grid" %}
       {% endif %}
@@ -20,6 +22,8 @@ permalink: /projects/
 
 <h1>Technical</h1>
 <div class="grid__wrapper">
+  {% assign n = site.projects | size %}
+  {% assign shuffled_array = site.projects | sample: n %}
   {% for project in site.projects %}
       {% if project.domain == "Technical" %}
         {% include archive-project.html type="grid" %}
