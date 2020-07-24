@@ -11,14 +11,6 @@ funding:
   - "Wellcome Trust"
 
 ---
+Stroke is the most common cause of adult neurological disability and the second commonest cause of death, at an estimated direct annual cost of ~£4.5 billion in the UK alone. The severity of a stroke is highly dependent on which part of the brain is damaged. Simple measurements like stroke size are insufficient to predict outcomes. The complex relationship between stroke anatomy and outcome is a major obstacle to optimal care, especially in the initial hospital phase of most critical interventions. Our work aims to generate probabilistically qualified predictions from high-dimensional models based on dynamically updated, large-scale historical data. We will be working on the Wellcome-Funded High-Dimensional Neurology project in collaboration with UCL to combine both our expertise and the large clinical datasets held by our respective hospitals. The picture shows how a model for a simple stroke outcome can make use of complex data from brain imaging. The red and blue cones show that different parts of the brain make different and sometimes opposite contributions to a predictive model.
 
-A stroke is a serious life-threatening medical condition that happens when the blood supply to part of the brain is cut off. Strokes are a medical emergency and urgent treatment is essential. The sooner a person receives treatment for a stroke, the less damage is likely to happen.
-
-Like all organs, the brain needs the oxygen and nutrients provided by blood to function properly. If the supply of blood is restricted or stopped, brain cells begin to die. This can lead to brain injury, disability and possibly death.
-
-There are 2 main causes of strokes:
-
-- ischaemic – where the blood supply is stopped because of a blood clot, accounting for 85% of all cases
-- haemorrhagic – where a weakened blood vessel supplying the brain bursts
-
-There's also a related condition called a transient ischaemic attack (TIA), where the blood supply to the brain is temporarily interrupted. This causes what's known as a mini-stroke. It can last a few minutes or persist up to 24 hours. TIAs should be treated urgently, as they're often a warning sign you're at risk of having a full stroke in the near future.
+Of patients arriving at the stroke unit, on average 85% turn out to have an ischaemic stroke, in which part of the brain is damaged by having its blood supply cut off. Slightly less common are haemorrhages, where a blood vessel ruptures. Both ischaemic and haemorrhagic stroke can be identified in CT or MRI brain scans. Some patients have a transient ischaemic attack, where the blood supply is briefly disrupted, causing stroke symptoms for less than 24 hours and not causing any lasting damage visible on CT or MRI. Nonetheless, these patients may be at greater risk of a stroke in future. Still other patients have neurological symptoms not caused by stroke. For example, delirium as a syndrome used to describe acute neurological impairment in the absence of stroke and is often due to the strain of multiple pathologies flairing up. Our work aims to understand how brain imaging and the complex array of other clinical data can help us distinguish between these conditions and, perhaps most importantly, predict future outcomes so clinicians can better tailor treatment to individual patients. 
