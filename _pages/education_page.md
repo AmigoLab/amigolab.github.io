@@ -8,9 +8,13 @@ permalink: /education/
 
 ## Advanced Machine Learning
 
-Link to course: [7MRI0010](https://www.kcl.ac.uk/lsm/research/divisions/imaging/study/beng-degree/study/advanced-machine-learning)
-Term: Semester 2
-Lectures: Will be made available open-source soon.
+*Link to course*: [7MRI0010](https://www.kcl.ac.uk/lsm/research/divisions/imaging/study/beng-degree/study/advanced-machine-learning)
+
+*Term*: Semester 2
+
+*Lectures*: Will be made available open-source soon.
+
+
 
 ### Description
 To educate students with regards to novel artificial intelligence algorithms for the analysis and predictive modelling of multiple types of healthcare data such as medical images, genetics, clinical/epidemiological variables, and free text.
