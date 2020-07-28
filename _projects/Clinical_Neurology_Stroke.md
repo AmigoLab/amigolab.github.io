@@ -4,7 +4,7 @@ id: Clinical_Neurology_Stroke
 title: "Neurology - Stroke"
 project: Neurology - Stroke
 author: AMIGO
-logo: "assets/images/projects/stroke3.png"
+logo: "assets/images/projects/stroke3_w_bcg.png"
 excerpt: "Comprehensive and evidence driven stroke care"
 domain: "Clinical"
 funding:
