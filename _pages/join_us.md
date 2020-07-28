@@ -8,7 +8,7 @@ permalink: /join_us/
 
 ### Federated Learning Research Associate
 
-[Apply here](https://jobs.kcl.ac.uk/gb/en/job/003565/Research-Associate-Research-Fellow) 
+[Apply here](https://jobs.kcl.ac.uk/gb/en/job/003565/Research-Associate-Research-Fellow) - Deadline: 23-Aug-2020
 
 Medicine is undergoing a data revolution, with AI being the engine of change. To unlock this potential, AI algorithms need to learn from very large datasets scattered across multiple hospitals and multiple countries, all in a privacy-preserving and transparent manner. New approaches to algorithmic learning based on recently developed concepts of Federated Learning and Differential Privacy provide the mathematical framework to enable this vision. This research programme will develop a new set of algorithms and associated software platforms to enable federated learning at scale, respectful of the hospital IT infrastructure, with privacy guarantees, and with full traceability of actions, thus ensuring the trust of our patients. Such a platform would enable unprecedented access to data at scale, necessary to solve many pressing healthcare problems.
 
