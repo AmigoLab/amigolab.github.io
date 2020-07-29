@@ -7,11 +7,11 @@ project:
   - "Cancer - Breast"
   - "Object Detection"
 authors:
-  - Stephen Morrel
+  - Stephen Morrell
   - Sebastien Ourselin
 author_profile: false
 ---
-[Stephen Morrell](/people/stephen_morrel), Zbigniew Wojna, Can Son Khoo, [Sebastien Ourselin](/people/seb_ourselin), Juan Eugenio Iglesias
+[Stephen Morrell](/people/stephen_morrell), Zbigniew Wojna, Can Son Khoo, [Sebastien Ourselin](/people/seb_ourselin), Juan Eugenio Iglesias
 
 In Image Analysis for Moving Organ, Breast, and Thoracic Images
 

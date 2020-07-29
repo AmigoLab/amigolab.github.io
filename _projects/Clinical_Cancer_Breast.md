@@ -9,6 +9,7 @@ excerpt: "Early Detection Saves Lives"
 domain: "Clinical"
 funding:
   - "KHP"
+  - "Innovate UK"
 
 ---
 
