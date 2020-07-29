@@ -13,6 +13,7 @@ google_scholar  :
 orcid           :
 
 projects:
+  - "Cancer - Breast"
   - "Object Detection"
 links:
   - label: "KCL Pure"
