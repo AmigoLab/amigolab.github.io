@@ -4,7 +4,7 @@ id: Clinical_Cancer_Breast
 title: "Cancer - Breast"
 project: "Cancer - Breast"
 author: AMIGO
-logo: "assets/images/projects/placeholder.png"
+logo: "assets/images/projects/breast_cancer.png"
 excerpt: "Early Detection Saves Lives"
 domain: "Clinical"
 funding:
