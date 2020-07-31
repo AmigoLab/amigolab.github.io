@@ -1,7 +1,7 @@
 ---
 title: "About us"
 header:
-  image: /assets/images/about/st-thomas-hero-banner.jpg
+  image: /assets/images/about/AMIGO.png
 classes: wide
 permalink: /about/
 ---
