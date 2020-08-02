@@ -255,7 +255,16 @@ body {
 .page__hero {
   position: relative;
   margin-bottom: 2em;
-  margin-top: 4.2em;
+  background-position: center;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background: #000;
+  /*margin-top: 4.2em;*/
   @include clearfix;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -312,6 +321,11 @@ body {
 
 .page__hero-image {
   width: 100%;
+  max-width: 1200px;
+  /*margin-right: auto;*/
+  /*margin-left: auto;*/
+  margin-top: 69px;
+  float:center;
   height: auto;
   -ms-interpolation-mode: bicubic;
 }

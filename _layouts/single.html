@@ -14,7 +14,11 @@ layout: default
   {% endunless %}
 {% endif %}
 
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+<div id="main" role="main" style="padding-top: 0.5em !important">
+{% else %}
 <div id="main" role="main">
+{% endif %}
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
