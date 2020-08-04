@@ -4,7 +4,7 @@ id: Clinical_Neurology_Dementia
 title: "Neurology - Dementia"
 project: "Neurology - Dementia"
 author: AMIGO
-logo: "assets/images/projects/placeholder.png"
+logo: "assets/images/projects/dementia.png"
 excerpt: "Every 3 seconds"
 domain: "Clinical"
 funding:
