@@ -19,14 +19,22 @@ projects:
 
 Biomedical Engineer at Politecnico di Milano, jr. Research Fellow at the Italian National Research Council, PhD in Medical Physics and Biomedical Engineering at University College London, now Research Associate at King’s College London - School of Biomedical Engineering & Imaging Sciences.
 
+Current research topics: neuro-vascular image analysis and AI-enabled neurology (stroke).
+
+![Circle of Willis - MR angiography, geodesic segmentation, vascular graph and lumped-parameter network](/assets/models/CoW_NVIA.png)
+
+Scientific and research interests: multi-modal image processing and tensor synthesis; geodesic vascular segmentation, delineation and connectivity; vascular trees and spatial graphs; topological registration and graph-matching; vascular biomarkers from lumped-parameter network simulations and bio-mechanical solid modelling.
+
+Other interests: computer graphics (CGI) and scientific visualisation.
+
 <!-- # JAVASCRIPT EXAMPLES -->
 <!-- ## Hello world
 <script type="text/javascript" language="JavaScript">
    document.writeln( "Hello World" );
 </script> -->
 
-## Three example 1
-from [ThreeJS](https://stefanomoriconi.github.io/testThreeJs/) . Here below.
+## Three (JavaScript) example
+`from [ThreeJS](https://stefanomoriconi.github.io/testThreeJs/) . Here below.`
 
 <canvas id="threejs-container" style="height: 400px; max-width: 600px; width: 100%; display:block; margin-left: auto;
     margin-right: auto;" ></canvas>
