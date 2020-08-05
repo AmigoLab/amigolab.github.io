@@ -18,3 +18,5 @@ Domain adaptation aims to eliminate this lack of generalization and mitigate the
 Domain adaptation can be supervised by taking a few labeled samples from the data we wanted to adapt (target domain), and using them to learn relevant information. This solution still limits its practical use as it requires getting manually annotated samples which could be not always available.  
 
 On the other hand, unsupervised domain adaptation only requires a set of unlabeled samples from the target domain. Although the performance could be a bit lower compared to the supervised ones, getting unlabeled data is more feasible which makes unsupervised methods more applicable in clinical practice.  
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/projects/domain_adaptation_fig1.png" alt="">{: .align-center}
