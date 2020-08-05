@@ -21,12 +21,14 @@ Biomedical Engineer at Politecnico di Milano, jr. Research Fellow at the Italian
 
 Current research topics: neuro-vascular image analysis and AI-enabled neurology (stroke).
 
-![Circle of Willis - MR angiography, geodesic segmentation, vascular graph and lumped-parameter network](/assets/models/CoW_NVIA_alpha.png)
 <center><sub><sup>Circle of Willis - MR angiography, geodesic segmentation, vascular graph and lumped-parameter network</sup></sub></center>
+![Circle of Willis - MR angiography, geodesic segmentation, vascular graph and lumped-parameter network](/assets/models/CoW_NVIA_alpha.png)
 
-Scientific and research interests: multi-modal image processing and tensor synthesis; geodesic vascular segmentation, delineation and connectivity; vascular trees and spatial graphs; topological registration and graph-matching; vascular biomarkers from lumped-parameter network simulations and bio-mechanical solid modelling.
+Scientific and research interests: 
+multi-modal image processing and tensor synthesis; geodesic vascular segmentation, delineation and connectivity; vascular trees and spatial graphs; topological registration and graph-matching; vascular biomarkers from lumped-parameter network simulations and bio-mechanical solid modelling.
 
-Other interests: computer graphics (CGI) and scientific visualisation.
+Other interests: 
+computer graphics (CGI) and scientific visualisation.
 
 <!-- # JAVASCRIPT EXAMPLES -->
 <!-- ## Hello world
