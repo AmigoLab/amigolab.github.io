@@ -21,7 +21,7 @@ Hello World!
 
 At moment, I am PhD visiting student at the Artificial Medical Intelligence Group (AMIGO). I am a PhD student at the Federal University of ABC (Brazil)  =)
 
-I am very interested in processing large datasets during my study. My interest in machine learning projects is particularly in studying transformers and deep generative models to get a latent representation of the medical data. My supervisor is the super expert, Research Fellow in AI-enabled Neurology, Walter Pinaya Lopez.
+I am very interested in processing large datasets during my study. My interest in machine learning projects is particularly in studying transformers and deep generative models to get a latent representation of the medical data. My supervisor is the super expert, Research Fellow in AI-enabled Neurology, Walter Hugo Lopez Pinaya.
 
 Also, I am a Data scientist skilled in machine learning, deep learning, and electrophysiological signal processing. I have experience working with many different programming languages and frameworks, most notably: Python, Kotlin, Java, C, and Haskell. 
 
