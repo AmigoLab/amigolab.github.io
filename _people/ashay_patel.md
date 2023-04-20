@@ -1,6 +1,6 @@
 ---
-name            : "Aryan Esfandiari"
-avatar          : "/assets/images/people/Aryan.png"
+name            : "Ashay Patel"
+avatar          : 
 position        : "PhD Student"
 display_pos     : "PhD Student"
 bio             : General purpose abnormality detection in whole body PET 
