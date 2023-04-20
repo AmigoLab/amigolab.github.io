@@ -1,6 +1,6 @@
 ---
 name            : "Ashay Patel"
-avatar          : 
+avatar          : "/assets/images/people/Ashay.png"
 position        : "PhD Student"
 display_pos     : "PhD Student"
 bio             : General purpose abnormality detection in whole body PET 
