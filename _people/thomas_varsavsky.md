@@ -1,7 +1,7 @@
 ---
 name            : "Thomas Varsavsky"
 avatar          : "/assets/images/people/Thomas.png"
-position        : "Alumni"
+position        : "PhD Student"
 display_pos     : "PhD Student"
 bio             : "Domain Adaptation, Visual-Language models, NLP in medical imaging, Multi-modal MRI"
 email           : "thomas.varsavsky@kcl.ac.uk"
