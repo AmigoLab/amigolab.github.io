@@ -1,7 +1,7 @@
 ---
 name            : "Kerstin Kläser"
 avatar          : "/assets/images/people/Kerstin.png"
-position        : "PhD Student"
+position        : "Alumni"
 display_pos     : "PhD Student"
 bio             : "MR to CT synthesis for PET/MRI attenuation correction"
 email           : "kerstin.klaser@kcl.ac.uk"

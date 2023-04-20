@@ -1,7 +1,7 @@
 ---
 name            : "Pritesh Mehta"
 avatar          : "/assets/images/people/Pritesh.png"
-position        : "PhD Student"
+position        : "Alumni"
 display_pos     : "PhD Student"
 bio             : "Computer-aided diagnosis of prostate cancer"
 email           : ""

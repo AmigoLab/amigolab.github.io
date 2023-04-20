@@ -1,7 +1,7 @@
 ---
 name            : "Richard Shaw"
 avatar          : "/assets/images/people/Richard.png"
-position        : "PhD Student"
+position        : "Alumni"
 display_pos     : "PhD Student"
 bio             : "Robustness to MRI artefacts in deep learning and task uncertainty estimation for automatic quality control"
 email           : "richard.shaw@kcl.ac.uk"

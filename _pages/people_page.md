@@ -43,3 +43,16 @@ permalink: /people/
 {% endfor %}
 </div>
 
+<!-- Do not remove -->
+<div style="clear:both;"></div>
+<!-- Do not remove -->
+
+<h1>Alumni</h1>
+<div class="grid__wrapper">
+{% for person in site.people %}
+  {% if person.position == "Alumni" %}
+    {% include archive-person.html type="grid" %}
+  {% endif %}
+{% endfor %}
+</div>
+

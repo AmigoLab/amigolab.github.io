@@ -1,8 +1,8 @@
 ---
 name            : "Michela Antonelli"
 avatar          : "/assets/images/people/Michela.png"
-position        : "PosDoc"
-display_pos     : "Senior Research Associate"
+position        : "Academic"
+display_pos     : "Lecturer"
 bio             : "Machine learning in the prostate cancer diagnostic pathway ; Machine learning-based assessment of longitudinal changes on mp-MRI images of the prostate in patients on active surveillance."
 email           : "michela.antonelli@kcl.ac.uk"
 twitter         :

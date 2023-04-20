@@ -1,8 +1,8 @@
 ---
 name            : "Pedro Borges"
 avatar          : "/assets/images/people/Pedro.png"
-position        : "PhD Student"
-display_pos     : "PhD Student"
+position        : "PostDoc"
+display_pos     : "Reseach Associate"
 bio             : "Employing Deep Learning in conjunction with physics-based imaging models to address harmonisation issues"
 email           : "pedro.borges@kcl.ac.uk"
 twitter         :

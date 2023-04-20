@@ -1,7 +1,7 @@
 ---
 name            : "Michael Hütel"
 avatar          : "/assets/images/people/Michael.png"
-position        : "PosDoc"
+position        : "Alumni"
 display_pos		  : "Honorary Researcher"
 bio             : "Co-founder and CTO of Thames Mammography, Honorary Researcher (KCL), UCL Medical Imaging PhD, former software engineer at IBM Research and Development. "
 email           : "michael.hutel@kcl.ac.uk"

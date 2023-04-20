@@ -1,7 +1,7 @@
 ---
 name            : "Stephen Morrell"
 avatar          : "/assets/images/people/Stephen.png"
-position        : "PosDoc"
+position        : "Alumni"
 display_pos		  : "Senior Research Associate"
 bio             : "Deep learning for breast cancer detection, machine learning for algo trading"
 email           : "stephen.morrell@kcl.ac.uk"
