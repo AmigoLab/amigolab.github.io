@@ -1,7 +1,7 @@
 ---
 name            : "Andres Diaz-Pinto"
 avatar          : "/assets/images/people/Andres.png"
-position        : "PosDoc"
+position        : "Alumni"
 display_pos		  : "Research Fellow"
 bio             : "Deep Learning Researcher in Healthcare - Research Fellow @ KCL"
 email           : "andres.diaz-pinto@kcl.ac.uk"

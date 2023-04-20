@@ -1,7 +1,7 @@
 ---
 name            : "Bruno Aristimunha"
 avatar          : "/assets/images/people/bruno.png"
-position        : "PhD Student"
+position        : "Alumni"
 display_pos		  : "PhD Student Visiting"
 bio             : "Visiting PhD Student at King's College London | PhD Student at UFABC | Data Scientist | Data Engineer | Python Developer"
 email           : "b.aristimunha@gmail.com"
