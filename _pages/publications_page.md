@@ -5,27 +5,22 @@ permalink: /publications/
 
 ---
 
-
 <ul class="taxonomy__index">
-  {% assign publicationsInYear = site.publications | group_by_exp: 'publication', 'publication.date | date: "%Y"' %}
-  {% for year in publicationsInYear %}
+  {% for curryear in (2015..2023) reversed %}
     <li>
-      <a href="#{{ year.name }}">
-        <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
+      <a href="#{{ curryear }}">
+        <strong>{{ curryear }}</strong> <span class="taxonomy__count">{% assign yearcount = site.data.citations | where:'Year', curryear | size %}({{ yearcount }}) </span>
       </a>
     </li>
   {% endfor %}
 </ul>
 
 
-{% assign publicationsByYear = site.publications | group_by_exp: 'publication', 'publication.date | date: "%Y"' %}
-{% for year in publicationsByYear reversed %}
-  <section id="{{ year.name }}" class="taxonomy__section">
-    <h2 class="archive__subtitle">{{ year.name }}</h2>
+{% for curryear in (2015..2023) reversed %}
+  <section id="{{ curryear }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ curryear }}</h2>
     <div class="entries-{{ page.entries_layout | default: 'list' }}">
-      {% for post in year.items reversed %}
-        {% include archive-publication.html type=page.entries_layout %}
-      {% endfor %}
+      {% include publications year=curryear %}
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
