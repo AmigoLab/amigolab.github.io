@@ -1,7 +1,7 @@
 ---
 name            : "Walter Hugo Lopez Pinaya"
 avatar          : "/assets/images/people/Walter.png"
-position        : "PosDoc"
+position        : "Alumni"
 display_pos		  : "Research Fellow"
 bio             : "Researcher @ KCL"
 email           : "walter.diaz_sanz@kcl.ac.uk"

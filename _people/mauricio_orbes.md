@@ -1,8 +1,8 @@
 ---
 name            : "Mauricio Orbes"
 avatar          : "/assets/images/people/Henry.png"
-position        : "Alumni"
-display_pos     : "PhD Student"
+position        : "PosDoc"
+display_pos     : "Research Fellow"
 bio             : "My research focuses on increasing tthe robustness of deep learning models to variations in Data distributions, promoting in this way their clinical applicability"
 email           : "henry.m.orbes_arteaga@kcl.ac.uk"
 twitter         :
