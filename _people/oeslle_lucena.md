@@ -1,5 +1,5 @@
 ---
-name            : "Oeslle Lucena "
+name            : "Oeslle Lucena"
 avatar          : "/assets/images/people/no-profile-picture.png"
 position        : "PosDoc"
 display_pos		  : "Research Fellow"
