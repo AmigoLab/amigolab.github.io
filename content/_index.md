@@ -1036,16 +1036,40 @@ sections:
             border-radius: 15px;
             font-weight: 500;
           }
+
+          /* Render position cards side-by-side (responsive grid). */
+          #open-positions .col-12.col-lg-8 {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1.25rem;
+            align-items: start;
+          }
+
+          /* Keep the intro full-width above the grid. */
+          #open-positions .positions-intro {
+            grid-column: 1 / -1;
+          }
+
+          /* Ensure cards expand to fill grid cells. */
+          #open-positions .card-simple.view-card {
+            margin: 0 !important;
+            height: 100%;
+          }
+
+          @media (max-width: 991.98px) {
+            #open-positions .col-12.col-lg-8 {
+              grid-template-columns: 1fr;
+            }
+          }
         </style>
       count: 5
       filters:
         folders:
-          - post
-        tag: 'position'
+          - positions
         exclude_featured: false
       offset: 0
       order: desc
-      page_type: post
+      page_type: positions
     design:
       view: card
       columns: '2'
