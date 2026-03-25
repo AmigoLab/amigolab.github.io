@@ -111,6 +111,21 @@
   --border-color: #e0e0e0;
 }
 
+// Fix author commas being invisible when dark mode JS fires on light-forced site
+.article-metadata,
+.dark .article-metadata {
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.author-separator {
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+
+// Give article-style detail pages a wider reading column on desktop.
+.page-body > article .article-container {
+  max-width: 1140px;
+}
+
 #team .section-heading p,
 #contact .section-heading p,
 #open-positions .section-heading p,

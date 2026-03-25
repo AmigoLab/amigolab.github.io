@@ -1,5 +1,5 @@
 ---
-title: Artificial Medical Intelligence Group | King's College London
+title: Artificial Medical Intelligence Group (AMIGO) at King's College London (KCL)
 date: 2022-10-24
 type: landing
 
@@ -240,7 +240,7 @@ sections:
 
         We are the Artificial Medical Intelligence Group (AMIGO).
 
-        <small>AMIGO is based in the <a href="https://www.kcl.ac.uk/bmeis" target="_blank" rel="noopener">School of Biomedical Engineering and Imaging Sciences</a> at <a href="https://www.kcl.ac.uk" target="_blank" rel="noopener">King's College London</a>, UK.</small>
+        <small>AMIGO is based in the <a href="https://www.kcl.ac.uk/bmeis" target="_blank" rel="noopener">School of Biomedical Engineering and Imaging Sciences</a> at <a href="https://www.kcl.ac.uk" target="_blank" rel="noopener">King's College London</a> (KCL), UK.</small>
     design:
       columns: '1'
   
@@ -1006,37 +1006,6 @@ sections:
             color: #8b1538 !important;
           }
 
-          .positions-section .card {
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-            border: none;
-            transition: all 0.3s ease;
-          }
-          
-          .positions-section .card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-          }
-          
-          .positions-section .card-header {
-            background-color: #cf8093;
-            color: white;
-            border: none;
-            padding: 1.25rem;
-          }
-          
-          .positions-section .card-body {
-            padding: 1.5rem;
-          }
-          
-          .positions-section .badge {
-            background-color: #cf8093;
-            color: white;
-            padding: 0.4rem 0.8rem;
-            border-radius: 15px;
-            font-weight: 500;
-          }
-
           /* Render position cards side-by-side (responsive grid). */
           #open-positions .col-12.col-lg-8 {
             display: grid;
@@ -1050,10 +1019,76 @@ sections:
             grid-column: 1 / -1;
           }
 
-          /* Ensure cards expand to fill grid cells. */
+          /* Card styling */
           #open-positions .card-simple.view-card {
             margin: 0 !important;
             height: 100%;
+            background: #ffffff !important;
+            border: 1px solid #e0e0e0 !important;
+            border-left: 4px solid #8B1538 !important;
+            border-radius: 6px !important;
+            padding: 1.5rem 1.75rem !important;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: box-shadow 0.25s ease, transform 0.25s ease;
+          }
+
+          #open-positions .card-simple.view-card:hover {
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+          }
+
+          /* Author & date metadata */
+          #open-positions .card-simple .article-metadata {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 0.75rem;
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+          }
+
+          #open-positions .card-simple .article-metadata a {
+            color: #8B1538 !important;
+            font-weight: 600;
+          }
+
+          #open-positions .card-simple .article-date {
+            color: #6c757d !important;
+            font-weight: 400;
+          }
+
+          /* Title */
+          #open-positions .card-simple .article-title {
+            font-size: 1.15rem !important;
+            font-weight: 600 !important;
+            line-height: 1.4 !important;
+            margin-bottom: 0.6rem !important;
+            margin-top: 0.5rem !important;
+          }
+
+          #open-positions .card-simple .article-title a {
+            color: #212529 !important;
+            text-decoration: none !important;
+          }
+
+          #open-positions .card-simple .article-title a:hover {
+            color: #8B1538 !important;
+          }
+
+          /* Summary text */
+          #open-positions .card-simple .article-style {
+            font-size: 0.88rem !important;
+            line-height: 1.6 !important;
+          }
+
+          #open-positions .card-simple .article-style p {
+            color: #5f6368 !important;
+            margin: 0;
+          }
+
+          #open-positions .card-simple .summary-link {
+            text-decoration: none !important;
           }
 
           @media (max-width: 991.98px) {

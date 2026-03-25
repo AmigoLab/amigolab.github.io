@@ -21,8 +21,8 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: 'Research'
-    org_name: 'AMIGO - Artificial Medical Intelligence Group'
-    description: 'AMIGO at King''s College London develops AI and deep learning for medical imaging, clinical decision support, and healthcare analytics.'
+    org_name: 'AMIGO - Artificial Medical Intelligence Group at King''s College London'
+    description: 'AMIGO is the Artificial Medical Intelligence Group at King''s College London (KCL), developing AI for medical imaging, clinical decision support, and healthcare analytics.'
     twitter: ''
     address:
       street: 'Becket House, 1 Lambeth Palace Road'

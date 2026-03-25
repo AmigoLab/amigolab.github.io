@@ -1,0 +1,23 @@
+{{/* Display author list with commas. */}}
+
+{{- $taxonomy := "authors" }}
+{{ if .Param $taxonomy }}
+  {{ $terms := .GetTerms $taxonomy }}
+  {{ $len := len $terms }}
+  {{ range $index, $value := $terms }}
+    {{- $highlight_name := .Page.Params.highlight_name | default false -}}
+    <span {{ if $highlight_name }}class="author-highlighted"{{end}}>
+      {{- if .RelPermalink -}}
+        <a href="{{.RelPermalink}}">{{.LinkTitle}}</a>
+      {{- else -}}
+        {{ .LinkTitle }}
+      {{- end -}}
+    </span>
+    {{- if isset $.Params "author_notes" -}}
+      {{- with (index $.Params.author_notes $index) -}}
+        <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{.}}"></i>
+      {{- end -}}
+    {{- end -}}
+    {{- if lt (add $index 1) $len -}}<span class="author-separator">,&nbsp;</span>{{- end -}}
+  {{- end -}}
+{{- end -}}
