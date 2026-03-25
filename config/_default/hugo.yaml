@@ -4,7 +4,15 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: AMIGO # Website name
-baseURL: 'https://example.com/' # Website URL - Netlify overrides this via $URL at build time
+baseURL: 'https://amigolab.github.io/' # Website URL
+
+############################
+## CACHES
+############################
+
+caches:
+  images:
+    dir: ':cacheDir/images'
 
 ############################
 ## LANGUAGE
