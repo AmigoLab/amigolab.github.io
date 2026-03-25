@@ -1,0 +1,13 @@
+# IDEs
+.idea/
+
+# Hugo
+/resources/
+public/
+assets/jsconfig.json
+# remove the following for production
+.hugo_build.lock
+go.sum
+
+# MacOS
+.DS_Store
