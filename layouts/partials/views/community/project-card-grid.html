@@ -1,0 +1,48 @@
+{{ $item := .item }}
+{{ $widget := .page }}
+{{ $index := .index }}
+
+{{ $do_link := true }}
+{{ if $item.Params.external_link | or $item.Content }}
+  {{ $do_link = true }}
+{{ else }}
+  {{ $do_link = false }}
+{{ end }}
+
+{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ $target := .target }}
+
+{{/* Get summary. */}}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if $item.Params.abstract }}
+  {{ $summary = $item.Params.abstract | markdownify | emojify }}
+{{ else if $item.Summary }}
+  {{ $summary = $item.Summary }}
+{{ end }}
+
+{{ $resource := partial "functions/get_card_image.html" $item }}
+
+<div class="card" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); border: 1px solid #eee; transition: all 0.3s ease; overflow: hidden; position: relative; cursor: pointer;">
+  {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="stretched-link" style="z-index: 1;"></a>{{end}}
+  <div class="d-flex align-items-center" style="padding: 0.9rem 1rem 0.5rem;">
+    {{ with $resource }}
+      {{ $image := . }}
+      {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "resize 120x webp" }}{{ end }}
+      <div class="flex-shrink-0" style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 0.75rem; background: #f8f9fa; border-radius: 8px; padding: 6px;">
+        <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" loading="lazy" style="max-width: 38px; max-height: 38px; object-fit: contain;">
+      </div>
+    {{ end }}
+    <div class="flex-grow-1" style="min-width: 0;">
+      <h6 class="mb-0 mt-0" style="font-weight: 600; font-size: 0.9rem; line-height: 1.4; letter-spacing: -0.01em; margin: 0 !important; color: #9b2335;">
+        {{ $item.Title | markdownify | emojify }}
+      </h6>
+    </div>
+  </div>
+  <div style="padding: 0 1rem 0.8rem; margin-top: 0.3rem; position: relative; z-index: 2;">
+    <div class="btn-links">
+      {{ partial "page_links" (dict "page" $item "is_list" 0) }}
+    </div>
+  </div>
+</div>

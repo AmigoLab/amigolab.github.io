@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yovin Yahathugoda | AMIGO</title>
+    <link>http://localhost:1313/author/yovin-yahathugoda/</link>
+      <atom:link href="http://localhost:1313/author/yovin-yahathugoda/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yovin Yahathugoda</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-gb</language>
+    <image>
+      <url>http://localhost:1313/author/yovin-yahathugoda/avatar_hu_7bd1b59153dd5e01.jpg</url>
+      <title>Yovin Yahathugoda</title>
+      <link>http://localhost:1313/author/yovin-yahathugoda/</link>
+    </image>
+    
+  </channel>
+</rss>

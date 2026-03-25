@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Current Research | AMIGO</title>
+    <link>http://localhost:1313/tag/current-research/</link>
+      <atom:link href="http://localhost:1313/tag/current-research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Current Research</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-gb</language>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_517b87948c63d94e.png</url>
+      <title>Current Research</title>
+      <link>http://localhost:1313/tag/current-research/</link>
+    </image>
+    
+    <item>
+      <title>Federated Learning Interoperability Platform (FLIP)</title>
+      <link>http://localhost:1313/currentresearch/flip-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/currentresearch/flip-example/</guid>
+      <description>&lt;p&gt;FLIP links data from multiple NHS Trusts to enable AI at scale. It includes secure data storage for processing and analysis within each of the partner NHS Trusts – a secure enclave or area within the firewall that keeps sensitive patient data inside the Trust. The federated learning approach brings algorithms to the data within each NHS Trust’s secure enclave, without needing to share information outside the secure firewall or break local governance rules. Algorithmic models are sent to multiple Trusts and trained on local data before being securely combined to achieve consensus. The model is then applied within each secure enclave, where it learns from the data, is updated again, and the process repeated until an improved consensus model is created. To achieve convergence, the process of learning and combining is reiterated, until each locally applied model reaches the same conclusion, indicating that the model is generalizable and can be consistently applied.&lt;/p&gt;
+&lt;!-- 
+## Highlights
+- Pre-trained models for multiple organs
+- Easy-to-use Python API
+- Extensive documentation and tutorials
+- Active community contributions --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr Michela Antonelli | AMIGO</title>
+    <link>http://localhost:1313/author/dr-michela-antonelli/</link>
+      <atom:link href="http://localhost:1313/author/dr-michela-antonelli/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dr Michela Antonelli</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-gb</language>
+    <image>
+      <url>http://localhost:1313/author/dr-michela-antonelli/avatar_hu_81644c2884cdcb75.png</url>
+      <title>Dr Michela Antonelli</title>
+      <link>http://localhost:1313/author/dr-michela-antonelli/</link>
+    </image>
+    
+  </channel>
+</rss>

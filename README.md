@@ -1,143 +1,241 @@
-# [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+# AMIGO Website
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
-[![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/mmistakes)
+This repository contains the AMIGO lab website built with Hugo and the HugoBlox/Wowchemy content model.
 
-Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building personal sites, blogs, and portfolios. As the name implies, styling is purposely minimalistic to be enhanced and customized by you :smile:.
+Most day-to-day edits happen in the `content/` directory:
 
-**Looking for an example?** Fork the [Minimal Mistakes remote theme starter](https://github.com/mmistakes/mm-github-pages-starter) for the quickest method of getting a GitHub Pages hosted site up and running. Replace sample content with your own and configure as needed.
+- `content/authors/` contains team member profiles.
+- `content/project/` contains project pages.
+- `content/people/index.md` controls which profile groups appear on the People page.
+- `content/_index.md` defines the homepage sections.
 
-## Usage
+Do not edit `public/` directly. It is generated output.
 
-For detailed instructions on how to configure, customize, add/migrate content, and more read the [theme's documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
+## Local preview
 
+Install Hugo Extended if it is not already available on your machine.
+
+Run the local development server from the repository root:
+
+```bash
+hugo server
+```
+
+Then open the local URL printed by Hugo, usually `http://localhost:1313/`.
+
+To build the production site locally:
+
+```bash
+hugo
+```
+
+## How To Add Your Profile
+
+Each person has their own folder under `content/authors/`.
+
+Example:
+
+```text
+content/authors/YourName/
+├── _index.md
+└── avatar.jpg
+```
+
+### Step 1: Create your folder
+
+Create a new folder inside `content/authors/`. Use a short, stable folder name because it becomes part of the page path.
+
+Examples already in the site:
+
+- `content/authors/Yovin/`
+- `content/authors/Alex/`
+
+### Step 2: Add `_index.md`
+
+Create `content/authors/YourName/_index.md` with front matter similar to this:
+
+```yaml
+---
+title: Your Name
+first_name: Your
+last_name: Name
+superuser: false
+role: PhD Student
+organizations:
+  - name: King's College London
+    url: 'https://www.kcl.ac.uk/'
+interests:
+  - Medical Imaging
+  - Artificial Intelligence
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:your.email@kcl.ac.uk'
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/your-profile/
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=YOUR_ID
+email: ''
+highlight_name: false
+user_groups:
+  - PhD Students
 ---
 
-## Contributing
+Write a short biography here in Markdown.
+```
 
-Having trouble working with the theme? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/mmistakes/minimal-mistakes/issues)? Then by all means [submit an issue](https://github.com/mmistakes/minimal-mistakes/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+Notes:
 
-Minimal Mistakes has been designed as a base for you to customize and fit your site's unique needs. Please keep this in mind when requesting features and/or submitting pull requests. If it's not something that most people will use, I probably won't consider it. When in doubt ask.
+- `title` is the display name shown on the site.
+- `first_name` and `last_name` are used for sorting and metadata.
+- `superuser` should usually be `false`. Keep it `true` only when there is a specific reason.
+- `user_groups` determines where you appear on the People page.
+- Current People page groups are: `Principal Investigators`, `Researchers`, `PhD Students`, `Administration`, `Visitors`, and `Alumni`.
+- The biography is the text below the front matter.
 
-This goes for author sidebar links and "share button" additions -- I have no intention of merging in every possibly option, the essentials are there to get you started :smile:.
+### Step 3: Add your profile photo
 
+Place your image in the same folder as `_index.md` and name it `avatar` with the correct extension, for example:
 
-## Development
+- `content/authors/YourName/avatar.jpg`
+- `content/authors/YourName/avatar.png`
 
-To set up your environment to develop this theme, run `bundle install`.
+Use a square or near-square headshot when possible.
 
-To test the theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000/test/`. This starts a Jekyll server using content in the `test/` directory. As modifications are made to the theme and test site, it will regenerate and you should see the changes in the browser after a refresh.
+### Step 4: Preview your changes
 
+Run `hugo server` and check:
+
+- your People page entry,
+- your individual profile page,
+- your image,
+- your links and biography formatting.
+
+## How To Update Your Profile
+
+Edit your existing file in `content/authors/<YourFolder>/_index.md`.
+
+Common updates:
+
+- Change `role` when your position changes.
+- Update `organizations` if you move institution.
+- Add or remove `interests`.
+- Update `social` links.
+- Move yourself between `user_groups`, for example from `PhD Students` to `Alumni`.
+- Revise the biography text below the front matter.
+
+If you want to replace your photo, keep the same filename if possible and overwrite the existing `avatar.*` file.
+
+## How To Add A Project
+
+Each project has its own folder under `content/project/`.
+
+Example:
+
+```text
+content/project/your-project/
+├── featured.png
+└── index.md
+```
+
+### Step 1: Create a project folder
+
+Add a new folder under `content/project/` using a short slug, for example `my-new-project`.
+
+### Step 2: Add `index.md`
+
+Create `content/project/my-new-project/index.md` using this pattern:
+
+```yaml
+---
+title: My New Project
+summary: One-sentence description of the project
+tags:
+  - Collaborative Research
+authors:
+  - AMIGO
+show_date: false
+share: false
+external_link: ''
+
+image:
+  caption: My New Project
+  focal_point: Smart
+
+links:
+  - icon: globe
+    icon_pack: fas
+    name: Website
+    url: https://example.org
+  - icon: github
+    icon_pack: fab
+    name: Code
+    url: https://github.com/example/repo
+
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
+slides: ''
 ---
 
-## Credits
+Write the project description here in Markdown.
+```
 
-### Creator
+Notes:
 
-**Michael Rose**
+- `summary` is used in project cards and listings.
+- `tags` are optional but useful for grouping.
+- `authors` can stay as `AMIGO` unless there is a reason to use a different label.
+- Add useful links under `links`.
+- The body text can include headings, lists, images, and normal Markdown links.
 
-- <https://mademistakes.com>
-- <https://twitter.com/mmistakes>
-- <https://github.com/mmistakes>
+### Step 3: Add a project image
 
-### Icons + Demo Images:
+Place a featured image in the same folder, typically:
 
-- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
-- [Font Awesome](http://fontawesome.io/)
-- [Unsplash](https://unsplash.com/)
+- `content/project/my-new-project/featured.png`
+- `content/project/my-new-project/featured.jpg`
 
-### Other:
+This image is used by the project card and the project page.
 
-- [Jekyll](http://jekyllrb.com/)
-- [jQuery](http://jquery.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
-- [GreedyNav.js](https://github.com/lukejacksonn/GreedyNav)
-- [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-- [Gumshoe](https://github.com/cferdinandi/gumshoe)
-- [jQuery throttle / debounce](http://benalman.com/projects/jquery-throttle-debounce-plugin/)
-- [Lunr](http://lunrjs.com)
+### Step 4: Preview the project
 
----
+Run `hugo server` and verify:
 
-## License
+- the project appears on the Projects page,
+- the summary looks correct,
+- the featured image renders properly,
+- all external links work.
 
-The MIT License (MIT)
+## How To Update An Existing Project
 
-Copyright (c) 2013-2020 Michael Rose and contributors
+Edit the relevant file in `content/project/<project-slug>/index.md`.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Typical updates include:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- changing the title or summary,
+- updating project links,
+- refreshing the description,
+- replacing the featured image,
+- adding new sections such as publications, collaborators, or usage notes.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+If the project already has a published URL, keep the folder name stable unless you intentionally want the page path to change.
 
-Minimal Mistakes incorporates icons from [The Noun Project](https://thenounproject.com/)
-creators Garrett Knoll, Arthur Shlain, and tracy tam.
-Icons are distributed under Creative Commons Attribution 3.0 United States (CC BY 3.0 US).
+## Common Mistakes To Avoid
 
-Minimal Mistakes incorporates [Font Awesome](http://fontawesome.io/),
-Copyright (c) 2017 Dave Gandy.
-Font Awesome is distributed under the terms of the [SIL OFL 1.1](http://scripts.sil.org/OFL)
-and [MIT License](http://opensource.org/licenses/MIT).
+- Do not edit files inside `public/`.
+- Do not rename author or project folders casually, because that changes page URLs.
+- Keep YAML indentation consistent. Use spaces, not tabs.
+- Make sure front matter starts and ends with `---`.
+- Put images in the same folder as the content file when they belong to one profile or one project.
+- Check the page locally before opening a pull request.
 
-Minimal Mistakes incorporates photographs from [Unsplash](https://unsplash.com).
+## Useful References
 
-Minimal Mistakes incorporates [Susy](http://susy.oddbird.net/),
-Copyright (c) 2017, Miriam Eric Suzanne.
-Susy is distributed under the terms of the [BSD 3-clause "New" or "Revised" License](https://opensource.org/licenses/BSD-3-Clause).
-
-Minimal Mistakes incorporates [Breakpoint](http://breakpoint-sass.com/).
-Breakpoint is distributed under the terms of the [MIT/GPL Licenses](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [FitVids.js](https://github.com/davatron5000/FitVids.js/),
-Copyright (c) 2013 Dave Rubert and Chris Coyier.
-FitVids is distributed under the terms of the [WTFPL License](http://sam.zoy.org/wtfpl/).
-
-Minimal Mistakes incorporates [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/),
-Copyright (c) 2014-2016 Dmitry Semenov, http://dimsemenov.com.
-Magnific Popup is distributed under the terms of the MIT License.
-
-Minimal Mistakes incorporates [Smooth Scroll](http://github.com/cferdinandi/smooth-scroll),
-Copyright (c) 2019 Chris Ferdinandi.
-Smooth Scroll is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [Gumshoejs](http://github.com/cferdinandi/gumshoe),
-Copyright (c) 2019 Chris Ferdinandi.
-Smooth Scroll is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [jQuery throttle / debounce](http://benalman.com/projects/jquery-throttle-debounce-plugin/),
-Copyright (c) 2010 "Cowboy" Ben Alman.
-jQuery throttle / debounce is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [GreedyNav.js](https://github.com/lukejacksonn/GreedyNav),
-Copyright (c) 2015 Luke Jackson.
-GreedyNav.js is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [Jekyll Group-By-Array](https://github.com/mushishi78/jekyll-group-by-array),
-Copyright (c) 2015 Max White <mushishi78@gmail.com>.
-Jekyll Group-By-Array is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [@allejo's Pure Liquid Jekyll Table of Contents](https://allejo.io/blog/a-jekyll-toc-in-liquid-only/),
-Copyright (c) 2017 Vladimir Jimenez.
-Pure Liquid Jekyll Table of Contents is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [Lunr](http://lunrjs.com),
-Copyright (c) 2018 Oliver Nightingale.
-Lunr is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+- Hugo: https://gohugo.io/
+- HugoBlox docs: https://docs.hugoblox.com/
+- Existing author example: `content/authors/Yovin/_index.md`
+- Existing project example: `content/project/monai/index.md`

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Natalia Glazman | AMIGO</title>
+    <link>http://localhost:1313/author/natalia-glazman/</link>
+      <atom:link href="http://localhost:1313/author/natalia-glazman/index.xml" rel="self" type="application/rss+xml" />
+    <description>Natalia Glazman</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-gb</language>
+    <image>
+      <url>http://localhost:1313/author/natalia-glazman/avatar_hu_ccfb3e694f0811fd.jpg</url>
+      <title>Natalia Glazman</title>
+      <link>http://localhost:1313/author/natalia-glazman/</link>
+    </image>
+    
+  </channel>
+</rss>

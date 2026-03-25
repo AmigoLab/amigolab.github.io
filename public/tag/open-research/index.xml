@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Research | AMIGO</title>
+    <link>http://localhost:1313/tag/open-research/</link>
+      <atom:link href="http://localhost:1313/tag/open-research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Open Research</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-gb</language><lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_fdfbd550bdd07616.png</url>
+      <title>Open Research</title>
+      <link>http://localhost:1313/tag/open-research/</link>
+    </image>
+    
+    <item>
+      <title>Medical Image Segmentation Framework</title>
+      <link>http://localhost:1313/project/open-example/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/open-example/</guid>
+      <description>&lt;p&gt;A fully open-source framework providing state-of-the-art segmentation models for various medical imaging modalities.&lt;/p&gt;
+&lt;h2 id=&#34;highlights&#34;&gt;Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pre-trained models for multiple organs&lt;/li&gt;
+&lt;li&gt;Easy-to-use Python API&lt;/li&gt;
+&lt;li&gt;Extensive documentation and tutorials&lt;/li&gt;
+&lt;li&gt;Active community contributions&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
