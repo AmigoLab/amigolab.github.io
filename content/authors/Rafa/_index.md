@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Rafael Dias
+title: Rafael Garcia-Dias
 
 # Full Name (for SEO)
 first_name: Rafael
-last_name: Dias
+last_name: Garcia-Dias
 
 # Is this the primary user of the site?
 superuser: true
